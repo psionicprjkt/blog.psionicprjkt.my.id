@@ -1,0 +1,103 @@
+---
+layout: page
+category: tools
+title: SYNTX'RNG
+desc: Random number generates a sequence of numbers or symbols that cannot be reasonably predicted better than by a random chance.site
+permalink: /RNG
+author: officialputuid
+---
+
+<section>
+    <div class="group">
+        <label for="minimum">Minimum:</label>
+        <input type="number" class="form-control" step="1" id="minimum" placeholder="1" />
+    </div>
+    <div class="group mt-3">
+        <label for="maximum">Maximum:</label>
+        <input type="number" class="form-control" step="1" id="maximum" placeholder="9999999999999" />
+    </div>
+    <div class="group mt-3">
+        <label for="resultcount">How many results?</label>
+        <input type="number" class="form-control" min="1" step="1" id="resultcount" placeholder="1" />
+    </div>
+    <div class="boxgroup mt-3">
+        <input type="checkbox" id="norepeat" />
+        <label for="norepeat">No repeat results</label>
+    </div>
+    <div class="boxgroup">
+        <input type="checkbox" id="sort" />
+        <label for="sort">Order results numerically</label>
+    </div>
+    <button style="float: left;" class="mt-3 btn-primary" onClick="crunch()">Generate</button>
+    <div style="float: right; font-size: 36px;" id="result" class="mt-2"></div>
+</section>
+
+<script>
+    var resultArea = document.querySelector("#result");
+    var noRepeatBox = document.querySelector("#norepeat");
+    var sortBox = document.querySelector("#sort");
+
+    var noRepeatLabel = document.querySelector("label[for=norepeat]");
+    var sortLabel = document.querySelector("label[for=sort]");
+
+    noRepeatBox.addEventListener("click", function () {
+        noRepeatLabel.classList.toggle("checked");
+    });
+
+    sortBox.addEventListener("click", function () {
+        sortLabel.classList.toggle("checked");
+    });
+
+    function crunch() {
+        var noRepeat = document.querySelector("#norepeat").checked;
+        var sort = document.querySelector("#sort").checked;
+        var min = Number(document.querySelector("#minimum").value);
+        //console.log(min);
+        var max = Number(document.querySelector("#maximum").value);
+        //console.log(max);
+        var resultCount = Number(document.querySelector("#resultcount").value);
+        var resultsArray = [];
+
+        resultArea.innerHTML = "";
+
+        if (max - min == 0) {
+            resultArea.innerHTML = '<span class="error">Please choose a valid range.</span>';
+            return;
+        } else if (max < min) {
+            resultArea.innerHTML = '<span class="error">Invalid number range</span>';
+            return;
+        } else if (noRepeat && resultCount > max - min + 1) {
+            resultArea.innerHTML = '<span class="error">Range is too small to generate only unique numbers</span>';
+            return;
+        }
+        if (!resultCount) {
+            resultCount = 1;
+        }
+
+        function newNumber() {
+            if (min == 0) {
+                var result = Math.floor(Math.random() * (max + 1));
+            } else if (min < 0 && max >= 0) {
+                var result = Math.ceil(Math.random() * (min - 1)) + Math.floor(Math.random() * (max + 1));
+            } else if (min < 0 && max < 0) {
+                var result = Math.ceil(Math.random() * (min - 1)) + max;
+            } else {
+                var result = Math.floor(Math.random() * max + 1);
+            }
+            if (result < min || (noRepeat && resultsArray.includes(result))) {
+                return newNumber();
+            }
+            //console.log(result);
+            resultsArray.push(result);
+        }
+
+        for (i = 1; i <= resultCount; i++) {
+            newNumber();
+        }
+        console.log(resultsArray);
+        if (sort) {
+            resultsArray == resultsArray.sort((a, b) => a - b);
+        }
+        resultArea.innerHTML += resultsArray.join(", ");
+    }
+</script>
