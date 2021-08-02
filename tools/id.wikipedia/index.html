@@ -1,0 +1,29 @@
+---
+layout: page
+category: tools
+title: SYNTX'Wikipedia [IDN]
+desc: Search Wikipedia Contect directly for INDONESIA version
+permalink: /WikipedsIDN
+author: officialputuid
+---
+
+<form id="wiki-search" class="row">
+    <div class="col">
+        <div class="input-group mb-3">
+            <input class="form-control" type="search" id="searchboxresult" class="searchbox" name="searchboxname" placeholder="Search ur content here . . ." />
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" id="isubmitresult" type="button">Search</button>
+            </div>
+        </div>
+    </div>
+</form>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card p-2 mt-2">
+            <div id="resultpost" class="resultpost"></div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/tools/id.wikipedia/js/index.js"></script>
