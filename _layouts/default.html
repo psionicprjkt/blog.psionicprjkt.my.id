@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.css" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/default.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/dark-mode.css" />
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    </head>
+
+    <body>
+        <nav class="navbar py-4 navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand font-weight-bold color-primary" href="/" data-aos="fade-right" data-aos-offset="100" data-aos-duration="800">
+                    officialputuid
+                </a>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+                    <label class="custom-control-label" for="darkSwitch"><i class="fa fa-moon-o"></i></label>
+                </div>
+                <script src="{{ site.baseurl }}/assets/css/dark-mode-switch.min.js"></script>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" data-aos="fade-left" data-aos-offset="100" data-aos-duration="800">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active align-self-center">
+                            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item align-self-center">
+                            <a class="nav-link" href="{{ site.baseurl }}/tools">Free Tools</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">{{ content }}</div>
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col align-self-center" data-aos="zoom-in-right" data-aos-offset="100" data-aos-duration="1250">
+                                    {% for post in site.categories.TUTORIAL %}
+                                    <div class="card p-3 mt-2 mb-1">
+                                        <h2 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                                        <h6>for {{ post.devices }}</h6>
+                                        <p style="font-size:12px;"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;{{ post.date | date: '%d %B' }}{% if post.author %} '{{ post.category }}' by {{ post.author }}{% endif %}</p>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="footer" data-aos="fade-up">
+            <div class="container">
+                <footer class="pt-4 my-md-5 pt-md-5 border-top">
+                    <div class="row">
+                        <div class="col-12 col-md">
+                            <h5>
+                                <a class="navbar-brand font-weight-bold" href="#">
+                                    SYNTX Projects<br />
+                                    Putu Developers
+                                </a>
+                            </h5>
+                            <small class="d-block mb-3 text-muted">
+                                ©
+                                <script type="text/javascript">
+                                    var creditsyear = new Date();
+                                    document.write(creditsyear.getFullYear());
+                                </script>
+                                - officialputuid<br/>
+                                I Putu Jaya Adi Pranata
+                            </small>
+                        </div>
+                        <div class="col-12 col-md">
+                            <h5 class="navbar-brand">Business</h5>
+                            <ul class="list-unstyled text-small">
+                                <li><a class="text-muted" href="mailto:officialputuid@hack.id">officialputuid@hack.id</a></li>
+                                <li><a class="text-muted" href="mailto:officialputuid@my365office.net">officialputuid@my365office.net</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md">
+                            <h5 class="navbar-brand">Social Media</h5>
+                            <ul class="list-unstyled text-small">
+                                <li class="footer-custom-icons">
+                                    <a class="text-muted" href="https://t.me/officialputuid" target="_blank"><i class="fa fa-telegram"></i></a>
+                                    <a class="text-muted" href="https://github.com/officialputuid" target="_blank"><i class="fa fa-github"></i></a>
+                                    <a class="text-muted" href="https://facebook.com/officialputuid" target="_blank"><i class="fa fa-facebook"></i></a>
+                                    <a class="text-muted" href="https://twitter.com/officialputuid" target="_blank"><i class="fa fa-twitter"></i></a>
+                                    <a class="text-muted" href="https://instagram.com/officialputuid" target="_blank"><i class="fa fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+        <div class="wrapper-load">
+            <div class="loading">
+                <img src="{{ site.baseurl }}/assets/images/loading.svg " />
+            </div>
+        </div>
+
+        <script type="text/javascript " src="{{ site.baseurl }}/assets/js/bootstrap.js "></script>
+    </body>
+
+    <script>
+        AOS.init();
+
+        $(window).on("load", function () {
+            $(".wrapper-load").delay(800).fadeOut("slow");
+        });
+    </script>
+</html>

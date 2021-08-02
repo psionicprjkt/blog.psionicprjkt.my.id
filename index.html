@@ -1,0 +1,21 @@
+---
+layout: default
+---
+    <div class="row">
+        <div class="col align-self-center" data-aos="zoom-in-right" data-aos-offset="100" data-aos-duration="1250">
+            {% for post in site.categories.blog %}
+            <div class="card p-3 mt-2 mb-1">
+                <div class="row no-gutters">
+                    <div class="col-md-11">
+                        <h2 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                        <h6>for {{ post.devices }}</h6>
+                        <p><i class="fa fa-tags"></i>&nbsp;{{ post.category }} &nbsp; <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;{{ post.date | date: '%d, %B, %Y' }}{% if post.author %} &nbsp; <i class="fa fa-pencil-square-o" aria-hidden="true"></i> {{ post.author }}{% endif %}</p>
+                    </div>
+                <div class="col-md-1 align-self-center" id="cngs-cst-denied">
+                    <div><a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary"><i class="fa fa-chevron-circle-right"></i></a></div>
+                </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
