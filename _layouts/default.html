@@ -13,7 +13,7 @@
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/dark-mode.css" />
         <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-        <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/icon.png">
+        <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/icon.png" />
     </head>
 
     <body>
@@ -47,22 +47,22 @@
 
         <div class="content">
             <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">{{ content }}</div>
-                        <div class="col-md-4">
-                            <div class="row">
-                                <div class="col align-self-center" data-aos="zoom-in-right" data-aos-offset="100" data-aos-duration="1250">
-                                    {% for post in site.categories.TUTORIAL %}
-                                    <div class="card p-3 mt-2 mb-1">
-                                        <h2 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-                                        <h6>for {{ post.devices }}</h6>
-                                        <p style="font-size:12px;"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;{{ post.date | date: '%d %B' }}{% if post.author %} '{{ post.category }}' by {{ post.author }}{% endif %}</p>
-                                    </div>
-                                    {% endfor %}
+                <div class="row">
+                    <div class="col-md-8">{{ content }}</div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col align-self-center" data-aos="zoom-in-right" data-aos-offset="100" data-aos-duration="1250">
+                                {% for post in site.categories.TUTORIAL %}
+                                <div class="card p-3 mt-2 mb-1">
+                                    <h2 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                                    <h6>for {{ post.devices }}</h6>
+                                    <p style="font-size: 12px;"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;{{ post.date | date: '%d %B' }}{% if post.author %} '{{ post.category }}' by {{ post.author }}{% endif %}</p>
                                 </div>
+                                {% endfor %}
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
 
@@ -83,7 +83,7 @@
                                     var creditsyear = new Date();
                                     document.write(creditsyear.getFullYear());
                                 </script>
-                                - officialputuid<br/>
+                                - officialputuid<br />
                                 I Putu Jaya Adi Pranata
                             </small>
                         </div>

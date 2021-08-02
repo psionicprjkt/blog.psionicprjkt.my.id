@@ -3,10 +3,10 @@ layout: default
 ---
 
 <section>
-        <div class="jumbotron custom-gradient">
-            <h1>{{ page.title }}</h1>
-            <h6>Latest Updates on {{ page.date | date: "%B %e, %Y" }} {% if page.author %} by {{ page.author }} {% endif %}</h6>
-        </div>
+    <div class="jumbotron custom-gradient">
+        <h1>{{ page.title }}</h1>
+        <h6>Latest Updates on {{ page.date | date: "%B %e, %Y" }} {% if page.author %} by {{ page.author }} {% endif %}</h6>
+    </div>
 </section>
 <section>
     {{ content }}
