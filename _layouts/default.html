@@ -117,6 +117,9 @@
             </div>
         </div>
 
+        <!-- Return to Top -->
+        <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+
         <script type="text/javascript " src="{{ site.baseurl }}/assets/js/bootstrap.js "></script>
     </body>
 
@@ -125,6 +128,25 @@
 
         $(window).on("load", function () {
             $(".wrapper-load").delay(800).fadeOut("slow");
+        });
+
+        // Scroll to Top
+        $(window).scroll(function () {
+            if ($(this).scrollTop() >= 800) {
+                // If page is scrolled more than ..px
+                $("#return-to-top").fadeIn(200); // Fade in the arrow
+            } else {
+                $("#return-to-top").fadeOut(200); // Else fade out the arrow
+            }
+        });
+        $("#return-to-top").click(function () {
+            // When arrow is clicked
+            $("body,html").animate(
+                {
+                    scrollTop: 0, // Scroll to top of body
+                },
+                500
+            );
         });
     </script>
 </html>
