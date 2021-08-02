@@ -39,8 +39,12 @@
     background-color: #0c0c0c !important;
 }
 
-[data-theme="dark"] .navbar-light .navbar-toggler-icon {
-    background-color: #ffffff !important;
+[data-theme="dark"] .navbar-toggler {
+    border-color: #ffffff !important;
+}
+
+[data-theme="dark"] .navbar-toggler i {
+    color: #ffffff !important;
 }
 
 [data-theme="dark"] .list-group-item {
