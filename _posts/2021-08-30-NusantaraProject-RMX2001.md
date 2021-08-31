@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-title:  NusantaraProject v3.1 [OFFICIAL]
+title:  NusantaraProject v3.2 [OFFICIAL]
 devices: Realme 6, 6s, 6i and Narzo RMX2001, RMX2002, RMX2003
 permalink: /NusantaraProjects-RMX2001
 author: officialputuid
@@ -11,7 +11,7 @@ author: officialputuid
 
 ### Working features:
 
-- SELinux, RIL (Data,SMS,Calls), VoLTE, Wifi calling, Fingerprint sensor, WiFi, Bluetooth, Camera, Camcorder, Audio, GPS, NFC, Sensors, Video Playback, ZRAM, Internal audio recording, Faceunlock, Signature spoofing, Safetynet without magisk, Offline charging (KPOC), DT2W, EngineerMode
+- All working except the one mentioned in "Know issues"
 
 ### Known issues
 
@@ -27,20 +27,34 @@ author: officialputuid
 
 ### Screenshots
 
-- [Latest Screenshot](https://t.me/SYNTXchannel/138) [{{ page.date | date: "%B %e, %Y" }}]
+- [Latest Screenshot](https://t.me/SYNTXchannel/167) [{{ page.date | date: "%B %e, %Y" }}]
 
 ### Changelog
 
-2021-07-29
+2021-08-30
 
-- Latest Sources & Secpacth
-- Fix FPS info on QS (system)
-- Update status bar pading overlay
-- Added realme-Dirac Sound Enhancer
-- Address some denials, more improvements & bug fixes
-- Added support for unlimited backup on Google Photos
-- Added prebuilt-apps (AudioREC,SoundREC,DuckDuckGO)
-- Replaced GameMode with PerformanceProfile along with the addition of PowerSaving profile
+- Latest Sources & Secpacth (August 2021)
+- Remove Some Prebuilt & Added PMControls
+- Set & Enable GBoard padding & corners
+- Compile Kernel with Proton-clang v13.0
+- Improved status bar (landscape) padding
+- Set QS, Google, Dialer & Full Gesture by default
+- realmeDirac: Fix icon on QS tile
+- realmeParts: Add FPS overlay on QS tile
+
+<details>
+<summary>2021-07-29</summary>
+<p><ul>
+	<li>Latest Sources & Secpacth</li>
+	<li>Fix FPS info on QS (system)</li>
+	<li>Update status bar pading overlay</li>
+	<li>Added realme-Dirac Sound Enhancer</li>
+	<li>Address some denials, more improvements & bug fixes</li>
+	<li>Added support for unlimited backup on Google Photos</li>
+	<li>Added prebuilt-apps (AudioREC,SoundREC,DuckDuckGO)</li>
+	<li>Replaced GameMode with PerformanceProfile along with the addition of PowerSaving profile</li>
+</ul></p>
+</details>
 
 <details>
 <summary>2021-06-14</summary>
@@ -110,7 +124,7 @@ author: officialputuid
 
 ### Downloads
 
-- **NusantaraProject v3.1** - [Download](https://www.pling.com/p/1500429/#files-panel)
+- **NusantaraProject v3.2** - [Download](https://www.pling.com/p/1500429/#files-panel)
 
 ### Sources
 
