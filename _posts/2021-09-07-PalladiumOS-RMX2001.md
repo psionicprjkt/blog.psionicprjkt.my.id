@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-title:  PalladiumOS v1.3 [OFFICIAL]
+title:  PalladiumOS v1.4 [OFFICIAL]
 devices: Realme 6, 6s, 6i and Narzo RMX2001, RMX2002, RMX2003
 permalink: /PalladiumOS-RMX2001
 author: officialputuid
@@ -11,7 +11,7 @@ author: officialputuid
 
 ### Working features:
 
-- SELinux, RIL (Data,SMS,Calls), VoLTE, Wifi calling, Fingerprint sensor, WiFi, Bluetooth, Camera, Camcorder, Audio, GPS, NFC, Sensors, Video Playback, ZRAM, Internal audio recording, Faceunlock, Signature spoofing, Safetynet without magisk, Offline charging (KPOC), DT2W, EngineerMode
+- All working except the one mentioned in "Know issues"
 
 ### Known issues
 
@@ -27,19 +27,32 @@ author: officialputuid
 
 ### Screenshots
 
-- [Latest Screenshot](https://t.me/SYNTXchannel/35) [{{ page.date | date: "%B %e, %Y" }}]
+- [Latest Screenshot](https://t.me/SYNTXchannel/180) [{{ page.date | date: "%B %e, %Y" }}]
 
 ### Changelog
 
-2021-05-14
+2021-09-07
 
-- Latest Sources & SecPatch
-- SELinux Enforcing
-- Source built kernel
-- Passes safetynet without Magisk
-- Make padding in overlay status bar look good
-- Fixes can't wakeup device in offline charging mode
-- Added RealmeParts → Additional Settings
+- Latest Source, SecPatch (5 August 2021)
+- Added realme-Dirac & realme-Parts
+- Added GcamGO & PMControl Prebuilt-apps
+- Compile Kernel with Proton-clang v13.0
+- Update status bar pading overlay (portrait & landscape)
+- Added support for unlimited backup on Google Photos
+- Fix some sepolicy neverallow (rild, fingerprint, etc)
+- realmeDirac: Fix tint color icon & Correct icon on QS tile
+<details>
+<summary>2021-05-014</summary>
+<p><ul>
+	<li>Latest Sources & SecPatch</li>
+	<li>SELinux Enforcing</li>
+	<li>Source built kernel</li>
+	<li>Passes safetynet without Magisk</li>
+	<li>Make padding in overlay status bar look good</li>
+	<li>Fixes can't wakeup device in offline charging mode</li>
+	<li>Added RealmeParts → Additional Settings</li>
+</ul></p>
+</details>
 <details>
 <summary>2021-05-08</summary>
 <p><ul>
