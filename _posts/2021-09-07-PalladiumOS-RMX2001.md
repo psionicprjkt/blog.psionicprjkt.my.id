@@ -77,8 +77,9 @@ author: officialputuid
 
 - **Common tree** - [Click here](https://github.com/officialputuid/android_device_realme_mt6785-common)
 - **Device tree** - [Click here](https://github.com/officialputuid/android_device_realme_RMX2001)
-- **Kernel source** - [Click here](https://github.com/SamarV-121/android_kernel_realme_RMX2001/)
-- **Special Thanks to SamarV-121**
+- **Kernel source** - [Click here](https://github.com/officialputuid/android_kernel_realme_RMX2001)
+- **Vendor source** - [Click here](https://github.com/officialputuid/proprietary_vendor_realme)
+- **Special Thanks to [SamarV-121](https://samarv-121.github.io/)**
 
 ### Join my telegram group & channel
 

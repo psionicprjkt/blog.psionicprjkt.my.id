@@ -128,11 +128,12 @@ author: officialputuid
 
 ### Sources
 
-- **Common tree** - [Click here](https://github.com/SYNTX-ID/android_device_realme_mt6785-common)
-- **Device tree** - [Click here](https://github.com/SYNTX-ID/android_device_realme_RMX2001)
-- **Kernel source** - [Click here](https://github.com/SYNTX-ID/android_kernel_realme_RMX2001/)
+- **Common tree** - [Click here](https://github.com/officialputuid/android_device_realme_mt6785-common)
+- **Device tree** - [Click here](https://github.com/officialputuid/android_device_realme_RMX2001)
+- **Kernel source** - [Click here](https://github.com/officialputuid/android_kernel_realme_RMX2001)
+- **Vendor source** - [Click here](https://github.com/officialputuid/proprietary_vendor_realme)
 - **Special Thanks to [SamarV-121](https://samarv-121.github.io/)**
 
 ### Don't forget join:
 
-- [SYNTX Projects](https://t.me/SYNTXChannel) x [SYNTX Logs](https://t.me/SYNTXlogs)
+- [SYNTX Projects](https://t.me/SYNTXChannel) x [SYNTX Chat](https://t.me/SYNTXchat)
