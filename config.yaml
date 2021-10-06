@@ -42,8 +42,8 @@ params:
         subtitle: Custom ROM/Kernel's releases by officialputuid
         avatar:
             enabled: true
-            local: true
-            src: ./img/avatar.png
+            local: false
+            src: https://avatars.githubusercontent.com/u/40856427
 
     article:
         math: false
