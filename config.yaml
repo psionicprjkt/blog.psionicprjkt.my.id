@@ -1,11 +1,11 @@
-baseurl: https://example.com
+baseurl: https://officialputuid.github.io
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
 title: officialputuid
 
 # Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
+disqusShortname: officialputuid-blog
 
 # GA Tracking ID
 googleAnalytics:
@@ -43,7 +43,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: ./img/avatar.png
 
     article:
         math: false
@@ -58,7 +58,7 @@ params:
         provider: disqus
 
         disqusjs:
-            shortname: officialputuid-blog
+            shortname:
             apiUrl:
             apiKey:
             admin:
