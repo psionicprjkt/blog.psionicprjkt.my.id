@@ -44,12 +44,12 @@ Camera | VoLTE | ∂ (Partial) | ∂ (Partial)
   * Added several cahced config from Redfin
 
 ## Downloads
-[⬇️ Download](https://www.pling.com/p/1500429/#files-panel) | [🌆 Screenshot](https://t.me/SYNTXchannel/167) | [XDA Thread](https://forum.xda-developers.com/t/rom-11-official-nusantaraproject-v3-1-30-07-2021.4240463)
+[⬇️ Download](https://www.pling.com/p/1500429/#files-panel) | [🌆 Screenshot](https://t.me/SYNTXchannel/198) | [XDA Thread](https://forum.xda-developers.com/t/rom-11-official-nusantaraproject-v3-3-08-10-2021.4240463)
 
 ```
-FILE: Nusantara_v3.2-11-RMX2001-30082021-OFFICIAL-0832
-MD5SUM: 709be3921fda6cfc7a0f5e7251bc9fc8
-FILESIZE: 707.27 MB (Vanilla)
+FILE: Nusantara_v3.3-11-RMX2001-08102021-OFFICIAL-0709
+MD5SUM: 3a84d12321527d0edfd486c7548abb38
+FILESIZE: 703 MB (Vanilla)
 ```
 
 ## Info & Sources
