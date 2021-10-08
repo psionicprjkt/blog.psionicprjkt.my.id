@@ -10,7 +10,7 @@ tags:
 
 ## About Kernel
 ```
-SYNTXforce 究極 (Kyūkyoku) ULTIMATE
+SYNTXforce 究極 (Kyūkyoku)
 Custom Kernel for RMX2001 (R1)
 for Custom ROM based rUI-1.0
 ```
@@ -18,15 +18,22 @@ for Custom ROM based rUI-1.0
 ## Latest Changelog
 * 2021-09-30
   * Improve TCP connectivity
-  * Fix some argument errors
-  * Set swappiness to 100
-  * Fix misleading indent
-  * Silence more logspam
-  * Purge more logging
+  * Fix size argument errors
+  * Silence dmesg & misc spam
+  * Drop some oppo defconfigs
+  * Fix misleading indentations
+  * Remove console args from cmdline 
+  * Purge as much CMDQ_LOGs as possible
+  * Remove string --dirty localversion 
+  * Drop oppo kevent upload/feedback crap
+  * Add CONFIG_DISABLE_TRACE_PRINTK option 
+  * Stop using printk and switch to pr_debug instead
+  * Fix invalid casting from a void to an enumerator
 
 ## Downloads
-* [⬇️ SYNTXforce-R1-v12-30092021-RMX2001.zip](https://github.com/PutuDevelopers/updates/releases/download/SYNTXforce-%E7%A9%B6%E6%A5%B5-R1/SYNTXforce-R1-v12-30092021-RMX2001.zip)
-* [⬇️ SYNTXforce-R1-v13-30092021-RMX2001.zip](https://github.com/PutuDevelopers/updates/releases/download/SYNTXforce-%E7%A9%B6%E6%A5%B5-R1/SYNTXforce-R1-v13-30092021-RMX2001.zip)
+* [⬇️ SYNTXforce-R1-v12-30092021-RMX2001.zip](https://github.com/PutuDevelopers/updates/releases/download/SYNTXforce-%C3%A7%C2%A9%C2%B6%C3%A6%C2%A5%C2%B5-R1/SYNTXforce-R1-v12-30092021-RMX2001.zip)
+* [⬇️ SYNTXforce-R1-v13-30092021-RMX2001.zip](https://github.com/PutuDevelopers/updates/releases/download/SYNTXforce-%C3%A7%C2%A9%C2%B6%C3%A6%C2%A5%C2%B5-R1/SYNTXforce-R1-v13-30092021-RMX2001.zip)
+* MIRROR: [https://gofile.io/d/wOtn3c](https://gofile.io/d/wOtn3c)
 
 ```
 FILE: v12 (Compiled using Gengkapak-C12)
