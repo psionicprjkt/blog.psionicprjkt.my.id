@@ -1,7 +1,7 @@
 ---
-title: Nusantara Project v3.2 for RMX2001
+title: Nusantara Project v3.3 for RMX2001
 description: Custom ROM for Realme 6, 6s, 6i and Narzo (RMX2001/02/03)
-date: 2021-08-30
+date: 2021-10-08
 slug: ROM/RMX2001/Nusantara-Project/v3.3
 image: Nusantara-Project.png
 categories:
@@ -34,15 +34,14 @@ Camera | VoLTE | ∂ (Partial) | ∂ (Partial)
 * Extra cameras
 
 ## Latest Changelog
-* 2021-08-30
-  * Latest Sources & Secpacth (August 2021)
-  * Remove Some Prebuilt & Added PMControls
-  * Set & Enable GBoard padding & corners
-  * Compile Kernel with Proton-clang v13.0
-  * Improved status bar (landscape) padding
-  * Set QS, Google, Dialer & Full Gesture by default
-  * realmeDirac: Fix icon on QS tile
-  * realmeParts: Add FPS overlay on QS tile
+* 2021-10-08
+  * October ASB (android-11.0.0_r46)
+  * Strip off some debug packages
+  * Added several Android GO config
+  * Disable edge limit control globally
+  * Reduce any bug and lags in waking up
+  * Shipped with SYNTXforce-究極-R1 Kernel
+  * Added several cahced config from Redfin
 
 ## Downloads
 [⬇️ Download](https://www.pling.com/p/1500429/#files-panel) | [🌆 Screenshot](https://t.me/SYNTXchannel/167) | [XDA Thread](https://forum.xda-developers.com/t/rom-11-official-nusantaraproject-v3-1-30-07-2021.4240463)
@@ -69,6 +68,16 @@ FILESIZE: 707.27 MB (Vanilla)
 [@SYNTXChat](https://t.me/SYNTXchat) | [SYNTXChannel](https://t.me/SYNTXchannel) | [SYNTXLogs](https://t.me/SYNTXlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2021-08-30
+  * Latest Sources & Secpacth (August 2021)
+  * Remove Some Prebuilt & Added PMControls
+  * Set & Enable GBoard padding & corners
+  * Compile Kernel with Proton-clang v13.0
+  * Improved status bar (landscape) padding
+  * Set QS, Google, Dialer & Full Gesture by default
+  * realmeDirac: Fix icon on QS tile
+  * realmeParts: Add FPS overlay on QS tile
+
 * 2021-07-29
   * Latest Sources & Secpacth
   * Fix FPS info on QS (system)
