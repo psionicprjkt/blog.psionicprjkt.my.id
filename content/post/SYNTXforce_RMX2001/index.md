@@ -31,9 +31,8 @@ for Custom ROM based rUI-1.0
   * Fix invalid casting from a void to an enumerator
 
 ## Downloads
-* [⬇️ SYNTXforce-R1-v12-30092021-RMX2001.zip](https://github.com/PutuDevelopers/updates/releases/download/SYNTXforce-%C3%A7%C2%A9%C2%B6%C3%A6%C2%A5%C2%B5-R1/SYNTXforce-R1-v12-30092021-RMX2001.zip)
-* [⬇️ SYNTXforce-R1-v13-30092021-RMX2001.zip](https://github.com/PutuDevelopers/updates/releases/download/SYNTXforce-%C3%A7%C2%A9%C2%B6%C3%A6%C2%A5%C2%B5-R1/SYNTXforce-R1-v13-30092021-RMX2001.zip)
-* MIRROR: [https://gofile.io/d/wOtn3c](https://gofile.io/d/wOtn3c)
+* [⬇️ SYNTXforce-R1-v12-30092021-RMX2001.zip](https://github.com/PutuDevelopers/updates/releases/download/SYNTXforce/SYNTXforce-R1-v12-30092021-RMX2001.zip)
+* [⬇️ SYNTXforce-R1-v13-30092021-RMX2001.zip](https://github.com/PutuDevelopers/updates/releases/download/SYNTXforce/SYNTXforce-R1-v13-30092021-RMX2001.zip)
 
 ```
 FILE: v12 (Compiled using Gengkapak-C12)
