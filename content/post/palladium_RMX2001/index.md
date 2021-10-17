@@ -37,7 +37,7 @@ Camera | VoLTE | ∂ (Partial) | ∂ (Partial)
   * realmeParts: Remove SmartCharging notification
 
 ## Downloads
-[⬇️ Download](https://www.pling.com/p/1513489/) | [🌆 Screenshot](https://t.me/SYNTXchannel/) | [XDA Thread](https://forum.xda-developers.com/t/rom-11-official-palladiumos-v1-5-16-10-2021.4273873/)
+[⬇️ Download](https://www.pling.com/p/1513489/) | [🌆 Screenshot](https://t.me/SYNTXchannel/210) | [XDA Thread](https://forum.xda-developers.com/t/rom-11-official-palladiumos-v1-5-16-10-2021.4273873/)
 
 ```
 FILE: - Palladium-v1.5-RMX2001-20211016-OFFICIAL-VANILLA.zip (MD5SUM: 9cf865ddb4e57f34cd9d65db5a7707f6)
