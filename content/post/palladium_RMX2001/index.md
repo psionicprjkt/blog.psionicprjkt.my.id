@@ -1,8 +1,8 @@
 ---
-title: PalladiumOS v1.4 for RMX2001
+title: PalladiumOS v1.5 for RMX2001
 description: Custom ROM for Realme 6, 6s, 6i and Narzo (RMX2001/02/03)
-date: 2021-08-30
-slug: ROM/RMX2001/PalladiumOS/v1.4
+date: 2021-10-16
+slug: ROM/RMX2001/PalladiumOS/v1.5
 image: PalladiumOS.png
 categories:
     - OFFICIAL
@@ -30,23 +30,19 @@ Camera | VoLTE | ∂ (Partial) | ∂ (Partial)
 * Extra cameras
 
 ## Latest Changelog
-* 2021-09-07
-  * Latest Source, SecPatch (5 August 2021)
-  * Added realme-Dirac & realme-Parts
-  * Added GcamGO & PMControl Prebuilt-apps
-  * Compile Kernel with Proton-clang v13.0
-  * Update status bar pading overlay (portrait & landscape)
-  * Added support for unlimited backup on Google Photos
-  * Fix some sepolicy neverallow (rild, fingerprint, etc)
-  * realmeDirac: Fix tint color icon & Correct icon on QS tile
+* 2021-10-16
+  * October ASB (android-11.0.0_r46)
+  * Disable edge limit control globally
+  * Update WifiOverlay from stock rUI2.0
+  * realmeParts: Remove SmartCharging notification
 
 ## Downloads
-[⬇️ Download](https://www.pling.com/p/1513489/) | [🌆 Screenshot](https://t.me/SYNTXchannel/180) | [XDA Thread](https://forum.xda-developers.com/t/rom-11-official-palladiumos-v1-4-07-09-2021.4273873/)
+[⬇️ Download](https://www.pling.com/p/1513489/) | [🌆 Screenshot](https://t.me/SYNTXchannel/) | [XDA Thread](https://forum.xda-developers.com/t/rom-11-official-palladiumos-v1-5-16-10-2021.4273873/)
 
 ```
-FILE: Palladium-v1.4-RMX2001-20210907-OFFICIAL (VANILLA & GAPPS)
-MD5SUM: 1271637b1a79384c1053d5e32b18ba50
-FILESIZE: 680 MB (Vanilla), 1.08 GB (GApps)
+FILE: - Palladium-v1.5-RMX2001-20211016-OFFICIAL-VANILLA.zip (MD5SUM: 9cf865ddb4e57f34cd9d65db5a7707f6)
+      - Palladium-v1.5-RMX2001-20211016-OFFICIAL-GAPPS.zip (MD5SUM: 85c83e62b9c16a33d6435c2a0dff4805)
+FILESIZE: 703 MB (Vanilla), 1 GB (GApps)
 ```
 
 ## Info & Sources
@@ -65,6 +61,16 @@ FILESIZE: 680 MB (Vanilla), 1.08 GB (GApps)
 [@SYNTXChat](https://t.me/SYNTXchat) | [SYNTXChannel](https://t.me/SYNTXchannel) | [SYNTXLogs](https://t.me/SYNTXlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2021-09-07
+  * Latest Source, SecPatch (5 August 2021)
+  * Added realme-Dirac & realme-Parts
+  * Added GcamGO & PMControl Prebuilt-apps
+  * Compile Kernel with Proton-clang v13.0
+  * Update status bar pading overlay (portrait & landscape)
+  * Added support for unlimited backup on Google Photos
+  * Fix some sepolicy neverallow (rild, fingerprint, etc)
+  * realmeDirac: Fix tint color icon & Correct icon on QS tile
+
 * 2021-05-014
   * Latest Sources & SecPatch
   * SELinux Enforcing
