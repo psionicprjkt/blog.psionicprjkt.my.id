@@ -40,7 +40,7 @@ Camera | VoLTE | ∂ (Partial) | ✗
   * Fix screen-record error (Thanks to @sharanpai)
 
 ## Downloads
-[⬇️ Download](https://www.pling.com/p/1513489/) | [🌆 Screenshot](https://t.me/SYNTXchannel/) | [XDA Thread](https://forum.xda-developers.com/)
+[⬇️ Download](https://www.pling.com/p/1513489/) | [🌆 Screenshot](https://t.me/SYNTXchannel/223) | [XDA Thread](https://forum.xda-developers.com/t/rom-12-official-palladiumos-v2-0-29-10-2021.4353935/)
 
 ```
 FILE: PalladiumOS-2.0-Aries-RMX2001-OFFICIAL-GAPPS-0641-20211028
