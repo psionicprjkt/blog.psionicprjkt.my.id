@@ -1,7 +1,7 @@
 ---
 title: PixelOS (Android-12L) for RM6785
 description: Custom ROM for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
-date: 2022-04-16
+date: 2022-05-18
 slug: ROM/RM6785/PixelOS/A12
 image: main.png
 categories:
@@ -16,7 +16,7 @@ PixelOS is an AOSP based ROM, with Google apps included and all Pixel goodies, a
 ## Whats Working
 F-I | F-II | S-I | S-II
 ---------|---------|---------|---------
-SELinux | Video/Screen/Audio REC | ∂ (Partial) | ✓
+SELinux | Video/Screen/Audio REC | ✓ | ✓
 RIL (Data,SMS,Calls) | Audio | ✓ | ✓
 Userdata encryption[FDE] | GPS | ✓ | ✓
 Fingerprint sensor | NFC | ✓ | ✓ (EU)
@@ -25,10 +25,50 @@ Bluetooth | Video Playback | ✓ | ✓
 Camera | VoLTE | ✓ | ✓
 
 ### Known Issues
+* IPv6 Tethering
 * Native video calling (ViLTE)
 * Voice over WiFi (VoWiFi)
 
 ## Latest Changelog
+* 2022-05-18
+  * May 2022 ASB
+  * Silence spammy all logtags
+  * Update value for Brightness Doze / AOD
+  * Update haptics & Improve UI performance
+  * Update apns-conf from stock/RMX2001_C18
+  * Update build fingerprint from stock/RMX2001_C18 
+  * Switch to skiaglthreaded renderthread backend
+  * Fixed low mic volume & location indicator fp
+  * [AS] Added summary about CABC & Perf Profile
+  * [AS] Disable selectable for summary desc/text
+  * [AS] Drop Screen Refresh Rate (Already on Display)
+  * [Kernel] Merge kernel 4.14.279 stable release
+  * [Kernel] oppo_charger: Fix slow charge while screen is on
+  * [Kernel] oppo_charger: Silence diagnostic messages (dmesg) spam
+
+## Downloads
+[⬇️ Download](https://www.pling.com/p/1793481) | [🌆 Screenshot](https://t.me/psionicprjkt) | [XDA Thread](https://forum.xda-developers.com)
+
+```
+FILE: PixelOS_RM6785-12.1-20220517-1241.zip
+MD5SUM: 8cf4455141e654e1794a79d34ab3915e
+FILESIZE: 1.8 GB (Inc. GApps)
+```
+
+## Info & Sources
+* Device Info
+  * Kernel: 4.14.x
+  * Chipset: Mediatek MT6785V/CD - MT6785V/CC - ARMv8.2-A (64-bit)
+
+* Sources
+  * [psionicprjkt](https://github.com/psionicprjkt)
+  * [officialputuid](https://github.com/officialputuid)
+  * [realme-mt6785-devs](https://github.com/realme-mt6785-devs)
+
+### Support Group
+[psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
+
+## Old Changelog
 * 2022-04-16
   * April 2022 ASB
   * Enforcing SELinux
@@ -50,29 +90,6 @@ Camera | VoLTE | ✓ | ✓
   * Enable Perf Mode if Game Mode ON
   * Drop unsupported/unused (DCD/HBM/sRGB)
 
-## Downloads
-[⬇️ Download](https://www.pling.com/p/1793481) | [🌆 Screenshot](https://t.me/psionicprjkt) | [XDA Thread](https://forum.xda-developers.com)
-
-```
-FILE: PixelOS_RM6785-12.1-20220416-0404.zip
-MD5SUM: 6c3ad14f4e4609373ce24f53888e6e5d
-FILESIZE: 1.8 GB (Inc. GApps)
-```
-
-## Info & Sources
-* Device Info
-  * Kernel: 4.14.x
-  * Chipset: Mediatek MT6785V/CD - MT6785V/CC - ARMv8.2-A (64-bit)
-
-* Sources
-  * [psionicprjkt](https://github.com/psionicprjkt)
-  * [officialputuid](https://github.com/officialputuid)
-  * [realme-mt6785-devs](https://github.com/realme-mt6785-devs)
-
-### Support Group
-[psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
-
-## Old Changelog
 * 2022-02-14
   * Import/Update Power HAL configs from C17
   * Fix a derp in default pinner overlay
