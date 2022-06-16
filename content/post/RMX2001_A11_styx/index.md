@@ -6,6 +6,7 @@ slug: ROM/RMX2001/StyxProject/A11
 image: main.png
 categories:
     - UNOFFICIAL
+    - DISCONTINUE
 tags:
     - ROM
 ---

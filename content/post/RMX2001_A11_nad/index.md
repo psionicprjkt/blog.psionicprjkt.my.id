@@ -6,6 +6,7 @@ slug: ROM/RMX2001/NusantaraProject-ROM/A11
 image: main.png
 categories:
     - OFFICIAL
+    - DISCONTINUE
 tags:
     - ROM
 ---

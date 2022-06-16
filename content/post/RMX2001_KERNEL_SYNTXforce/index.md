@@ -6,6 +6,7 @@ slug: KERNEL/RMX2001/SYNTXforce/releases
 image: main.png
 tags:
     - KERNEL
+    - DISCONTINUE
 ---
 
 ## About Kernel

@@ -6,6 +6,7 @@ slug: ROM/RM6785/YAAP/A12L
 image: main.png
 categories:
     - UNOFFICIAL
+    - DISCONTINUE
 tags:
     - ROM
 ---
