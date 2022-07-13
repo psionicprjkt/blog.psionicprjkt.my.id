@@ -26,8 +26,16 @@ Hello! I'm I Putu Jaya Adi Pranata, I'm a Technology Enthusiast. I currently liv
 ## Contact me via Social Media
 * Telegram [@officialputuid](https://t.me/officialputuid) (alwayson)
 * Other:
-  * Facebook [@officialputuid](https://fb.com/officialputuid) • Messenger [@officialputuid](https://www.messenger.com/officialputuid) • Instagram [@officialputuid](https://instagram.com/officialputuid)
-  * Youtube [@officialputuid](https://youtube.com/c/officialputuid) • Twitter [@officialputuid](https://twitter.com/officialputuid)
+  * Facebook [@officialputuid](https://fb.com/officialputuid)
+  * Messenger [@officialputuid](https://www.messenger.com/officialputuid)
+  * Instagram [@officialputuid](https://instagram.com/officialputuid)
+  * Twitter [@officialputuid](https://twitter.com/officialputuid)
+  * Youtube [@officialputuid](https://youtube.com/c/officialputuid)
 
 ## Donate for support me
-> [DANA-QR](https://link.dana.id/qr/970go92) <br/> [Paypal.me/IPJAP](https://www.paypal.com/paypalme/IPJAP) <br/> [Trakteer.id/officialputuid](https://trakteer.id/officialputuid) <br/> 081237920900 (DANA/OVO) <br/> BTC (37RMdciJZvcgnrj3TY7f5NDvHK2s98AVg1) <br/> ETH (0x3adb21744206c78ba296607021833ef5ca2292e4)
+* [DANA-QR](https://link.dana.id/qr/970go92)
+* [Paypal.me/IPJAP](https://www.paypal.com/paypalme/IPJAP)
+* [Trakteer.id/officialputuid](https://trakteer.id/officialputuid)
+* 081237920900 (DANA/OVO)
+* BTC (37RMdciJZvcgnrj3TY7f5NDvHK2s98AVg1)
+* ETH (0x3adb21744206c78ba296607021833ef5ca2292e4)
