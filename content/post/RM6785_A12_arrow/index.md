@@ -34,7 +34,7 @@ Camera | VoLTE | ∂ (Partial) | ∂ (Partial)
   * Initial Build
 
 ## Downloads
-[⬇️ Download](https://www.pling.com/p/1793589) | [🌆 Screenshot](https://t.me/psionicprjktchat/18177) | [XDA Thread](https://forum.xda-developers.com)
+[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/ArrowOS-A12/Arrow-v12.0-RM6785-UNOFFICIAL-20220106-VANILLA.zip/download) | [🌆 Screenshot](https://t.me/psionicprjktchat/18177) | [XDA Thread](https://forum.xda-developers.com)
 
 ```
 FILE: Arrow-v12.0-RM6785-UNOFFICIAL-20220106-VANILLA.zip

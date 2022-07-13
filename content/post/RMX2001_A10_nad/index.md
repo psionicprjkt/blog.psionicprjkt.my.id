@@ -49,7 +49,7 @@ Camera | VoLTE | ∂ (Partial) | ✓
   * (AS) Disable selectable for summary desc/text
 
 ## Downloads
-[⬇️ Download](https://www.pling.com/p/1793594) | [🌆 Screenshot](https://t.me/psionicprjkt/358) | [XDA Thread](https://forum.xda-developers.com)
+[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RMX2001/NusantaraROM-A10/Nusantara_eLTS-10-RMX2001-16052022-OFFICIAL-0907.zip/download) | [🌆 Screenshot](https://t.me/psionicprjkt/358) | [XDA Thread](https://forum.xda-developers.com)
 
 ```
 FILE: Nusantara-eLTS-10-RMX2001-16052022-OFFICIAL-0907.zip

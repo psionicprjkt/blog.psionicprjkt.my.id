@@ -42,7 +42,7 @@ Camera | VoLTE | ✓ | ✓
   * Fixup! features Additional Settings
 
 ## Downloads
-[⬇️ Download](https://www.pling.com/p/1793600) | [🌆 Screenshot](https://t.me/psionicprjkt/370) | [XDA Thread](https://forum.xda-developers.com)
+[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/YAAP-A12L/YAAP-12-HOMEMADE-RM6785-20220328.zip/download) | [🌆 Screenshot](https://t.me/psionicprjkt/370) | [XDA Thread](https://forum.xda-developers.com)
 
 ```
 FILE: YAAP-12-HOMEMADE-RM6785-20220328.zip

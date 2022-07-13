@@ -48,7 +48,7 @@ Camera | VoLTE | ✓ | ✓
   * [Kernel] oppo_charger: Silence diagnostic messages (dmesg) spam
 
 ## Downloads
-[⬇️ Download](https://www.pling.com/p/1793481) | [🌆 Screenshot](https://t.me/psionicprjkt) | [XDA Thread](https://forum.xda-developers.com)
+[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/PixelOS-A12L/PixelOS_RM6785-12.1-20220517-1241.zip/download) | [🌆 Screenshot](https://t.me/psionicprjkt) | [XDA Thread](https://forum.xda-developers.com)
 
 ```
 FILE: PixelOS_RM6785-12.1-20220517-1241.zip
