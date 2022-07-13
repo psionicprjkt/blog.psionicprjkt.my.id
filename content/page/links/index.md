@@ -5,6 +5,10 @@ links:
     description: official github account from I Putu Jaya Adi Pranata (officialputuid)
     website: https://github.com/officialputuid
     image: https://simpleicons.org/icons/github.svg
+  - title: officialputuid - GitLab!
+    description: official gitlab account from I Putu Jaya Adi Pranata (officialputuid)
+    website: https://gitlab.com/officialputuid
+    image: https://simpleicons.org/icons/gitlab.svg
   - title: officialputuid - Telegram!
     description: official telegram account from I Putu Jaya Adi Pranata (officialputuid)
     website: https://t.me/officialputuid

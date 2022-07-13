@@ -18,7 +18,7 @@ menu:
 Hello! I'm I Putu Jaya Adi Pranata, I'm a Technology Enthusiast. I currently live in Denpasar, Bali, Indonesia. I Love Design, Programming, Web & Android Development. I'm interested in Android & Flutter Dev. You can reach me: [officialputuid@hack.id](mailto:officialputuid@hack.id)
 
 ## Open-source software projects
-* Primary: [Github](https://github.com/officialputuid) & [psionicprjkt](https://github.com/psionicprjkt) & [Gitlab](https://gitlab.com/officialputuid)
+* Primary: [Github](https://github.com/officialputuid) & [Gitlab](https://gitlab.com/officialputuid) & [psionicprjkt](https://github.com/psionicprjkt)
   * psionicprjkt: [@psionicprjkt](https://t.me/psionicprjkt)
   * psionicprjkt - chat: [@psionicprjktchat](https://t.me/psionicprjktchat)
   * psionicprjkt - logs: [@psionicprjktlogs](https://t.me/psionicprjktlogs)
@@ -30,4 +30,4 @@ Hello! I'm I Putu Jaya Adi Pranata, I'm a Technology Enthusiast. I currently liv
   * Youtube [@officialputuid](https://youtube.com/c/officialputuid) • Twitter [@officialputuid](https://twitter.com/officialputuid)
 
 ## Donate for support me
-> You can support me: [Trakteer.id/officialputuid](https://trakteer.id/officialputuid)
+> [DANA-QR](https://link.dana.id/qr/970go92) <br/> [Paypal.me/IPJAP](https://www.paypal.com/paypalme/IPJAP) <br/> [Trakteer.id/officialputuid](https://trakteer.id/officialputuid) <br/> 081237920900 (DANA/OVO) <br/> BTC (37RMdciJZvcgnrj3TY7f5NDvHK2s98AVg1) <br/> ETH (0x3adb21744206c78ba296607021833ef5ca2292e4)
