@@ -1,7 +1,7 @@
 ---
 title: QASSA v2.1 (Android-10) for RMX2001
 description: Custom ROM for Realme 6, 6s, 6i and Narzo (RMX2001/02/03)
-date: 2022-05-15
+date: 2022-09-13
 slug: ROM/RMX2001/QASSA-ROM/A10
 image: main.png
 categories:
