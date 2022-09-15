@@ -1,12 +1,11 @@
 ---
 title: Nusantara Project LTS (Android-11) for RMX2001
 description: Custom ROM for Realme 6, 6s, 6i and Narzo (RMX2001/02/03)
-date: 2022-05-15
+date: 2022-09-14
 slug: ROM/RMX2001/NusantaraProject-ROM/A11
 image: main.png
 categories:
     - OFFICIAL
-    - DISCONTINUE
 tags:
     - ROM
 ---
@@ -36,17 +35,24 @@ Camera | VoLTE | ∂ (Partial) | ✓
 
 ## Latest Changelog
 * 2022-05-15
-  * Fixup! DT2W (typo)
-  * Included 64MP Enabler RMX2001
-  * (Additional Settings) Update parts icon
+  * SELinux Enforcing
+  * Passes SafetyNet out-of-the-box
+  * Updated Camera Go v3.8.466520855
+  * Update our custom perf profile (realmeParts)
+  * Update CABC configs from realmeUI v1.0 (realmeParts)
+  * Update fastcharge firmware after boot (do like rui thing)
+  * Included 64MP Enabler & Bufferfix (thanks to Wyroczen)
+  * Fixed AOSP WFD with MTK fixes (thanks to Erfanoabdi)
+  * Fixed av/media resources (inc Instagram low-quality/reels)
+  * Fixed some sepolicy denials (for p-gapps, realmeDirac & dt2w)
 
 ## Downloads
-[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RMX2001/NusantaraROM-A11/Nusantara-LTS-11-RMX2001-15052022-OFFICIAL-0508.zip/download) | [🌆 Screenshot](https://t.me/psionicprjktchat) | [XDA Thread](https://forum.xda-developers.com/t/rom-11-official-nusantaraproject-v3-4-14-11-2021.4240463)
+[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RMX2001/NusantaraROM-A11/Nusantara-LTS-11-RMX2001-Gapps-14092022-OFFICIAL-1126.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/hH1WaKAbpAsbUbJV8) | [XDA Thread]()
 
 ```
-FILE: Nusantara-LTS-11-RMX2001-15052022-OFFICIAL-0508.zip
-MD5SUM: d052caefcfad86a2d71b888e882a6d88
-FILESIZE: 714 MB (Vanilla)
+FILE: Nusantara-LTS-11-RMX2001-Gapps-14092022-OFFICIAL-1126.zip
+MD5SUM: 6d67519aff62719667e73ae5cd12716e
+FILESIZE: 1.2 GB (GApps)
 ```
 
 ## Info & Sources
@@ -62,6 +68,11 @@ FILESIZE: 714 MB (Vanilla)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2022-05-15
+  * Fixup! DT2W (typo)
+  * Included 64MP Enabler RMX2001
+  * (Additional Settings) Update parts icon
+
 * 2022-03-13
   * May 2022 ASB
   * Included bufferfix
