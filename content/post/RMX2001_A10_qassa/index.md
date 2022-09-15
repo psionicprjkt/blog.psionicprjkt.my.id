@@ -40,8 +40,8 @@ Camera | VoLTE | ∂ (Partial) | ✓
 [⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RMX2001/QASSA-A10/qassa-v2.1-RMX2001-20220914-1620-GApps.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/QB6zgWwj5A6LmSuj8) | [XDA Thread](https://forum.xda-developers.com)
 
 ```
-FILE: qassa-v2.1-RMX2001-20220912-1443-GApps.zip
-MD5SUM: 7d1203a4ea957896e3e65423d652c682
+FILE: qassa-v2.1-RMX2001-20220914-1620-GApps.zip
+MD5SUM: 5f0fa62f6ad30f4da505e81befb8b4e8
 FILESIZE: 950 MB (GApps)
 ```
 
