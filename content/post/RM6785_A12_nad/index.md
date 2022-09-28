@@ -1,7 +1,7 @@
 ---
-title: Nusantara Project v4.5 (Android-12L) for RM6785
+title: Nusantara Project v4.9 (Android-12L) for RM6785
 description: Custom ROM for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
-date: 2022-05-17
+date: 2022-09-28
 slug: ROM/RM6785/NusantaraProject-ROM/A12
 image: main.png
 categories:
@@ -29,32 +29,31 @@ Bluetooth | Video Playback | ✓ | ✓
 Camera | VoLTE | ✓ | ✓
 
 ### Known Issues
-* IPv6 Tethering
 * Native video calling (ViLTE)
 * Voice over WiFi (VoWiFi)
+• USB Audio
 
 ## Latest Changelog
-* 2022-05-17
-  * May 2022 ASB
-  * Stop nfc_hal HIDL on non-NFC devices
-  * Update apns-conf from stock/RMX2001_C18
-  * Update build fingerprint from stock/RMX2001_C18 
-  * Update haptics & Improve UI performance
-  * (AS) Added summary about CABC & Perf Profile
-  * (AS) Disable selectable for summary desc/text
-  * (AS) Drop Screen Refresh Rate (Already on Display)
-  * [Kernel] oppo_charger: Fix slow charge while screen is on
-  * [Kernel] oppo_charger: Silence diagnostic messages (dmesg) spam
-  * [NOTE] Only Vanilla Build
-  * [NOTE] Use NikGApps A12L/SL (https://s.id/14y28)
+* 2022-09-28
+  * September 2022 ASB
+  * Fixed IPv6 tethering
+  * Add more Dirac Presets
+  * Drop MediaTek Log deps
+  * Enabled dynamic refresh rate
+  * Fixed lag while playing 1080p/2K videos
+  * Drop perf profile, Add Back Game Mode Perf
+  * Updated CABC configurations from stock RUI
+  * Updated lawnchair/icons to latest release (official)
+  * Updated vendor blobs and fw to RMX2002_11.C.19
+  * Minor performance improvements
 
 ## Downloads
-[⬇️ Download](https://www.pling.com/p/1500429) | [🌆 Screenshot](https://t.me/psionicprjktchat) | [XDA Thread](https://forum.xda-developers.com/t/rom-12-official-nusantaraproject-v4-1-17-01-2022.4363439)
+[⬇️ Download](https://www.pling.com/p/1500429) | [🌆 Screenshot](https://photos.app.goo.gl/Hd9vN1E8KKV5zAqP7)
 
 ```
-FILE: Nusantara-v4.5-12L-RM6785-16052022-OFFICIAL-1204.zip
-MD5SUM: e26dc911f12039619a39a2e0932f2719
-FILESIZE: 1.1 GB (Vanilla)
+FILE: Nusantara-v4.9-12L-RM6785-Gapps-28092022-OFFICIAL-0607.zip
+MD5SUM: 6e3edfa4e81d1fe803a386fe417f200f
+FILESIZE: 1.7 GB (GApps)
 ```
 
 ## Info & Sources
@@ -71,6 +70,20 @@ FILESIZE: 1.1 GB (Vanilla)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2022-05-17
+  * May 2022 ASB
+  * Stop nfc_hal HIDL on non-NFC devices
+  * Update apns-conf from stock/RMX2001_C18
+  * Update build fingerprint from stock/RMX2001_C18 
+  * Update haptics & Improve UI performance
+  * (AS) Added summary about CABC & Perf Profile
+  * (AS) Disable selectable for summary desc/text
+  * (AS) Drop Screen Refresh Rate (Already on Display)
+  * [Kernel] oppo_charger: Fix slow charge while screen is on
+  * [Kernel] oppo_charger: Silence diagnostic messages (dmesg) spam
+  * [NOTE] Only Vanilla Build
+  * [NOTE] Use NikGApps A12L/SL (https://s.id/14y28)
+
 * 2022-04-22
   * April 2022 ASB
   * Enforcing SELinux
