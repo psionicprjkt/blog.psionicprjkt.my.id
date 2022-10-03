@@ -1,12 +1,11 @@
 ---
-title: ArrowOS (Android-12) for RM6785
+title: ArrowOS (Android-12L) for RM6785
 description: Custom ROM for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
-date: 2022-01-06
+date: 2022-10-03
 slug: ROM/RM6785/ArrowOS/A12
 image: main.png
 categories:
     - UNOFFICIAL
-    - DISCONTINUE
 tags:
     - ROM
 ---
@@ -23,23 +22,42 @@ Userdata encryption[FDE] | GPS | ✓ | ✓
 Fingerprint sensor | NFC | ✓ | ✓ (EU)
 WiFi (2.4Ghz/5Ghz) | Sensors | ✓ | ✓
 Bluetooth | Video Playback | ✓ | ✓
-Camera | VoLTE | ∂ (Partial) | ∂ (Partial)
+Camera | VoLTE | ✓ | ✓
 
 ### Known Issues
-* Built-in screen recorder
-* Permissive SELinux
+* Native video calling (ViLTE)
+* Voice over WiFi (VoWiFi)
+* USB Audio
 
 ## Latest Changelog
-* 2022-01-06
-  * Initial Build
+* 2022-10-03
+  * September 2022 ASB
+  * Fixed IPv6 tethering
+  * Add more Dirac Presets
+  * Drop MediaTek Log deps
+  * Introduce MtkInCallService
+  * Enabled dynamic refresh rate
+  * Increase VC volume steps to 15
+  * Added MTK input boosts (Touch Boost)
+  * Update status bar start|top padding
+  * Update status_bar_height from RMX2001_C19
+  * Fixed lag while playing 1080p/2K videos
+  * Added support for Wifi display (Miracast)
+  * Improve interaction power configurations
+  * Drop perf profile, Add Back Game Mode Perf
+  * Updated CABC configurations from stock RUI
+  * Updated vendor blobs and fw to RMX2002_11.C.19
+  * Import Tethering overlay configs from RMX2001_C19
+  * Import frameworks overlay configs from RMX2001_C19
+  * Minor performance improvements
 
 ## Downloads
-[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/ArrowOS-A12/Arrow-v12.0-RM6785-UNOFFICIAL-20220106-VANILLA.zip/download) | [🌆 Screenshot](https://t.me/psionicprjktchat/18177) | [XDA Thread](https://forum.xda-developers.com)
+[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/ArrowOS-A12L/Arrow-v12.1-RM6785-UNOFFICIAL-20221003-GAPPS.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/eXXWi7WXkjqSPAEA9)
 
 ```
-FILE: Arrow-v12.0-RM6785-UNOFFICIAL-20220106-VANILLA.zip
-MD5SUM: 19f61cf07388ab1777b37ed9f7987fb5
-FILESIZE: 1 GB (Vanilla)
+FILE: Arrow-v12.1-RM6785-UNOFFICIAL-20221003-GAPPS.zip
+MD5SUM: ada24a233a6228523b2b3f6c2844b29c
+FILESIZE: 1.4 GB (GApps)
 ```
 
 ## Info & Sources
@@ -56,5 +74,5 @@ FILESIZE: 1 GB (Vanilla)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
-* 0000-00-00
-  * -
+* 2022-01-06
+  * Initial Build
