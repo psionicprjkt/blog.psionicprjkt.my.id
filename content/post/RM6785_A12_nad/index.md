@@ -31,7 +31,7 @@ Camera | VoLTE | ✓ | ✓
 ### Known Issues
 * Native video calling (ViLTE)
 * Voice over WiFi (VoWiFi)
-• USB Audio
+* USB Audio
 
 ## Latest Changelog
 * 2022-09-28
