@@ -1,7 +1,7 @@
 ---
 title: QASSA v2.1 (Android-10) for RMX2001
 description: Custom ROM for Realme 6, 6s, 6i and Narzo (RMX2001/02/03)
-date: 2022-09-15
+date: 2022-10-15
 slug: ROM/RMX2001/QASSA-ROM/A10
 image: main.png
 categories:
@@ -26,22 +26,26 @@ Bluetooth | Video Playback | ✓ | ✓
 Camera | VoLTE | ∂ (Partial) | ✓
 
 ### Known Issues
+* Night light flickers
 * IMS (ViLTE, VoWiFi)
 * Extra cameras
 
 ## Latest Changelog
-* 2022-09-15
-  * Fix VoLTE
-  * Enable Dex2oat
-  * Cleanup early SF configurations (smooth improve)
-
+* 2022-10-15
+  * October 2022 ASB
+  * SELinux Enforcing
+  * Passes SafetyNet out-of-the-box
+  * Re-adjusted status bar paddings
+  * Cleanup unused overlay configuration
+  * Update icon app & launcher AdditionalSettings
+  * Minor performance improvements
 
 ## Downloads
-[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RMX2001/QASSA-A10/qassa-v2.1-RMX2001-20220914-1620-GApps.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/QB6zgWwj5A6LmSuj8) | [XDA Thread](https://forum.xda-developers.com)
+[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RMX2001/QASSA-A10/qassa-v2.1-RMX2001-20221015-0300-GApps.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/2a9L3gAKo5FfV1568)
 
 ```
-FILE: qassa-v2.1-RMX2001-20220914-1620-GApps.zip
-MD5SUM: 5f0fa62f6ad30f4da505e81befb8b4e8
+FILE: qassa-v2.1-RMX2001-20221015-0300-GApps.zip
+MD5SUM: eaa5841f0aaceb02f62e2f8352afe196
 FILESIZE: 950 MB (GApps)
 ```
 
@@ -58,6 +62,11 @@ FILESIZE: 950 MB (GApps)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2022-09-15
+  * Fix VoLTE
+  * Enable Dex2oat
+  * Cleanup early SF configurations (smooth improve)
+
 * 2022-09-13
   * September 2022 ASB
   * SELinux Enforcing
