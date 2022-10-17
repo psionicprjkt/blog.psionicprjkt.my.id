@@ -1,12 +1,11 @@
 ---
 title: ArrowOS (Android-11) for RMX2001
 description: Custom ROM for Realme 6, 6s, 6i and Narzo (RMX2001/02/03)
-date: 2021-06-18
+date: 2022-10-17
 slug: ROM/RMX2001/ArrowOS/A11
 image: main.png
 categories:
     - UNOFFICIAL
-    - DISCONTINUE
 tags:
     - ROM
 ---
@@ -31,20 +30,27 @@ Camera | VoLTE | ∂ (Partial) | ∂ (Partial)
 * Extra cameras
 
 ## Latest Changelog
-* 2021-06-18
-  * Latest Sources, SecPatch (5 June 2021)
-  * Adjust padding statusbar overlay
-  * Added some Google Pixel permission for GPhoto Unli
-  * Using fp Realme 6 to get same graphic on games by default
-  * RealmeParts: Cleanup & Fix tint color icon
+* 2022-10-17
+  * October 2022 ASB
+  * Added more Dirac Presets
+  * Passes SafetyNet out-of-the-box
+  * Re-adjusted status bar paddings
+  * Updated Camera Go v3.8.466520855
+  * Cleanup unused overlay configuration
+  * Merge realmeDirac into realmeParts
+  * Rebrand realmePart to AdditionalSettings
+  * Fixed CABC QS stuck/crash/can’t changes
+  * Fixed Dirac QS stuck/crash/can’t changes
+  * Update icon app & launcher AdditionalSettings
+
 
 ## Downloads
-[⬇️ Download](#DISCONTINUE) | [🌆 Screenshot](https://t.me/psionicprjkt/109) | [XDA Thread](https://forum.xda-developers.com/t/rom-11-unofficial-arrowos-11-0-18-06-2021-discontinued.4244049)
+[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RMX2001/ArrowOS-A11/Arrow-v11.0-RMX2001-UNOFFICIAL-20221017-GAPPS.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/pmLYrc1w682ZGnDX6)
 
 ```
-FILE: -
-MD5SUM: -
-FILESIZE: -
+FILE: Arrow-v11.0-RMX2001-UNOFFICIAL-20221017-GAPPS.zip
+MD5SUM: 87b75d3dacdf96a786aa52ca487b0134
+FILESIZE: 1.1 GB (GApps)
 ```
 
 ## Info & Sources
@@ -61,6 +67,13 @@ FILESIZE: -
 
 
 ## Old Changelog
+* 2021-06-18
+  * Latest Sources, SecPatch (5 June 2021)
+  * Adjust padding statusbar overlay
+  * Added some Google Pixel permission for GPhoto Unli
+  * Using fp Realme 6 to get same graphic on games by default
+  * RealmeParts: Cleanup & Fix tint color icon
+
 * 2021-05-18
   * Latest Sources, SecPatch (5 May 2021)
   * SELinux Enforcing + Passes safetynet
