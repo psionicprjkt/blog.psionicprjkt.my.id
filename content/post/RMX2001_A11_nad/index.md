@@ -1,7 +1,7 @@
 ---
 title: Nusantara Project LTS (Android-11) for RMX2001
 description: Custom ROM for Realme 6, 6s, 6i and Narzo (RMX2001/02/03)
-date: 2022-09-14
+date: 2022-10-21
 slug: ROM/RMX2001/NusantaraProject-ROM/A11
 image: main.png
 categories:
@@ -34,24 +34,34 @@ Camera | VoLTE | ∂ (Partial) | ✓
 * Extra cameras
 
 ## Latest Changelog
-* 2022-05-15
+* 2022-10-21
   * SELinux Enforcing
+  * Merge 07/08/09/10 2022 ASB
+  * Added more Dirac Presets
+  * Fixup missing string about
   * Passes SafetyNet out-of-the-box
+  * Re-adjusted status bar paddings
   * Updated Camera Go v3.8.466520855
-  * Update our custom perf profile (realmeParts)
-  * Update CABC configs from realmeUI v1.0 (realmeParts)
-  * Update fastcharge firmware after boot (do like rui thing)
-  * Included 64MP Enabler & Bufferfix (thanks to Wyroczen)
-  * Fixed AOSP WFD with MTK fixes (thanks to Erfanoabdi)
-  * Fixed av/media resources (inc Instagram low-quality/reels)
-  * Fixed some sepolicy denials (for p-gapps, realmeDirac & dt2w)
+  * Cleanup unused overlay configuration
+  * Change default wallpaper (thanks wallfever)
+  * Merge realmeDirac into realmeParts
+  * Rebrand realmePart to AdditionalSettings
+  * Fixed CABC QS stuck/crash/can’t changes
+  * Fixed Dirac QS stuck/crash/can’t changes
+  * Update icon app & launcher AdditionalSettings
 
 ## Downloads
-[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RMX2001/NusantaraROM-A11/Nusantara-LTS-11-RMX2001-Gapps-14092022-OFFICIAL-1126.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/hH1WaKAbpAsbUbJV8) | [XDA Thread]()
+[⬇️ Download (Vanilla)](https://sourceforge.net/projects/psionicprjkt/files/RMX2001/NusantaraROM-A11/Nusantara-LTS-11-RMX2001-21102022-OFFICIAL-0549.zip/download) | [⬇️ Download (GApps)](https://sourceforge.net/projects/psionicprjkt/files/RMX2001/NusantaraROM-A11/Nusantara-LTS-11-RMX2001-Gapps-21102022-OFFICIAL-0652.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/hH1WaKAbpAsbUbJV8)
 
 ```
-FILE: Nusantara-LTS-11-RMX2001-Gapps-14092022-OFFICIAL-1126.zip
-MD5SUM: 6d67519aff62719667e73ae5cd12716e
+FILE: Nusantara-LTS-11-RMX2001-21102022-OFFICIAL-0549.zip
+MD5SUM: 0a72a196065acd2248033f6995015f7b
+FILESIZE: 790 MB (Vanilla)
+```
+
+```
+FILE: Nusantara-LTS-11-RMX2001-Gapps-21102022-OFFICIAL-0652.zip
+MD5SUM: d474f9ebc03e32b6ea49b4e98f7f00cd
 FILESIZE: 1.2 GB (GApps)
 ```
 
@@ -68,6 +78,18 @@ FILESIZE: 1.2 GB (GApps)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2022-05-15
+  * SELinux Enforcing
+  * Passes SafetyNet out-of-the-box
+  * Updated Camera Go v3.8.466520855
+  * Update our custom perf profile (realmeParts)
+  * Update CABC configs from realmeUI v1.0 (realmeParts)
+  * Update fastcharge firmware after boot (do like rui thing)
+  * Included 64MP Enabler & Bufferfix (thanks to Wyroczen)
+  * Fixed AOSP WFD with MTK fixes (thanks to Erfanoabdi)
+  * Fixed av/media resources (inc Instagram low-quality/reels)
+  * Fixed some sepolicy denials (for p-gapps, realmeDirac & dt2w)
+
 * 2022-05-15
   * Fixup! DT2W (typo)
   * Included 64MP Enabler RMX2001
