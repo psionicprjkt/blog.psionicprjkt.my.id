@@ -1,7 +1,7 @@
 ---
 title: ArrowOS (Android-12L) for RM6785
 description: Custom ROM for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
-date: 2022-10-03
+date: 2022-10-25
 slug: ROM/RM6785/ArrowOS/A12
 image: main.png
 categories:
@@ -30,6 +30,35 @@ Camera | VoLTE | ✓ | ✓
 * USB Audio
 
 ## Latest Changelog
+* 2022-10-25
+  * October 2022 ASB
+  * Kernel lineage .295
+  * Fixed CABC QS stuck/crash
+  * Update icon app & launcher (Parts)
+
+## Downloads
+[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/ArrowOS-A12L/Arrow-v12.1-RM6785-UNOFFICIAL-20221024-GAPPS.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/eXXWi7WXkjqSPAEA9)
+
+```
+FILE: Arrow-v12.1-RM6785-UNOFFICIAL-20221024-GAPPS.zip
+MD5SUM: 6d9dc9cc4f14214ecb14638a0c629a32
+FILESIZE: 1.4 GB (GApps)
+```
+
+## Info & Sources
+* Device Info
+  * Kernel: 4.14.x
+  * Chipset: Mediatek MT6785V/CD - MT6785V/CC - ARMv8.2-A (64-bit)
+
+* Sources
+  * [psionicprjkt](https://github.com/psionicprjkt)
+  * [officialputuid](https://github.com/officialputuid)
+  * [realme-mt6785-devs](https://github.com/realme-mt6785-devs)
+
+### Support Group
+[psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
+
+## Old Changelog
 * 2022-10-03
   * September 2022 ASB
   * Fixed IPv6 tethering
@@ -51,28 +80,5 @@ Camera | VoLTE | ✓ | ✓
   * Import frameworks overlay configs from RMX2001_C19
   * Minor performance improvements
 
-## Downloads
-[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/ArrowOS-A12L/Arrow-v12.1-RM6785-UNOFFICIAL-20221003-GAPPS.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/eXXWi7WXkjqSPAEA9)
-
-```
-FILE: Arrow-v12.1-RM6785-UNOFFICIAL-20221003-GAPPS.zip
-MD5SUM: ada24a233a6228523b2b3f6c2844b29c
-FILESIZE: 1.4 GB (GApps)
-```
-
-## Info & Sources
-* Device Info
-  * Kernel: 4.14.x
-  * Chipset: Mediatek MT6785V/CD - MT6785V/CC - ARMv8.2-A (64-bit)
-
-* Sources
-  * [psionicprjkt](https://github.com/psionicprjkt)
-  * [officialputuid](https://github.com/officialputuid)
-  * [realme-mt6785-devs](https://github.com/realme-mt6785-devs)
-
-### Support Group
-[psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
-
-## Old Changelog
 * 2022-01-06
   * Initial Build
