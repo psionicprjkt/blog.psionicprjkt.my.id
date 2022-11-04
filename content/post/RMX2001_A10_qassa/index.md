@@ -6,6 +6,7 @@ slug: ROM/RMX2001/QASSA-ROM/A10
 image: main.png
 categories:
     - UNOFFICIAL
+    - DISCONTINUE
 tags:
     - ROM
 ---

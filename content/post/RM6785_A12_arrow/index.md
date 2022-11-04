@@ -6,6 +6,7 @@ slug: ROM/RM6785/ArrowOS/A12
 image: main.png
 categories:
     - UNOFFICIAL
+    - DISCONTINUE
 tags:
     - ROM
 ---

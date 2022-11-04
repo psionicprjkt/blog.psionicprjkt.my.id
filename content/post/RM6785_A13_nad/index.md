@@ -6,6 +6,7 @@ slug: ROM/RM6785/NusantaraProject-ROM/A13
 image: main.png
 categories:
     - OFFICIAL
+    - DISCONTINUE
 tags:
     - ROM
 ---
