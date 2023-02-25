@@ -1,7 +1,7 @@
 ---
 title: Nusantara Project v5.5 (Android-13) for RM6785
 description: Custom ROM for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
-date: 2023-02-14
+date: 2023-02-24
 slug: ROM/RM6785/NusantaraProject-ROM/A13
 image: main.png
 categories:
@@ -33,28 +33,30 @@ Camera | VoLTE | ✓ | ✓
 * Voice over WiFi (VoWiFi)
 
 ## Latest Changelog
-* 2022-10-10
-  * February 2023 ASB
-  * Improved auto brightness
-  * Improved brightness slider curve
-  * Fixed SafetyNet out-of-the-box
-  * Fixed double click vibration effect
-  * Fixed weak vibrations on calls, notif & alarms
-  * Implement ClearSpeaker
-  * Move realmeDirac to Parts
-  * Implement again Performance Profiles
-  * Fixed status bar top in landscape mode
-  * Configure padding b/l/r on GBoard 
-  * Revert changes wifi configs from rUI-1
-  * Drop CameraGO (Default Aperture)
-  * Upstreamed kernel to 4.14.305
+* 2023-02-14
+  * NAD source upstream
+  * Update status bar padding portrait & landscape
+  * Use min/max refresh rate, drop smooth display
+  * Disable touch gestures (not implement for now)
+  * Update architecture cpu varitans
+  * Added ViPER4Android FX v2.7.2.1
+  * Address more sepolicy denials
+  * AdditionalSettings updates
+  * [AD] Enable app in launcher
+  * [AD] Update all dependencies
+  * [AD] Up [2] version: psionic-v1.2
+  * [AD] Update other app information
+  * [AD] Reformat using Android Studio
+  * [AD] Update textSize|typeface for FPSInfo 
+  * [AD] Added summary about CABC & Perf Profiles 
+  * Misc improvements
 
 ## Downloads
-[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/NAD-13/Nusantara-v5.5-13-RM6785-Gapps-13022023-OFFICIAL-1141.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/9ZFnWftemQa8cjAS6)
+[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/NAD-13/Nusantara-v5.5-13-RM6785-Gapps-OFFICIAL-24022023-1017.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/9ZFnWftemQa8cjAS6)
 
 ```
-FILE: Nusantara-v5.5-13-RM6785-Gapps-13022023-OFFICIAL-1141.zip
-MD5SUM: 0d837984e7c968596103f92c583b53bb
+FILE: Nusantara-v5.5-13-RM6785-Gapps-OFFICIAL-24022023-1017.zip
+MD5SUM: afec94440783956505b68973c15f1226
 FILESIZE: 1.4 GB (GApps)
 ```
 
@@ -72,7 +74,23 @@ FILESIZE: 1.4 GB (GApps)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
-* 2022-10-10
+* 2023-02-14
+  * February 2023 ASB
+  * Improved auto brightness
+  * Improved brightness slider curve
+  * Fixed SafetyNet out-of-the-box
+  * Fixed double click vibration effect
+  * Fixed weak vibrations on calls, notif & alarms
+  * Implement ClearSpeaker
+  * Move realmeDirac to Parts
+  * Implement again Performance Profiles
+  * Fixed status bar top in landscape mode
+  * Configure padding b/l/r on GBoard 
+  * Revert changes wifi configs from rUI-1
+  * Drop CameraGO (Default Aperture)
+  * Upstreamed kernel to 4.14.305
+
+* 2023-01-29
   * January 2023 ASB
   * Fixed video playback crash
   * Switched to pixel power-libperfmgr HAL
