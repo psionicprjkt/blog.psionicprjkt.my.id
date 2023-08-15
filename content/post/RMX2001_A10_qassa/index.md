@@ -1,7 +1,7 @@
 ---
-title: QASSA v2.1 (Android-10) for RMX2001
+title: QASSA v2.2 (Android-10) for RMX2001
 description: Custom ROM for Realme 6, 6s, 6i and Narzo (RMX2001/02/03)
-date: 2023-02-25
+date: 2023-08-14
 slug: ROM/RMX2001/QASSA-ROM/A10
 image: main.png
 categories:
@@ -26,24 +26,24 @@ Bluetooth | Video Playback | ✓ | ✓
 Camera | VoLTE | ∂ (Partial) | ✓
 
 ### Known Issues
-* Night light flickers
 * IMS (ViLTE, VoWiFi)
 * Extra cameras
 
 ## Latest Changelog
-* 2023-02-25
-  * February 2023 ASB
-  * Fix can't connect wifi with 5ghz
-  * Update architecture cpu varitans
-  * Misc improvements
+* 2023-08-14
+  * Juli 2023 ASB
+  * Cleanup some properties
+  * Silence spammy all logtags
+  * Minor animation improvements
+  * Minor performance improvements
 
 ## Downloads
-[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RMX2001/QASSA-A10/qassa-v2.1-RMX2001-20230225-0637-GApps.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/2a9L3gAKo5FfV1568)
+[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RMX2001/QASSA-A10/qassa-Sisu-v2.2-RMX2001-20230813-0620-GApps.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/2a9L3gAKo5FfV1568)
 
 ```
-FILE: qassa-v2.1-RMX2001-20221015-0300-GApps.zip
-MD5SUM: fccb4e6d6f2c341a8d1d93c840788c1f
-FILESIZE: 950 MB (GApps)
+FILE: qassa-Sisu-v2.2-RMX2001-20230813-0620-GApps.zip
+MD5SUM: 3a6e7443a4245e307c41b0c978e44ebe
+FILESIZE: 998.5 MB (GApps)
 ```
 
 ## Info & Sources
@@ -59,6 +59,22 @@ FILESIZE: 950 MB (GApps)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2023-07-23
+  * June 2023 ASB
+
+* 2023-03-08
+  * Fixed Battery Usage
+  * Set CABC off by default 
+  * Added Shelter for work profiles
+  * Fixed Ok Google w/screen on/off
+  * Fixed system icons in lockscreen
+
+* 2023-02-25
+  * February 2023 ASB
+  * Fix can't connect wifi with 5ghz
+  * Update architecture cpu varitans
+  * Misc improvements
+
 * 2022-10-15
   * October 2022 ASB
   * SELinux Enforcing
