@@ -29,7 +29,6 @@ Camera | VoLTE | ✓ | ✓
 
 ## Latest Changelog
 * 2023-09-16
-  * Backport October 2023 ASB
   * September 2023 ASB
   * Upstreamed kernel to version 4.14.325
   * Imported props configuration from RMX2002_C19
