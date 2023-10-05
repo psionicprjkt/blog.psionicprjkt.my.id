@@ -1,8 +1,8 @@
-baseurl: https://blog.psionicprjkt.my.id
+baseurl: https://officialputuid.github.io
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: psionicprjkt | blog
+title: officialputuid
 
 #languages:
 #    en:
