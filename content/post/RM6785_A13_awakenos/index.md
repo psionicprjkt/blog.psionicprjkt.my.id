@@ -1,7 +1,7 @@
 ---
 title: awakenOS (Android-13) for RM6785
 description: Custom ROM for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
-date: 2023-09-16
+date: 2023-10-13
 slug: ROM/RM6785/awakenOS/A13
 image: main.jpg
 categories:
@@ -28,21 +28,21 @@ Camera | VoLTE | ✓ | ✓
 * Native video calling (ViLTE) and Voice over WiFi (VoWiFi)
 
 ## Latest Changelog
-* 2023-09-16
-  * September 2023 ASB
-  * Upstreamed kernel to version 4.14.325
-  * Imported props configuration from RMX2002_C19
-  * Fixed scroll lag that occurred when notifications appeared
-  * Merged Bessloudness into AdditionalSettings
-  * Switched to VIPER-RE v5.2 (https://t.me/WSTprojects/1735)
+* 2023-10-13
+  * October 2023 ASB (Thanks LOS)
+  * Upstreamed kernel to v4.14.327
+  * Import powerhint from Rosemary
+  * Updated KernelSU stable tag v0.6.9
+  * Fixed random bluetooth disconnection
+  * Updated Additional Settings with new features: GPU Governor, Disable Thermal Services, TCP Congestion configuration, and allow users to swipe/clear smart charging notifications
 
 ## Downloads
-[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/AwakenOS-13/awaken-3.9-triton_void-RM6785-unofficial-2356-20230915.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/fkP9TsYhnxXbDn9dA)
+[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/AwakenOS-13/awaken-3.10-triton_void-RM6785-unofficial-2149-20231012.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/fkP9TsYhnxXbDn9dA)
 
 ```
-FILE: awaken-3.9-triton_void-RM6785-unofficial-2356-20230915.zip
-MD5SUM: a8fd4b07c32668e6b2cc4fde6ad64928
-FILESIZE: 1.93 GB (Inc. GApps)
+FILE: awaken-3.10-triton_void-RM6785-unofficial-2149-20231012.zip
+MD5SUM: 88d0c0caa0874835f4bffa4b8a425e05
+FILESIZE: 1.94 GB (Inc. GApps)
 ```
 
 ## Info & Sources
@@ -59,6 +59,14 @@ FILESIZE: 1.93 GB (Inc. GApps)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2023-09-16
+  * September 2023 ASB
+  * Upstreamed kernel to version 4.14.325
+  * Imported props configuration from RMX2002_C19
+  * Fixed scroll lag that occurred when notifications appeared
+  * Merged Bessloudness into AdditionalSettings
+  * Switched to VIPER-RE v5.2 (https://t.me/WSTprojects/1735)
+
 * 2023-09-02
   * August 2023 ASB
   * Upstreamed kernel to 4.14.323
