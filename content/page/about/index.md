@@ -4,6 +4,7 @@ description: Hi there, I'm officialputuid 👋
 date: '2000-01-03'
 aliases:
   - about
+  - psionicprjkt
   - officialputuid
   - contact
 license: CC BY-NC-ND
@@ -18,6 +19,10 @@ menu:
 Hello! I'm I Putu Jaya Adi Pranata, I'm a Technology Enthusiast. I currently live in Denpasar, Bali, Indonesia. I Love Design, Programming, Web & Android Development. I'm interested in Android & Flutter Dev. You can reach me: [officialputuid@hack.id](mailto:officialputuid@hack.id)
 
 ## Open-source software projects
+
+psionicprjkt - The 'poison' for custom android.
+psionicprjkt is a project created especially for android development, providing custom roms, custom kernels and FOSS!
+
 * Primary: [Github](https://github.com/officialputuid) & [Gitlab](https://gitlab.com/officialputuid) & [psionicprjkt](https://github.com/psionicprjkt)
   * psionicprjkt: [@psionicprjkt](https://t.me/psionicprjkt)
   * psionicprjkt - chat: [@psionicprjktchat](https://t.me/psionicprjktchat)
