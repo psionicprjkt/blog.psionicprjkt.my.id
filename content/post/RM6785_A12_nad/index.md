@@ -57,6 +57,25 @@ MD5SUM: 6e3edfa4e81d1fe803a386fe417f200f
 FILESIZE: 1.7 GB (GApps)
 ```
 
+## Instructions
+* If you are coming form any ROM based realmeUI-1.0 (cleanflash)
+  * Boot into custom recovery
+  * Format Data
+  * Flash ROM &  Flash Gapps (Optional)
+  * Flash custom recovery based realmeUI-2.0
+  * Reboot your device once the installation is done
+
+* If you are on any ROM based realmeUI-2.0 (cleanflash)
+  * Boot into custom recovery
+  * Flash ROM &  Flash Gapps (Optional)
+  * Format Data
+  * Reboot your device once the installation is done
+
+* If you use the same ROM (dirtyflash)
+  * Boot into custom recovery
+  * Flash ROM &  Flash Gapps (Optional)
+  * Reboot your device once the installation is done
+
 ## Info & Sources
 * Device Info
   * Kernel: 4.14.x

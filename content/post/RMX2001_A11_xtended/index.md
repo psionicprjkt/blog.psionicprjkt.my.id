@@ -50,6 +50,18 @@ MD5SUM: -
 FILESIZE: -
 ```
 
+## Instructions
+* If you are coming form any ROM based realmeUI-1.0 (cleanflash)
+  * Boot into custom recovery
+  * Format Data
+  * Flash ROM &  Flash Gapps (Optional)
+  * Reboot your device once the installation is done
+
+* If you use the same ROM (dirtyflash)
+  * Boot into custom recovery
+  * Flash ROM &  Flash Gapps (Optional)
+  * Reboot your device once the installation is done
+
 ## Info & Sources
 * Device Info
   * Kernel: 4.14.x
@@ -63,5 +75,3 @@ FILESIZE: -
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
-* 2021-02-08
-  * Initial Build

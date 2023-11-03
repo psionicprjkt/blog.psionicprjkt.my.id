@@ -50,6 +50,25 @@ MD5SUM: 0f72730350fee80165a8e3d4d71d8bd5
 FILESIZE: 1.6 GB (GApps)
 ```
 
+## Instructions
+* If you are coming form any ROM based realmeUI-1.0 (cleanflash)
+  * Boot into custom recovery
+  * Format Data
+  * Flash ROM &  Flash Gapps (Optional)
+  * Flash custom recovery based realmeUI-2.0
+  * Reboot your device once the installation is done
+
+* If you are on any ROM based realmeUI-2.0 (cleanflash)
+  * Boot into custom recovery
+  * Flash ROM &  Flash Gapps (Optional)
+  * Format Data
+  * Reboot your device once the installation is done
+
+* If you use the same ROM (dirtyflash)
+  * Boot into custom recovery
+  * Flash ROM &  Flash Gapps (Optional)
+  * Reboot your device once the installation is done
+
 ## Info & Sources
 * Device Info
   * Kernel: 4.14.x
@@ -64,5 +83,3 @@ FILESIZE: 1.6 GB (GApps)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
-* 0000-00-00
-  * -

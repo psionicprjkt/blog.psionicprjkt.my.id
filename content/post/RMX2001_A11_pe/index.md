@@ -47,6 +47,18 @@ MD5SUM: -
 FILESIZE: -
 ```
 
+## Instructions
+* If you are coming form any ROM based realmeUI-1.0 (cleanflash)
+  * Boot into custom recovery
+  * Format Data
+  * Flash ROM &  Flash Gapps (Optional)
+  * Reboot your device once the installation is done
+
+* If you use the same ROM (dirtyflash)
+  * Boot into custom recovery
+  * Flash ROM &  Flash Gapps (Optional)
+  * Reboot your device once the installation is done
+
 ## Info & Sources
 * Device Info
   * Kernel: 4.14.x
