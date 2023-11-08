@@ -1,5 +1,5 @@
 ---
-title: psionic for RMX2001
+title: psionic Kernel for RMX2001
 description: Custom Kernel for Realme 6, 6s, 6i and Narzo (RMX2001/02/03)
 date: 2023-10-15
 slug: KERNEL/RMX2001/psionic

@@ -1,5 +1,5 @@
 ---
-title: SYNTXforce ULTIMATE for RMX2001
+title: SYNTXforce Kernel for RMX2001
 description: Custom Kernel for Realme 6, 6s, 6i and Narzo (RMX2001/02/03)
 date: 2021-09-30
 slug: KERNEL/RMX2001/SYNTXforce/releases
