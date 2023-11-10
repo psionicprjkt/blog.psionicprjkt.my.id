@@ -1,7 +1,7 @@
 ---
 title: PixelOS (Android-13) for RM6785
 description: Custom ROM for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
-date: 2023-10-05
+date: 2023-11-11
 slug: ROM/RM6785/PixelOS/A13
 image: main.png
 categories:
@@ -28,23 +28,20 @@ Camera | VoLTE | ✓ | ✓
 * Native video calling (ViLTE) and Voice over WiFi (VoWiFi)
 
 ## Latest Changelog
-* 2023-10-05
-  * Backport October 2023 ASB
-  * Add back realmeDirac (settings/sounds)
-  * Include ViperFX-RE blobs (app not included)
-  * Fixed random bluetooth disconnection
-  * Upstreamed kernel to version 4.14.326
-  * Import powerhint from Rosemary
-  * Silence OpenGLRenderer log spam
-  * Address more sepolicy denials
+* 2023-11-11
+  * November 2023 ASB
+  * Updated KernelSU to v0.7.0
+  * Upstreamed kernel to v4.14.329
+  * Rebrand parts to psionic Lab v2.0
+  * Updated parts* with new features
 
 ## Downloads
-[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/PixelOS-A13/PixelOS_RM6785-13.0-20231004-1250.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/Y4K4vTEjfN19gvMb6)
+[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/PixelOS-A13/PixelOS_RM6785-13.0-20231110-1255.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/Y4K4vTEjfN19gvMb6)
 
 ```
-FILE: PixelOS_RM6785-13.0-20231004-1250.zip
-MD5SUM: 337c3cf654208acd241c2dbc1d723d84
-FILESIZE: 1.7 GB (Inc. GApps)
+FILE: PixelOS_RM6785-13.0-20231110-1255.zip
+MD5SUM: f24b165d1113b327e2666a9fb41ae1f6
+FILESIZE: 1.71 GB (Inc. GApps)
 ```
 
 ## Instructions
@@ -80,6 +77,16 @@ FILESIZE: 1.7 GB (Inc. GApps)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2023-10-05
+  * Backport October 2023 ASB
+  * Add back realmeDirac (settings/sounds)
+  * Include ViperFX-RE blobs (app not included)
+  * Fixed random bluetooth disconnection
+  * Upstreamed kernel to version 4.14.326
+  * Import powerhint from Rosemary
+  * Silence OpenGLRenderer log spam
+  * Address more sepolicy denials
+
 * 2023-09-21
   * September 2023 ASB
   * Switch to user build
