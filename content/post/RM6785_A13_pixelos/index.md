@@ -3,7 +3,7 @@ title: PixelOS (Android-13) for RM6785
 description: Custom ROM for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
 date: 2023-11-11
 slug: ROM/RM6785/PixelOS/A13
-image: main.png
+image: main.jpg
 categories:
     - UNOFFICIAL
 tags:
@@ -28,20 +28,24 @@ Camera | VoLTE | ✓ | ✓
 * Native video calling (ViLTE) and Voice over WiFi (VoWiFi)
 
 ## Latest Changelog
-* 2023-11-11
-  * November 2023 ASB
-  * Updated KernelSU to v0.7.0
-  * Upstreamed kernel to v4.14.329
-  * Rebrand parts to psionic Lab v2.0
-  * Updated parts* with new features
+* 2023-12-12
+  * December 2023 ASB
+  * Updated KernelSU to v0.7.1
+  * Upstreamed Kernel to v4.14.332
+  * Fixed misspick Force LTE CA feature
+  * Disable some debug/logging feature
+  * Set default volume panel on the left side
+  * Updated driver ViPER4Android-RE to v0.6.1
+  * psionic Lab: Added Set & Lock GPU freq, Logcat Disabler, Indonesian translations & Improve icons
+  * Kernel changes: Compiled with AOSP Clang 17.0.4, Import some config from rui1.0, Use 250 to Kernel Timer (like rui1.0) & Silence more log spams
 
 ## Downloads
-[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/PixelOS-A13/PixelOS_RM6785-13.0-20231110-1255.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/Y4K4vTEjfN19gvMb6)
+[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/PixelOS-A13/PixelOS_RM6785-13.0-20231212-0311.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/Y4K4vTEjfN19gvMb6)
 
 ```
-FILE: PixelOS_RM6785-13.0-20231110-1255.zip
-MD5SUM: f24b165d1113b327e2666a9fb41ae1f6
-FILESIZE: 1.71 GB (Inc. GApps)
+FILE: PixelOS_RM6785-13.0-20231212-0311.zip
+MD5SUM: c63af8dc1f59955c9beb8a4923d43fb2
+FILESIZE: 1.69 GB (Inc. GApps)
 ```
 
 ## Instructions
@@ -77,6 +81,16 @@ FILESIZE: 1.71 GB (Inc. GApps)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2023-11-12
+  * November November 2023 ASB
+  * Updated KernelSU to v0.7.0
+  * Upstreamed kernel to v4.14.329
+  * Fixed CPU freq being locked in Power Save mode, causing lags in certain scenarios [HotFix]
+  * Optimized & Increase caching of apps from android-14
+  * Rebranded parts to Psionic Lab v2.0
+  * Updated parts* with new features
+  * Minor animation improvements
+
 * 2023-10-05
   * Backport October 2023 ASB
   * Add back realmeDirac (settings/sounds)
