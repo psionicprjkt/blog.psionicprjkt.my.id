@@ -6,6 +6,7 @@ slug: ROM/RMX2001/DotOS/A11
 image: main.png
 categories:
     - UNOFFICIAL
+    - DISCONTINUE
 tags:
     - ROM
 ---
