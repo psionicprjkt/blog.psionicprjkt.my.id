@@ -3,7 +3,7 @@ title: PixelOS (Android-12L) for RM6785
 description: Custom ROM for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
 date: 2022-05-18
 slug: ROM/RM6785/PixelOS/A12
-image: main.png
+image: main.jpg
 categories:
     - UNOFFICIAL
     - DISCONTINUE

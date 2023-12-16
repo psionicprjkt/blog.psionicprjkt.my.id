@@ -3,7 +3,7 @@ title: Nusantara Project v5.5 (Android-13) for RM6785
 description: Custom ROM for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
 date: 2023-02-24
 slug: ROM/RM6785/NusantaraProject-ROM/A13
-image: main.png
+image: main.jpg
 categories:
     - OFFICIAL
 tags:

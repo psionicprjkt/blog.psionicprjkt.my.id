@@ -3,7 +3,7 @@ title: PalladiumOS v2.0 (Android-12) for RMX2001
 description: Custom ROM for Realme 6, 6s, 6i and Narzo (RMX2001/02/03)
 date: 2021-10-28
 slug: ROM/RMX2001/PalladiumOS/A12
-image: main.png
+image: main.jpg
 categories:
     - OFFICIAL
     - DISCONTINUE

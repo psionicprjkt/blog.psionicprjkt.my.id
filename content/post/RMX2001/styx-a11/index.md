@@ -3,7 +3,7 @@ title: StyxProject v1.7 (Android-11) for RMX2001
 description: Custom ROM for Realme 6, 6s, 6i and Narzo (RMX2001/02/03)
 date: 2021-08-18
 slug: ROM/RMX2001/StyxProject/A11
-image: main.png
+image: main.jpg
 categories:
     - UNOFFICIAL
     - DISCONTINUE

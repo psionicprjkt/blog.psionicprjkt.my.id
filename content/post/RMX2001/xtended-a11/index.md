@@ -3,7 +3,7 @@ title: MSM Xtended v5.0 (Android-11) for RMX2001
 description: Custom ROM for Realme 6, 6s, 6i and Narzo (RMX2001/02/03)
 date: 2021-02-23
 slug: ROM/RMX2001/Project-Xtended/A11
-image: main.png
+image: main.jpg
 categories:
     - UNOFFICIAL
     - DISCONTINUE

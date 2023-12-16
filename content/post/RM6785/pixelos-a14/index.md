@@ -29,7 +29,7 @@ Camera | VoLTE | ✓ | ✓
 
 ## Latest Changelog
 * 2023-12-12
-  * DDecember 2023 ASB
+  * December 2023 ASB
   * Fixed Voice over LTE (VoLTE)
   * Fixed Basic and Device Integrity 
   * Added Spoof Bootloader Locked
