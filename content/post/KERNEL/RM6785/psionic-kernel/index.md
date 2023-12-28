@@ -1,7 +1,7 @@
 ---
 title: psionic Kernel for RM6785
 description: Custom Kernel for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
-date: 2023-10-26
+date: 2023-12-21
 slug: KERNEL/RM6785/psionic
 image: main.png
 tags:
@@ -16,21 +16,19 @@ for Custom ROM based realmeUI-2.0
 ```
 
 ## Latest Changelog
-* 2023-10-26
-  * Upstreamed kernel to v4.14.328
-  * Enable more TCP Congestion (all list: bbr,bic,cdg,cubic,dctcp,highspeed,htcp,hybla,illinois,lp,nv,reno,scalable,vegas,veno,westwood,yeah)
-  * To display a list of available TCP congestion controls ( su -c sysctl net.ipv4.tcp_available_congestion_control )
-  * To change it ( ex: su -c echo bbr > /proc/sys/net/ipv4/tcp_congestion_control )
-  * To display currently used ( su -c sysctl net.ipv4.tcp_congestion_control )
-  * KernelSU Support (app: https://github.com/tiann/KernelSU/releases/download/v0.7.0/KernelSU_v0.7.0_11326-release.apk)
+* 2023-12-21
+  * Upstreamed kernel to v4.14.334
 
 ## Downloads
-* [⬇️ psionicKSU-RM6785-26102023-CKsyL5ns.zip](https://t.me/psionicprjktlogs/431)
+* [⬇️ psionic-kernel-RM6785-21122023-release.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/psionic-kernel-RM6785-21122023-release.zip/download)
+* [⬇️ psionic-kernel-RM6785-21122023-release-ksu.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/psionic-kernel-RM6785-21122023-release-ksu.zip/download)
+* [⬇️ psionic-kernel-RM6785-21122023-release-ksu-oc.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/psionic-kernel-RM6785-21122023-release-ksu-oc.zip/download)
 
 ```
-FILE: psionicKernel-RM6785-26102023-CKsyL5ns.zip
-MD5SUM: eeaef541619ac6b23c1ce10cf2425800
-FILESIZE: 22.2 MB
+FILE: psionic-kernel-RM6785-21122023-release.zip (Normal/Non-KSU)
+FILE: psionic-kernel-RM6785-21122023-release-ksu.zip (Inc. KernelSU)
+FILE: psionic-kernel-RM6785-21122023-release-ksu-oc.zip (Inc. KernelSU + Overclock)
+FILESIZE: 22.1 MB (Both)
 ```
 
 ## Info & Sources
@@ -47,10 +45,37 @@ FILESIZE: 22.2 MB
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2023-12-14
+  * Upstreamed kernel to v4.14.333
+  * Compiled with AOSP Clang 17.0.4
+  * Import some config from rui1.0
+  * Use 250 for Kernel Timer (like rui1.0)
+  * Silence more log spams
+
+* 2023-12-09
+  * Upstreamed kernel to v4.14.332
+
+* 2023-11-29
+  * Upstreamed kernel to v4.14.331
+  * gpufreq: Unlock all freq
+
+* 2023-11-21
+  * Upstreamed kernel to v4.14.330
+  * Updated KernelSU to v0.7.1
+
+* 2023-11-10
+  * Upstramed kernel to v4.14.329
+
+* 2023-10-26
+  * Upstreamed kernel to v4.14.328
+  * Enable more TCP Congestion (all list: bbr,bic,cdg,cubic,dctcp,highspeed,htcp,hybla,illinois,lp,nv,reno,scalable,vegas,veno,westwood,yeah)
+  * To display a list of available TCP congestion controls ( su -c sysctl net.ipv4.tcp_available_congestion_control )
+  * To change it ( ex: su -c echo bbr > /proc/sys/net/ipv4/tcp_congestion_control )
+  * To display currently used ( su -c sysctl net.ipv4.tcp_congestion_control )
+
 * 2023-10-24
   * Updated KernelSU to v0.7.0
   * Updated [Security, SU, Module & Kernel (https://t.me/KernelSU/55)]
-  * KernelSU App (Control SU) (https://github.com/tiann/KernelSU/releases/download/v0.7.0/KernelSU_v0.7.0_11326-release.apk)
 
 * 2023-10-12
   * Upstreamed kernel to 4.14.327
@@ -83,7 +108,6 @@ FILESIZE: 22.2 MB
 
 * 2023-03-19
   * Added KernelSU support
-  * KernelSU App (Control SU) (https://github.com/tiann/KernelSU/releases/download/v0.4.0/KernelSU_v0.4.0-release.apk)
 
 * 2023-03-18
   * Upstreamed kernel to 4.14.310
