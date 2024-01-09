@@ -1,7 +1,7 @@
 ---
 title: psionic Kernel for RM6785
 description: Custom Kernel for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
-date: 2023-12-21
+date: 2024-01-09
 slug: KERNEL/RM6785/psionic
 image: main.png
 tags:
@@ -17,18 +17,22 @@ for Custom ROM based realmeUI-2.0
 
 ## Latest Changelog
 * 2023-12-21
-  * Upstreamed kernel to v4.14.334
+  * Upstreamed kernel to v4.14.335
+  * Compiled with AOSP Clang 18.0.0
+  * Silence more log and debug spams
+  * Import GPU GED config from rUI1.0
+  * Updated KernelSU to v0.7.5
 
 ## Downloads
-* [⬇️ psionic-kernel-RM6785-21122023-release.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/psionic-kernel-RM6785-21122023-release.zip/download)
-* [⬇️ psionic-kernel-RM6785-21122023-release-ksu.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/psionic-kernel-RM6785-21122023-release-ksu.zip/download)
-* [⬇️ psionic-kernel-RM6785-21122023-release-ksu-oc.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/psionic-kernel-RM6785-21122023-release-ksu-oc.zip/download)
+* [⬇️ psionic-kernel-RM6785-08012024-release.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/psionic-kernel-RM6785-29112023-release.zip/download)
+* [⬇️ psionic-kernel-RM6785-08012024-release-ksu.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/psionic-kernel-RM6785-29112023-release-ksu.zip/download)
+* [⬇️ psionic-kernel-RM6785-08012024-release-ksu-oc.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/psionic-kernel-RM6785-29112023-release-ksu-oc.zip/download)
 
 ```
-FILE: psionic-kernel-RM6785-21122023-release.zip (Normal/Non-KSU)
-FILE: psionic-kernel-RM6785-21122023-release-ksu.zip (Inc. KernelSU)
-FILE: psionic-kernel-RM6785-21122023-release-ksu-oc.zip (Inc. KernelSU + Overclock)
-FILESIZE: 22.1 MB (Both)
+FILE: psionic-kernel-RM6785-08012024-release.zip (Normal/Non-KSU)
+FILE: psionic-kernel-RM6785-08012024-release-ksu.zip (Inc. KernelSU)
+FILE: psionic-kernel-RM6785-08012024-release-ksu-oc.zip (Inc. KernelSU + Overclock)
+FILESIZE: 23.1 MB (Both)
 ```
 
 ## Info & Sources
@@ -45,6 +49,9 @@ FILESIZE: 22.1 MB (Both)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2023-12-21
+  * Upstreamed kernel to v4.14.334
+
 * 2023-12-14
   * Upstreamed kernel to v4.14.333
   * Compiled with AOSP Clang 17.0.4
