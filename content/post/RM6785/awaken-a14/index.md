@@ -1,7 +1,7 @@
 ---
 title: awakenOS (Android-14) for RM6785
 description: Custom ROM for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
-date: 2024-01-09
+date: 2024-01-22
 slug: ROM/RM6785/awakenOS/A14
 image: main.jpg
 categories:
@@ -28,21 +28,20 @@ Camera | VoLTE | ✓ | ✓
 * Native video calling (ViLTE) and Voice over WiFi (VoWiFi)
 
 ## Latest Changelog
-* 2024-01-09
-  * January 2024 ASB
-  * Updated psionic Lab v3.5 (https://telegra.ph/psionic-Lab-v35-35-01-09)
-  * Updated KernelSU to v0.7.5
+* 2024-01-22
+  * Updated psionic Lab v3.6 (https://telegra.ph/psionic-Lab-v35-35-01-09)
+  * Updated KernelSU to v0.7.6
   * Fixed Basic and Device Integrity
-  * Added Spoof Bootloader Locked
-  * Upstreamed Kernel to v4.14.335
+  * Fixed charging status in Lockscreen
+  * Compiled w/clang 18.0.0 (+FLTO -O3)
 
 ## Downloads
-[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/AwakenOS-A14/awaken-4.2-ursa-RM6785-unofficial-0355-20240109.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/FVVmtXY8CQ8CJadC8)
+[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/AwakenOS-A14/awaken-4.2-ursa-RM6785-unofficial-0419-20240122.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/FVVmtXY8CQ8CJadC8)
 
 ```
-FILE: awaken-4.2-ursa-RM6785-unofficial-0355-20240109.zip
-MD5SUM: c2d7c59bf4cb4fd6903775de6a30fa8e
-FILESIZE: 1.92 GB (Inc. GApps)
+FILE: awaken-4.2-ursa-RM6785-unofficial-0419-20240122.zip
+MD5SUM: de27fd8093f1ff8a4deb3059b744998d
+FILESIZE: 1.93 GB (Inc. GApps)
 ```
 
 ## Instructions
@@ -78,3 +77,23 @@ FILESIZE: 1.92 GB (Inc. GApps)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2024-01-14
+  * Switch to User Build
+  * Drop psionic Lab / Parts
+  * Standalone realme Dirac
+  * Standalone BessLoudness
+  * Set off BessLoudness by default
+  * BBR as default TCP Congestion
+  * Pixel Charging as default KPOC
+  * Include ViPER-RE drivers v0.6.1
+  * Upstreamed Kernel to v4.14.336
+  * Compiled w/Clang 17.0.4 + Full LTO
+  * gpufreq 821MHz only for R6 Series
+
+* 2024-01-09
+  * January 2024 ASB
+  * Updated psionic Lab v3.5 (https://telegra.ph/psionic-Lab-v35-35-01-09)
+  * Updated KernelSU to v0.7.5
+  * Fixed Basic and Device Integrity
+  * Added Spoof Bootloader Locked
+  * Upstreamed Kernel to v4.14.335
