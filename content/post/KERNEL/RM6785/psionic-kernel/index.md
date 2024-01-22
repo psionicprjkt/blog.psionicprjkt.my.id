@@ -1,7 +1,7 @@
 ---
 title: psionic Kernel for RM6785
 description: Custom Kernel for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
-date: 2024-01-09
+date: 2024-01-19
 slug: KERNEL/RM6785/psionic
 image: main.png
 tags:
@@ -16,23 +16,21 @@ for Custom ROM based realmeUI-2.0
 ```
 
 ## Latest Changelog
-* 2023-12-21
-  * Upstreamed kernel to v4.14.335
-  * Compiled with AOSP Clang 18.0.0
-  * Silence more log and debug spams
-  * Import GPU GED config from rUI1.0
-  * Updated KernelSU to v0.7.5
+* 2024-01-19
+  * Initial rebase r1
+  * BBR as default TCP Congestion
+  * gpufreq max 821MHz for R6 Series
+  * Updated KernelSU to v0.7.6 (11458)
+  * Compiled w/clang 18.0.0 (+FLTO -O3)
 
 ## Downloads
-* [⬇️ psionic-kernel-RM6785-08012024-release.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/psionic-kernel-RM6785-29112023-release.zip/download)
-* [⬇️ psionic-kernel-RM6785-08012024-release-ksu.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/psionic-kernel-RM6785-29112023-release-ksu.zip/download)
-* [⬇️ psionic-kernel-RM6785-08012024-release-ksu-oc.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/psionic-kernel-RM6785-29112023-release-ksu-oc.zip/download)
+* [⬇️ psionic-kernel-RM6785-08012024-release.zip](https://s.id/20ua6)
+* [⬇️ psionic-kernel-RM6785-08012024-release-ksu.zip](https://s.id/20tuC)
 
 ```
-FILE: psionic-kernel-RM6785-08012024-release.zip (Normal/Non-KSU)
-FILE: psionic-kernel-RM6785-08012024-release-ksu.zip (Inc. KernelSU)
-FILE: psionic-kernel-RM6785-08012024-release-ksu-oc.zip (Inc. KernelSU + Overclock)
-FILESIZE: 23.1 MB (Both)
+FILE: psionic-kernel-RM6785-19012024-release.zip (Normal/Non-KSU)
+FILE: psionic-kernel-RM6785-19012024-release-ksu.zip (Inc. KernelSU)
+FILESIZE: 23 MB (Both)
 ```
 
 ## Info & Sources
@@ -49,6 +47,16 @@ FILESIZE: 23.1 MB (Both)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2024-01-11
+  * Upstreamed kernel to v4.14.336
+
+* 2023-12-21
+  * Upstreamed kernel to v4.14.335
+  * Compiled with AOSP Clang 18.0.0
+  * Silence more log and debug spams
+  * Import GPU GED config from rUI1.0
+  * Updated KernelSU to v0.7.5
+
 * 2023-12-21
   * Upstreamed kernel to v4.14.334
 
