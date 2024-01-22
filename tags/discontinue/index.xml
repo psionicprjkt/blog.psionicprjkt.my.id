@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DISCONTINUE on psionicprjkt</title><link>http://blog.psionicprjkt.my.id/tags/discontinue/</link><description>Recent content in DISCONTINUE on psionicprjkt</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 30 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.psionicprjkt.my.id/tags/discontinue/index.xml" rel="self" type="application/rss+xml"/><item><title>SYNTXforce Kernel for RMX2001</title><link>http://blog.psionicprjkt.my.id/p/kernel/rmx2001/syntxforce/releases/</link><pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/kernel/rmx2001/syntxforce/releases/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/kernel/rmx2001/syntxforce/releases/main.png" alt="Featured image of post SYNTXforce Kernel for RMX2001" />&lt;h2 id="about-kernel">About Kernel&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">SYNTXforce 究極 (Kyūkyoku)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Custom Kernel for RMX2001 (R1)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">for Custom ROM based rUI-1.0
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="latest-changelog">Latest Changelog&lt;/h2>
+&lt;ul>
+&lt;li>2021-09-30
+&lt;ul>
+&lt;li>Improve TCP connectivity&lt;/li>
+&lt;li>Fix size argument errors&lt;/li>
+&lt;li>Silence dmesg &amp;amp; misc spam&lt;/li>
+&lt;li>Drop some oppo defconfigs&lt;/li>
+&lt;li>Fix misleading indentations&lt;/li>
+&lt;li>Remove console args from cmdline&lt;/li>
+&lt;li>Purge as much CMDQ_LOGs as possible&lt;/li>
+&lt;li>Remove string &amp;ndash;dirty localversion&lt;/li>
+&lt;li>Drop oppo kevent upload/feedback crap&lt;/li>
+&lt;li>Add CONFIG_DISABLE_TRACE_PRINTK option&lt;/li>
+&lt;li>Stop using printk and switch to pr_debug instead&lt;/li>
+&lt;li>Fix invalid casting from a void to an enumerator&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/PutuDevelopers/updates/releases/download/SYNTXforce/SYNTXforce-R1-v12-30092021-RMX2001.zip" target="_blank" rel="noopener"
+>⬇️ SYNTXforce-R1-v12-30092021-RMX2001.zip&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/PutuDevelopers/updates/releases/download/SYNTXforce/SYNTXforce-R1-v13-30092021-RMX2001.zip" target="_blank" rel="noopener"
+>⬇️ SYNTXforce-R1-v13-30092021-RMX2001.zip&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: v12 (Compiled using Gengkapak-C12)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILE: v13 (Compiled using Proton-C13)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 13 MB (Both)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="info--sources">Info &amp;amp; Sources&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785 Helio G90T - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group&lt;/h3>
+&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog&lt;/h2></description></item></channel></rss>
