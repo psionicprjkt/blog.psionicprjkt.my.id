@@ -1,11 +1,12 @@
 ---
 title: psionic Kernel for RM6785
 description: Custom Kernel for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
-date: 2024-01-19
+date: 2024-04-07
 slug: KERNEL/RM6785/psionic
 image: main.png
 tags:
     - KERNEL
+    - DISCONTINUE
 ---
 
 ## About Kernel
@@ -16,12 +17,10 @@ for Custom ROM based realmeUI-2.0
 ```
 
 ## Latest Changelog
-* 2024-01-19
-  * Initial rebase r1
-  * BBR as default TCP Congestion
-  * gpufreq max 821MHz for R6 Series
-  * Updated KernelSU to v0.7.6 (11458)
-  * Compiled w/clang 18.0.0 (+FLTO -O3)
+* 2024-04-07
+  * Upstreamed kernel to v4.14.341
+  * Compiled with -O3 optimization and LLVM Polly
+  * Reduces power consumption during suspended state
 
 ## Downloads
 * [⬇️ psionic-kernel-RM6785-08012024-release.zip](https://s.id/20ua6)
@@ -47,6 +46,66 @@ FILESIZE: 23 MB (Both)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2024-04-02
+  * Update version to r2
+  * Added patch to support U-QPR2
+  * Update KernelSU to v0.9.2-S (11749)
+
+* 2024-03-23
+  * Upstreamed kernel to v4.14.340
+
+* 2024-03-22
+  * Update KernelSU to v0.9.2 (11682)
+
+* 2024-03-20
+  * Update version to r4
+  * Improve network connections
+  * Updated KernelSU to v0.9.0 (11657)
+  * fs: Backport path_umount KSU <GKI>
+
+* 2024-03-17
+  * Update version to r3
+  * Upstreamed kernel to v4.14.339 (OpenELA)
+  * Compiled with AOSP Clang 18.0.1
+  * Reduce / set low log buff debugging
+  * Disable power-related debugging
+  * Improve net & tcp connections
+  * kernel-sched: Reduce latency
+  * Drop scheduler switch debugging
+  * Switch kernel timer freq to 300HZ
+  * Disable CONFIG_SCHEDSTATS
+  * gen4m: Disable WLAN wakelocks
+  * Improve sched-tune from stock RUI1
+  * Drop more MTK debugging features
+  * Updated KernelSU to latest (11629)
+
+* 2024-02-26
+  * Updated KernelSU to v0.8.1 (11569)
+
+* 2024-02-24
+  * Updated KernelSU to v0.8.0 + latest main branch (11553)
+
+* 2024-02-11
+  * Update version to r2
+  * Switch back to stable clang 17.0.4
+  * Import WireGuard v1.0.20220627
+  * Disabled software CRCs for perf
+  * Reduce ged_ge for memory efficiency
+  * Reduce ged_kpi for perf efficiency
+  * Disable WALT scheduling
+  * Disable more logspams
+
+* 2024-01-25
+  * Switch to r1b1
+  * Compiled with WeebX-Clang 19.0.0
+
+* 2024-01-19
+  * Initial rebase r1
+  * BBR as default TCP Congestion
+  * gpufreq max 821MHz for R6 Series
+  * Updated KernelSU to v0.7.6 (11458)
+  * Compiled w/clang 18.0.0 (+FLTO -O3)
+
 * 2024-01-11
   * Upstreamed kernel to v4.14.336
 

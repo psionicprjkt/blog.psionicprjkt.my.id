@@ -1,11 +1,12 @@
 ---
 title: psionic Kernel for RMX2001
 description: Custom Kernel for Realme 6, 6s, 6i and Narzo (RMX2001/02/03)
-date: 2024-01-21
+date: 2024-03-22
 slug: KERNEL/RMX2001/psionic
 image: main.png
 tags:
     - KERNEL
+    - DISCONTINUE
 ---
 
 ## About Kernel
@@ -16,16 +17,22 @@ for Custom ROM based realmeUI-1.0 (android 11)
 ```
 
 ## Latest Changelog
-* 2024-01-21
-  * Updated KernelSU to v0.7.6 (11458)
+* 2024-03-22
+  * Update version to r3
+  * Disable power-related debugging
+  * Improve net & tcp connections
+  * kernel-sched: Reduce latency
+  * Update KernelSU to v0.9.2 (11682)
+  * fs: Backport path_umount KSU <GKI>
+  * Drop more MTK debugging features
 
 ## Downloads
-* [⬇️ psionic-kernel-RMX2001-21012024-r1.zip](https://s.id/20EzR)
-* [⬇️ psionic-kernel-RMX2001-21012024-r1-ksu.zip](https://s.id/20EzY)
+* [⬇️ psionic-kernel-RMX2001-22032024-r3.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RMX2001/psionic-kernel-RMX2001-22032024-r3.zip/download)
+* [⬇️ psionic-kernel-RMX2001-22032024-r3-ksu.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RMX2001/psionic-kernel-RMX2001-22032024-r3-ksu.zip/download)
 
 ```
 FILE: psionic-kernel-RMX2001-08012024-release.zip
-FILESIZE: 13.5 MB (Both)
+FILESIZE: 13 MB (Both)
 ```
 
 ## Info & Sources
@@ -41,6 +48,19 @@ FILESIZE: 13.5 MB (Both)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2024-04-26
+  * Updated KernelSU to v0.8.1 (11569)
+
+* 2024-02-24
+  * Update version to r2
+  * Import WireGuard v1.0.20220627
+  * Updated KernelSU to v0.8.0 + latest main branch (11553)
+  * Disabled software CRCs for perf
+  * Disable more logspams
+
+* 2024-01-21
+  * Updated KernelSU to v0.7.6 (11458)
+
 * 2024-01-08
   * Updated KernelSU to v0.7.5
 
