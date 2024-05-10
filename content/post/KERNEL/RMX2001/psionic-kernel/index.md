@@ -31,7 +31,8 @@ for Custom ROM based realmeUI-1.0 (android 11)
 * [⬇️ psionic-kernel-RMX2001-22032024-r3-ksu.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RMX2001/psionic-kernel-RMX2001-22032024-r3-ksu.zip/download)
 
 ```
-FILE: psionic-kernel-RMX2001-08012024-release.zip
+FILE: psionic-kernel-RMX2001-22032024-r3-ksu.zip (Normal/Non-KSU)
+FILE: psionic-kernel-RMX2001-22032024-r3-ksu.zip (Inc. KernelSU)
 FILESIZE: 13 MB (Both)
 ```
 

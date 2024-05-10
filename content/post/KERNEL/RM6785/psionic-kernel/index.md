@@ -23,13 +23,13 @@ for Custom ROM based realmeUI-2.0
   * Reduces power consumption during suspended state
 
 ## Downloads
-* [⬇️ psionic-kernel-RM6785-08012024-release.zip](https://s.id/20ua6)
-* [⬇️ psionic-kernel-RM6785-08012024-release-ksu.zip](https://s.id/20tuC)
+* [⬇️ psionic-kernel-RM6785-07042024-r5.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/psionic-kernel-RM6785-07042024-r5.zip/download)
+* [⬇️ psionic-kernel-RM6785-07042024-r5-ksu.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/psionic-kernel-RM6785-07042024-r5-ksu.zip/download)
 
 ```
-FILE: psionic-kernel-RM6785-19012024-release.zip (Normal/Non-KSU)
-FILE: psionic-kernel-RM6785-19012024-release-ksu.zip (Inc. KernelSU)
-FILESIZE: 23 MB (Both)
+FILE: psionic-kernel-RM6785-07042024-r5.zip (Normal/Non-KSU)
+FILE: psionic-kernel-RM6785-07042024-r5-ksu.zip (Inc. KernelSU)
+FILESIZE: 22.7 MB (Both)
 ```
 
 ## Info & Sources
@@ -47,7 +47,7 @@ FILESIZE: 23 MB (Both)
 
 ## Old Changelog
 * 2024-04-02
-  * Update version to r2
+  * Update version to r5
   * Added patch to support U-QPR2
   * Update KernelSU to v0.9.2-S (11749)
 
