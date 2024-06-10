@@ -1,7 +1,7 @@
 ---
 title: awakenOS (Android-14) for RM6785
 description: Custom ROM for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
-date: 2024-04-21
+date: 2024-05-21
 slug: ROM/RM6785/awakenOS/A14
 image: main.jpg
 categories:
@@ -28,25 +28,21 @@ Camera | VoLTE | ✓ | ✓
 * Native video calling (ViLTE) and Voice over WiFi (VoWiFi)
 
 ## Latest Changelog
-* 2024-04-21
-  * April 2024 ASB (QPR2)
-  * Added JamesDSP driver v6.0
-  * Added Refresh Rate mode QS tile
-  * Fix switch data QST gone after restart
-  * Fix audio effects not applying (A14)
-  * Updated psionic Lab v3.7 (https://telegra.ph/psionic-Lab-v35-35-01-09) (Fix QPR2)
-  * Updated to latest pixel off-charging
-  * Updated KernelSU to v0.9.2
-  * Upstreamed Kernel to v4.14.343
-  * Compiled with ZyC clang 19.0.0
-  * Note: "If apps are FC after dirty flash (from Awaken Feb QPR1), go to 'Settings -> Reset option -> Reset app preferences' and remember to re-enable permissions.""
+* 2024-05-21
+  * May 2024 ASB
+  * Updated psionic Lab v3.8 (https://telegra.ph/psionic-Lab-v35-35-01-09)
+  * Updated KernelSU to v0.9.4
+  * Upstreamed Kernel to v4.14.344
+  * Compiled with AOSP clang 18.0.1
+  * Fix Basic and Device Integrity (19/05)
+  * Fix failed to execute pm in terminal (ksu)
 
 ## Downloads
-[⬇️ Download](https://sourceforge.net/projects/psionicprjkt/files/RM6785/AwakenOS-A14/awaken-4.4-ursa-RM6785-unofficial-0556-20240421.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/FVVmtXY8CQ8CJadC8)
+[⬇️ AwakenOS-A14/awaken-4.5-ursa-RM6785-unofficial-1034-20240520.zip](https://sourceforge.net/projects/psionicprjkt/files/RM6785/AwakenOS-A14/awaken-4.5-ursa-RM6785-unofficial-1034-20240520.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/FVVmtXY8CQ8CJadC8)
 
 ```
-FILE: awaken-4.4-ursa-RM6785-unofficial-0556-20240421.zip
-MD5SUM: eacefb4d09e33ab3940e8cad527db355
+FILE: AwakenOS-A14/awaken-4.5-ursa-RM6785-unofficial-1034-20240520.zip
+MD5SUM: c51d307177d4965a350187a7b7ef127b
 FILESIZE: 1.97 GB (Inc. GApps)
 ```
 
@@ -83,6 +79,19 @@ FILESIZE: 1.97 GB (Inc. GApps)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2024-04-21
+  * April 2024 ASB (QPR2)
+  * Added JamesDSP driver v6.0
+  * Added Refresh Rate mode QS tile
+  * Fix switch data QST gone after restart
+  * Fix audio effects not applying (A14)
+  * Updated psionic Lab v3.7 (https://telegra.ph/psionic-Lab-v35-35-01-09) (Fix QPR2)
+  * Updated to latest pixel off-charging
+  * Updated KernelSU to v0.9.2
+  * Upstreamed Kernel to v4.14.343
+  * Compiled with ZyC clang 19.0.0
+  * Note: "If apps are FC after dirty flash (from Awaken Feb QPR1), go to 'Settings -> Reset option -> Reset app preferences' and remember to re-enable permissions.""
+
 * 2024-02-16
   * February 2024 ASB
   * Shipped with psionic kernel r2 (https://t.me/psionicprjktlogs/471)

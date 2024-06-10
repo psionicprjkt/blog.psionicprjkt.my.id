@@ -1,7 +1,7 @@
 ---
 title: Neural Kernel for RM6785
 description: Custom Kernel for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
-date: 2024-05-09
+date: 2024-06-05
 slug: KERNEL/RM6785/Neural
 image: main.jpg
 tags:
@@ -16,21 +16,19 @@ for Custom ROM based realmeUI-2.0
 ```
 
 ## Latest Changelog
-* 2024-05-09
-  * Upstreamed Kernel to v4.14.344
-  * Improve perf with Clang Polly
-  * Improve perf with inline optimization
-  * Optimize subsystems with -O3
-  * Updated KernelSU v0.9.4
+* 2024-06-05
+  * Upstreamed Kernel to v4.14.348
 
 ## Downloads
-* [⬇️ Neural-kernel-RM6785-09052024-R2.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/Neural-kernel-RM6785-09052024-R2.zip/download)
-* [⬇️ Neural-kernel-RM6785-09052024-R2-ksu.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/Neural-kernel-RM6785-09052024-R2-ksu.zip/download)
+* [⬇️ Neural-kernel-RM6785-05062024-b0ba341.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/Neural-kernel-RM6785-05062024-b0ba341.zip/download)
+* [⬇️ Neural-kernel-RM6785-05062024-b0ba341-ksu.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/Neural-kernel-RM6785-05062024-b0ba341-ksu.zip/download)
+* [⬇️ Neural-kernel-RM6785-05062024-7bdb7b4-ksu-oc.zip](https://sourceforge.net/projects/psionicprjkt/files/KERNEL/RM6785/Neural-kernel-RM6785-05062024-7bdb7b4-ksu-oc.zip/download)
 
 ```
-FILE: Neural-kernel-RM6785-09052024-R2.zip (Normal/Non-KSU)
-FILE: Neural-kernel-RM6785-09052024-R2-ksu.zip (Inc. KernelSU)
-FILESIZE: 27.1 MB (Both)
+FILE: Neural-kernel-RM6785-05062024-b0ba341.zip (Normal/Non-KSU)
+FILE: Neural-kernel-RM6785-05062024-b0ba341-ksu.zip (Inc. KernelSU)
+FILE: Neural-kernel-RM6785-05062024-7bdb7b4-ksu-oc.zip (Inc. KernelSU + Overclock)
+FILESIZE: 23.2 MB
 ```
 
 ## Info & Sources
@@ -47,6 +45,33 @@ FILESIZE: 27.1 MB (Both)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2024-06-04
+  * Upstreamed Kernel to v4.14.347
+
+* 2024-06-03
+  * Upstreamed Kernel to v4.14.346
+
+* 2024-06-02
+  * Updated KernelSU v0.9.5
+
+* 2024-05-31
+  * Upstreamed Kernel to v4.14.345
+
+* 2024-05-27
+  * Drop Neural version, use codename
+  * Enable nintendo switch controller driver
+  * treewide: Use power efficient wq
+  * Overclock BIG Cluster 2200 Mhz (OC)
+  * Overclock GPU 900 Mhz (OC)
+  * Updated KernelSU (main 11868)
+
+* 2024-05-09
+  * Upstreamed Kernel to v4.14.344
+  * Improve perf with Clang Polly
+  * Improve perf with inline optimization
+  * Optimize subsystems with -O3
+  * Updated KernelSU v0.9.4
+
 * 2024-05-05
   * Bump version to R2
   * Added TCP BBRv2 (default still BBRv1)
