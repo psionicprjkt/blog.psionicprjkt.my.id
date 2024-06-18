@@ -1,0 +1,3515 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DISCONTINUE on psionicprjkt</title><link>http://blog.psionicprjkt.my.id/categories/discontinue/</link><description>Recent content in DISCONTINUE on psionicprjkt</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 24 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.psionicprjkt.my.id/categories/discontinue/index.xml" rel="self" type="application/rss+xml"/><item><title>PixelOS (Android-14) for RM6785</title><link>http://blog.psionicprjkt.my.id/p/rom/rm6785/pixelos/a14/</link><pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rm6785/pixelos/a14/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rm6785/pixelos/a14/main.jpg" alt="Featured image of post PixelOS (Android-14) for RM6785" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>PixelOS is an AOSP based ROM, with Google apps included and all Pixel goodies, a fork of Pixel Experience with improvements on the top of it. The Pixel Experience team deserves a lot of credit for their efforts, and we owe them a debt of gratitude for making this ROM possible.&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Native video calling (ViLTE) and Voice over WiFi (VoWiFi)&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2023-12-24
+&lt;ul>
+&lt;li>Synced latest resources (&lt;a class="link" href="https://t.me/PixelOSOfficial/620" target="_blank" rel="noopener"
+>https://t.me/PixelOSOfficial/620&lt;/a>)&lt;/li>
+&lt;li>Fixed Basic and Device Integrity&lt;/li>
+&lt;li>Fixed MTK Engineer Mode crashing&lt;/li>
+&lt;li>Fixed RR Locked at 30FPS when PIP/Videos&lt;/li>
+&lt;li>Drop Latching Buffer configuration&lt;/li>
+&lt;li>Use oplus doze from device configs&lt;/li>
+&lt;li>Use charging control from ROM configs&lt;/li>
+&lt;li>Upstreamed Kernel to v4.14.334&lt;/li>
+&lt;li>Compiled with AOSP Clang 18.0.0&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="https://sourceforge.net/projects/psionicprjkt/files/RM6785/PixelOS-A14/PixelOS_RM6785-14.0-20231223-1147.zip/download" target="_blank" rel="noopener"
+>⬇️ Download&lt;/a> | &lt;a class="link" href="https://photos.app.goo.gl/ecuWdSBtz7cPX5o9A" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: PixelOS_RM6785-14.0-20231223-1147.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: cff232808d4094f0d000225cb0509354
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 1.93 GB (Inc. GApps)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Flash custom recovery based realmeUI-2.0&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you are on any ROM based realmeUI-2.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785V/CD - MT6785V/CC - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/realme-mt6785-devs" target="_blank" rel="noopener"
+>realme-mt6785-devs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2023-12-12
+&lt;ul>
+&lt;li>December 2023 ASB&lt;/li>
+&lt;li>Fixed Voice over LTE (VoLTE)&lt;/li>
+&lt;li>Fixed Basic and Device Integrity&lt;/li>
+&lt;li>Added Spoof Bootloader Locked&lt;/li>
+&lt;li>Upstreamed Kernel to v4.14.333&lt;/li>
+&lt;li>Updated ViPER-RE driver to v0.6.1&lt;/li>
+&lt;li>Import LMKD and Bluetooth props from other Android 14 mtk devices&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>DotOS v5.2.1 (Android-11) for RMX2001</title><link>http://blog.psionicprjkt.my.id/p/rom/rmx2001/dotos/a11/</link><pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rmx2001/dotos/a11/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rmx2001/dotos/a11/main.png" alt="Featured image of post DotOS v5.2.1 (Android-11) for RMX2001" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>Droid on Time | A beautiful custom ROM based on AOSP, which endeavors the essence of &amp;ldquo;Simple&amp;rdquo;, &amp;ldquo;Unique&amp;rdquo;, &amp;ldquo;Secure&amp;rdquo;. DroidOnTime is a custom Android firmware. It was launched with an aim to provide Unique user interface and Optimum performance that too keeping in mind the balance between performance and battery life. dotOS is based on Google&amp;rsquo;s Android Open Source Project with Hand-picked goodies, innovative ideas and creative things that are added in the rom to enhance user experience!&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Extra cameras&lt;/li>
+&lt;li>Night light flickers (WK (&lt;a class="link" href="https://pastebin.ubuntu.com/p/Cnr28VHdw8/" target="_blank" rel="noopener"
+>https://pastebin.ubuntu.com/p/Cnr28VHdw8/&lt;/a>))&lt;/li>
+&lt;li>Native video calling (ViLTE)&lt;/li>
+&lt;li>Voice over WiFi (VoWiFi)&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2021-11-07
+&lt;ul>
+&lt;li>SELinux Enforcing&lt;/li>
+&lt;li>Silence spammy all logtags&lt;/li>
+&lt;li>Passes SafetyNet out-of-the-box&lt;/li>
+&lt;li>Re-adjusted status bar paddings&lt;/li>
+&lt;li>Updated Camera Go v3.8.476835377&lt;/li>
+&lt;li>Cleanup unused overlay configuration&lt;/li>
+&lt;li>Cleanup unsued properties configuration&lt;/li>
+&lt;li>Rebrand parts to psionic Lab v1.0 (R)&lt;/li>
+&lt;li>Updated psionic Lab with new features: GPU Governor, Disable Thermal Services, All TCP Congestion configuration, Improve some strings and allow users to swipe/clear charging control notifications.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="https://sourceforge.net/projects/psionicprjkt/files/RMX2001/DotOS-A11/dotOS-R-v5.2.1-RMX2001-UNOFFICIAL-20231107-0802.zip/download" target="_blank" rel="noopener"
+>⬇️ Download&lt;/a> | &lt;a class="link" href="https://photos.app.goo.gl/s32iwXFhXffemQhV6" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: dotOS-R-v5.2.1-RMX2001-UNOFFICIAL-20231107-0802.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: 99f691dff4ddaa2ba6deb076e32eb474
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 717 MB (Vanilla)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785 Helio G90T - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2></description></item><item><title>ProtonPlus (Android-13) for RM6785</title><link>http://blog.psionicprjkt.my.id/p/rom/rm6785/protonplus/a13/</link><pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rm6785/protonplus/a13/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rm6785/protonplus/a13/main.png" alt="Featured image of post ProtonPlus (Android-13) for RM6785" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>Functionally Minimalistic! protonplus is a Custom After Market OS based on AOSP with enhancements tweaks from ProtonAOSP and some nifty little Quality of Life features to enhance your daily driving experience.&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Native video calling (ViLTE) and Voice over WiFi (VoWiFi)&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2023-10-05
+&lt;ul>
+&lt;li>Initial &amp;amp; EOL Build&lt;/li>
+&lt;li>October 2023 ASB (Thanks LOS)&lt;/li>
+&lt;li>Upstreamed kernel to v4.14.327&lt;/li>
+&lt;li>Import powerhint from Rosemary&lt;/li>
+&lt;li>Updated KernelSU stable tag v0.6.9&lt;/li>
+&lt;li>Updated Parts* with new features&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="https://sourceforge.net/projects/psionicprjkt/files/RM6785/protonplus-A13/ProtonPlus-13.3-EOL-RM6785-COMMUNITY-Vanilla-20231013-113917.zip/download" target="_blank" rel="noopener"
+>⬇️ Download&lt;/a> | &lt;a class="link" href="https://photos.app.goo.gl/yiqap9A6RyN9rhzF8" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: ProtonPlus-13.3-EOL-RM6785-COMMUNITY-Vanilla-20231013-113917.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: 566a64da61e96f75dc4dd55f7556ff03
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 1.08 GB (Vanilla)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Flash custom recovery based realmeUI-2.0&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you are on any ROM based realmeUI-2.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785V/CD - MT6785V/CC - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/realme-mt6785-devs" target="_blank" rel="noopener"
+>realme-mt6785-devs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2></description></item><item><title>awakenOS (Android-13) for RM6785</title><link>http://blog.psionicprjkt.my.id/p/rom/rm6785/awakenos/a13/</link><pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rm6785/awakenos/a13/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rm6785/awakenos/a13/main.jpg" alt="Featured image of post awakenOS (Android-13) for RM6785" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>Awaken OS brings consistent, fluent and smooth experience with all your must-have customizations, for you, for the community, for everyone.&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Native video calling (ViLTE) and Voice over WiFi (VoWiFi)&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2023-10-13
+&lt;ul>
+&lt;li>October 2023 ASB (Thanks LOS)&lt;/li>
+&lt;li>Upstreamed kernel to v4.14.327&lt;/li>
+&lt;li>Import powerhint from Rosemary&lt;/li>
+&lt;li>Updated KernelSU stable tag v0.6.9&lt;/li>
+&lt;li>Fixed random bluetooth disconnection&lt;/li>
+&lt;li>Updated Additional Settings with new features: GPU Governor, Disable Thermal Services, TCP Congestion configuration, and allow users to swipe/clear smart charging notifications&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="https://sourceforge.net/projects/psionicprjkt/files/RM6785/AwakenOS-13/awaken-3.10-triton_void-RM6785-unofficial-2149-20231012.zip/download" target="_blank" rel="noopener"
+>⬇️ Download&lt;/a> | &lt;a class="link" href="https://photos.app.goo.gl/fkP9TsYhnxXbDn9dA" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: awaken-3.10-triton_void-RM6785-unofficial-2149-20231012.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: 88d0c0caa0874835f4bffa4b8a425e05
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 1.94 GB (Inc. GApps)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Flash custom recovery based realmeUI-2.0&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you are on any ROM based realmeUI-2.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785V/CD - MT6785V/CC - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/realme-mt6785-devs" target="_blank" rel="noopener"
+>realme-mt6785-devs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>2023-09-16&lt;/p>
+&lt;ul>
+&lt;li>September 2023 ASB&lt;/li>
+&lt;li>Upstreamed kernel to version 4.14.325&lt;/li>
+&lt;li>Imported props configuration from RMX2002_C19&lt;/li>
+&lt;li>Fixed scroll lag that occurred when notifications appeared&lt;/li>
+&lt;li>Merged Bessloudness into AdditionalSettings&lt;/li>
+&lt;li>Switched to VIPER-RE v5.2 (&lt;a class="link" href="https://t.me/WSTprojects/1735" target="_blank" rel="noopener"
+>https://t.me/WSTprojects/1735&lt;/a>)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2023-09-02&lt;/p>
+&lt;ul>
+&lt;li>August 2023 ASB&lt;/li>
+&lt;li>Upstreamed kernel to 4.14.323&lt;/li>
+&lt;li>Disable some debugging features&lt;/li>
+&lt;li>More silence MTK logspam&lt;/li>
+&lt;li>Added Force LTE+ CA toggle&lt;/li>
+&lt;li>Added MTK Engineer mode in A.S&lt;/li>
+&lt;li>Follow CABC configs from stock&lt;/li>
+&lt;li>CABC → Screen Battery Optimization&lt;/li>
+&lt;li>Fix sepolicy for CABC/SBO properly&lt;/li>
+&lt;li>Use Bessloudness from hw/mtk&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>ArrowOS (Android-13) for RM6785</title><link>http://blog.psionicprjkt.my.id/p/rom/rm6785/arrowos/a13/</link><pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rm6785/arrowos/a13/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rm6785/arrowos/a13/main.png" alt="Featured image of post ArrowOS (Android-13) for RM6785" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>ArrowOS is an AOSP based project started with the aim of keeping things simple, clean and neat. We added just the right and mostly used stuff that will be actually USEFUL at the end of the day, aiming to deliver smooth performance with better battery life.&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Native video calling (ViLTE)&lt;/li>
+&lt;li>Voice over WiFi (VoWiFi)&lt;/li>
+&lt;li>USB Audio&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2022-10-29
+&lt;ul>
+&lt;li>Upstream kernel .296&lt;/li>
+&lt;li>Update apns-conf from N20P-A12&lt;/li>
+&lt;li>Update media_codecs* from N20P-A12&lt;/li>
+&lt;li>Added realmeDirac &amp;amp; realmeParts&lt;/li>
+&lt;li>Enable perf_profile if Game Mode ON&lt;/li>
+&lt;li>Minor performances improvements&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="https://sourceforge.net/projects/psionicprjkt/files/RM6785/ArrowOS-13/Arrow-v13.0-RM6785-UNOFFICIAL-20221029-GAPPS.zip/download" target="_blank" rel="noopener"
+>⬇️ Download&lt;/a> | &lt;a class="link" href="https://photos.app.goo.gl/JgTXNyGBh3nuipJo6" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: Arrow-v13.0-RM6785-UNOFFICIAL-20221029-GAPPS.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: 9a24d87f415a08473a6bcc9ad742c6d6
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 1.3 GB (GApps)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Flash custom recovery based realmeUI-2.0&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you are on any ROM based realmeUI-2.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785V/CD - MT6785V/CC - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/realme-mt6785-devs" target="_blank" rel="noopener"
+>realme-mt6785-devs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2022-10-14
+&lt;ul>
+&lt;li>October 2022 ASB&lt;/li>
+&lt;li>Upstream kernel .295&lt;/li>
+&lt;li>Disabled boosts on power saving mode&lt;/li>
+&lt;li>Merge realmeDirac into realmeParts&lt;/li>
+&lt;li>Rebrand realmePart to AdditionalSettings&lt;/li>
+&lt;li>Add Back Device Performance Profiles&lt;/li>
+&lt;li>Fixed CABC QS stuck/crash/can&amp;rsquo;t changes&lt;/li>
+&lt;li>Fixed Dirac QS stuck/crash/can&amp;rsquo;t changes&lt;/li>
+&lt;li>Enable faeture Qr Code Scanner On LockScreen&lt;/li>
+&lt;li>Update icon app &amp;amp; launcher AdditionalSettings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>ArrowOS (Android-12L) for RM6785</title><link>http://blog.psionicprjkt.my.id/p/rom/rm6785/arrowos/a12/</link><pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rm6785/arrowos/a12/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rm6785/arrowos/a12/main.png" alt="Featured image of post ArrowOS (Android-12L) for RM6785" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>ArrowOS is an AOSP based project started with the aim of keeping things simple, clean and neat. We added just the right and mostly used stuff that will be actually USEFUL at the end of the day, aiming to deliver smooth performance with better battery life.&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Native video calling (ViLTE)&lt;/li>
+&lt;li>Voice over WiFi (VoWiFi)&lt;/li>
+&lt;li>USB Audio&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2022-10-25
+&lt;ul>
+&lt;li>October 2022 ASB&lt;/li>
+&lt;li>Kernel lineage .295&lt;/li>
+&lt;li>Fixed CABC QS stuck/crash&lt;/li>
+&lt;li>Update icon app &amp;amp; launcher (Parts)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="https://sourceforge.net/projects/psionicprjkt/files/RM6785/ArrowOS-A12L/Arrow-v12.1-RM6785-UNOFFICIAL-20221024-GAPPS.zip/download" target="_blank" rel="noopener"
+>⬇️ Download&lt;/a> | &lt;a class="link" href="https://photos.app.goo.gl/eXXWi7WXkjqSPAEA9" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: Arrow-v12.1-RM6785-UNOFFICIAL-20221024-GAPPS.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: 6d9dc9cc4f14214ecb14638a0c629a32
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 1.4 GB (GApps)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Flash custom recovery based realmeUI-2.0&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you are on any ROM based realmeUI-2.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785V/CD - MT6785V/CC - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/realme-mt6785-devs" target="_blank" rel="noopener"
+>realme-mt6785-devs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>2022-10-03&lt;/p>
+&lt;ul>
+&lt;li>September 2022 ASB&lt;/li>
+&lt;li>Fixed IPv6 tethering&lt;/li>
+&lt;li>Add more Dirac Presets&lt;/li>
+&lt;li>Drop MediaTek Log deps&lt;/li>
+&lt;li>Introduce MtkInCallService&lt;/li>
+&lt;li>Enabled dynamic refresh rate&lt;/li>
+&lt;li>Increase VC volume steps to 15&lt;/li>
+&lt;li>Added MTK input boosts (Touch Boost)&lt;/li>
+&lt;li>Update status bar start|top padding&lt;/li>
+&lt;li>Update status_bar_height from RMX2001_C19&lt;/li>
+&lt;li>Fixed lag while playing 1080p/2K videos&lt;/li>
+&lt;li>Added support for Wifi display (Miracast)&lt;/li>
+&lt;li>Improve interaction power configurations&lt;/li>
+&lt;li>Drop perf profile, Add Back Game Mode Perf&lt;/li>
+&lt;li>Updated CABC configurations from stock RUI&lt;/li>
+&lt;li>Updated vendor blobs and fw to RMX2002_11.C.19&lt;/li>
+&lt;li>Import Tethering overlay configs from RMX2001_C19&lt;/li>
+&lt;li>Import frameworks overlay configs from RMX2001_C19&lt;/li>
+&lt;li>Minor performance improvements&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2022-01-06&lt;/p>
+&lt;ul>
+&lt;li>Initial Build&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Nusantara Project LTS (Android-11) for RMX2001</title><link>http://blog.psionicprjkt.my.id/p/rom/rmx2001/nusantaraproject-rom/a11/</link><pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rmx2001/nusantaraproject-rom/a11/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rmx2001/nusantaraproject-rom/a11/main.jpg" alt="Featured image of post Nusantara Project LTS (Android-11) for RMX2001" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>The name ” Nusantara ” itself is taken from one of the initials in the country of Indonesia.&lt;/p>
+&lt;p>The project was started in 2020 by one of the specialist developers in this field, he is Genkzsz11. With the problems with the previous team, he decided to leave and try to change the structural total of his new team by inviting developers from Indonesia who had previously been competent in this field. Initially only a few developers joined, but in time went by finally many Indonesian developers and some developers outside Indonesia tried to register to join the Nusantara Project team.&lt;/p>
+&lt;p>Nusantara Project is an Android OS provider with many customization features and is lightweight. 100% Free and secure because it uses Android Open Source Project (AOSP) resources.&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Night light flickers&lt;/li>
+&lt;li>IMS (ViLTE, VoWiFi)&lt;/li>
+&lt;li>Extra cameras&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2022-10-21
+&lt;ul>
+&lt;li>SELinux Enforcing&lt;/li>
+&lt;li>Merge 07/08/09/10 2022 ASB&lt;/li>
+&lt;li>Added more Dirac Presets&lt;/li>
+&lt;li>Fixup missing string about&lt;/li>
+&lt;li>Passes SafetyNet out-of-the-box&lt;/li>
+&lt;li>Re-adjusted status bar paddings&lt;/li>
+&lt;li>Updated Camera Go v3.8.466520855&lt;/li>
+&lt;li>Cleanup unused overlay configuration&lt;/li>
+&lt;li>Change default wallpaper (thanks wallfever)&lt;/li>
+&lt;li>Merge realmeDirac into realmeParts&lt;/li>
+&lt;li>Rebrand realmePart to AdditionalSettings&lt;/li>
+&lt;li>Fixed CABC QS stuck/crash/can’t changes&lt;/li>
+&lt;li>Fixed Dirac QS stuck/crash/can’t changes&lt;/li>
+&lt;li>Update icon app &amp;amp; launcher AdditionalSettings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="https://sourceforge.net/projects/psionicprjkt/files/RMX2001/NusantaraROM-A11/Nusantara-LTS-11-RMX2001-21102022-OFFICIAL-0549.zip/download" target="_blank" rel="noopener"
+>⬇️ Download (Vanilla)&lt;/a> | &lt;a class="link" href="https://sourceforge.net/projects/psionicprjkt/files/RMX2001/NusantaraROM-A11/Nusantara-LTS-11-RMX2001-Gapps-21102022-OFFICIAL-0652.zip/download" target="_blank" rel="noopener"
+>⬇️ Download (GApps)&lt;/a> | &lt;a class="link" href="https://photos.app.goo.gl/hH1WaKAbpAsbUbJV8" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: Nusantara-LTS-11-RMX2001-21102022-OFFICIAL-0549.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: 0a72a196065acd2248033f6995015f7b
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 790 MB (Vanilla)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: Nusantara-LTS-11-RMX2001-Gapps-21102022-OFFICIAL-0652.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: d474f9ebc03e32b6ea49b4e98f7f00cd
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 1.2 GB (GApps)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785 Helio G90T - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>2022-05-15&lt;/p>
+&lt;ul>
+&lt;li>SELinux Enforcing&lt;/li>
+&lt;li>Passes SafetyNet out-of-the-box&lt;/li>
+&lt;li>Updated Camera Go v3.8.466520855&lt;/li>
+&lt;li>Update our custom perf profile (realmeParts)&lt;/li>
+&lt;li>Update CABC configs from realmeUI v1.0 (realmeParts)&lt;/li>
+&lt;li>Update fastcharge firmware after boot (do like rui thing)&lt;/li>
+&lt;li>Included 64MP Enabler &amp;amp; Bufferfix (thanks to Wyroczen)&lt;/li>
+&lt;li>Fixed AOSP WFD with MTK fixes (thanks to Erfanoabdi)&lt;/li>
+&lt;li>Fixed av/media resources (inc Instagram low-quality/reels)&lt;/li>
+&lt;li>Fixed some sepolicy denials (for p-gapps, realmeDirac &amp;amp; dt2w)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2022-05-15&lt;/p>
+&lt;ul>
+&lt;li>Fixup! DT2W (typo)&lt;/li>
+&lt;li>Included 64MP Enabler RMX2001&lt;/li>
+&lt;li>(Additional Settings) Update parts icon&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2022-03-13&lt;/p>
+&lt;ul>
+&lt;li>May 2022 ASB&lt;/li>
+&lt;li>Included bufferfix&lt;/li>
+&lt;li>De-commonize tree from mt6785-common (RMX2001)&lt;/li>
+&lt;li>Update value for Brightness Doze / AOD&lt;/li>
+&lt;li>Implement/Adapt DT2W on device-tree&lt;/li>
+&lt;li>Rebrand RealmeParts to Additional Settings (AS)&lt;/li>
+&lt;li>(AS) Update &amp;amp; Fix tint color icons&lt;/li>
+&lt;li>(AS) Fix can&amp;rsquo;t allow perms if fps info on&lt;/li>
+&lt;li>(AS) Added icon for Ambient Display Gestures&lt;/li>
+&lt;li>(AS) Added summary about CABC &amp;amp; Perf Profile&lt;/li>
+&lt;li>(AS) Disable selectable for summary desc/text&lt;/li>
+&lt;li>(AS) Drop unsupported/unused features (DC/HBM/sRGB)&lt;/li>
+&lt;li>(AS) Drop Double-Tap to wake switch (now @Display)&lt;/li>
+&lt;li>[Kernel] oppo_charger: Fix slow charge while screen is on&lt;/li>
+&lt;li>[Kernel] oppo_charger: Silence diagnostic messages (dmesg) spam&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2022-03-13&lt;/p>
+&lt;ul>
+&lt;li>March 2022 ASB&lt;/li>
+&lt;li>Added NusaPapers&lt;/li>
+&lt;li>Default: Lawnchair/icons&lt;/li>
+&lt;li>Added my configs vendor/extra&lt;/li>
+&lt;li>Update cstm configs QS Tile 12/12&lt;/li>
+&lt;li>Cleanup &amp;amp; Revert useless commit&lt;/li>
+&lt;li>Set arch variant to armv8-2a-dotprod&lt;/li>
+&lt;li>[RP] Drop FPSInfo (Better inbuilt fpsinfo @QS)&lt;/li>
+&lt;li>[RP] Update home icon &amp;amp; Added ambient icon&lt;/li>
+&lt;li>[Kernel] Regen &amp;amp; Change LV to psionicprjkt&lt;/li>
+&lt;li>[Kernel] Added builder name instead of android@build&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-11-14&lt;/p>
+&lt;ul>
+&lt;li>November 2021 ASB&lt;/li>
+&lt;li>Cleanup some props&lt;/li>
+&lt;li>Disable some gms service&lt;/li>
+&lt;li>Arrange default tiles in qs&lt;/li>
+&lt;li>Drop GCamGO, Added Open Camera&lt;/li>
+&lt;li>Shipped with SYNTXforce-Kernel&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-10-08&lt;/p>
+&lt;ul>
+&lt;li>October ASB (android-11.0.0_r46)&lt;/li>
+&lt;li>Strip off some debug packages&lt;/li>
+&lt;li>Added several Android GO config&lt;/li>
+&lt;li>Disable edge limit control globally&lt;/li>
+&lt;li>Reduce any bug and lags in waking up&lt;/li>
+&lt;li>Shipped with SYNTXforce-究極-R1 Kernel&lt;/li>
+&lt;li>Added several cahced config from Redfin&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-08-30&lt;/p>
+&lt;ul>
+&lt;li>Latest Sources &amp;amp; Secpacth (August 2021)&lt;/li>
+&lt;li>Remove Some Prebuilt &amp;amp; Added PMControls&lt;/li>
+&lt;li>Set &amp;amp; Enable GBoard padding &amp;amp; corners&lt;/li>
+&lt;li>Compile Kernel with Proton-clang v13.0&lt;/li>
+&lt;li>Improved status bar (landscape) padding&lt;/li>
+&lt;li>Set QS, Google, Dialer &amp;amp; Full Gesture by default&lt;/li>
+&lt;li>realmeDirac: Fix icon on QS tile&lt;/li>
+&lt;li>realmeParts: Add FPS overlay on QS tile&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-07-29&lt;/p>
+&lt;ul>
+&lt;li>Latest Sources &amp;amp; Secpacth&lt;/li>
+&lt;li>Fix FPS info on QS (system)&lt;/li>
+&lt;li>Update status bar pading overlay&lt;/li>
+&lt;li>Added realme-Dirac Sound Enhancer&lt;/li>
+&lt;li>Address some denials, more improvements &amp;amp; bug fixes&lt;/li>
+&lt;li>Added support for unlimited backup on Google Photos&lt;/li>
+&lt;li>Added prebuilt-apps (AudioREC,SoundREC,DuckDuckGO)&lt;/li>
+&lt;li>Replaced GameMode with PerformanceProfile along with the addition of PowerSaving profile&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-06-14&lt;/p>
+&lt;ul>
+&lt;li>Build inc. NusantaraPapers&lt;/li>
+&lt;li>RealmeParts: Cleanup &amp;amp; Fix tint color icon&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-05-18&lt;/p>
+&lt;ul>
+&lt;li>SELinux Enforcing + Passes safetynet&lt;/li>
+&lt;li>Source built kernel + added performance profile&lt;/li>
+&lt;li>Make padding in overlay status bar look like rUI&lt;/li>
+&lt;li>Fixes can&amp;rsquo;t wakeup device in offline charging mode&lt;/li>
+&lt;li>Added RealmeParts (Realme Settings)
+&lt;ul>
+&lt;li>RealmeParts: Disable apps on launcher&lt;/li>
+&lt;li>RealmeParts: Cleanup unused functions&lt;/li>
+&lt;li>RealmeParts: Move to system section [settings/system/]&lt;/li>
+&lt;li>RealmeParts: Fix FPS overlay + Add Title Fps (Ex: Fps: 90&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-04-22&lt;/p>
+&lt;ul>
+&lt;li>Source Built Kernel&lt;/li>
+&lt;li>Added RealmeParts -&amp;gt; Additional Settings&lt;/li>
+&lt;li>[AS] Disable Apps On Launcher&lt;/li>
+&lt;li>[AS] Fix FPS Overlay&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-04-16&lt;/p>
+&lt;ul>
+&lt;li>Fix Screen Recording Make System UI Crash&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-04-02&lt;/p>
+&lt;ul>
+&lt;li>Enabled Blur by Default&lt;/li>
+&lt;li>Add back devicesettings (realmeparts)&lt;/li>
+&lt;li>Updated power profile config (+battery usage)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>ArrowOS (Android-11) for RMX2001</title><link>http://blog.psionicprjkt.my.id/p/rom/rmx2001/arrowos/a11/</link><pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rmx2001/arrowos/a11/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rmx2001/arrowos/a11/main.png" alt="Featured image of post ArrowOS (Android-11) for RMX2001" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>ArrowOS is an AOSP based project started with the aim of keeping things simple, clean and neat. We added just the right and mostly used stuff that will be actually USEFUL at the end of the day, aiming to deliver smooth performance with better battery life.&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Night light flickers&lt;/li>
+&lt;li>IMS (ViLTE, VoWiFi)&lt;/li>
+&lt;li>Extra cameras&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2022-10-17
+&lt;ul>
+&lt;li>October 2022 ASB&lt;/li>
+&lt;li>Added more Dirac Presets&lt;/li>
+&lt;li>Passes SafetyNet out-of-the-box&lt;/li>
+&lt;li>Re-adjusted status bar paddings&lt;/li>
+&lt;li>Updated Camera Go v3.8.466520855&lt;/li>
+&lt;li>Cleanup unused overlay configuration&lt;/li>
+&lt;li>Merge realmeDirac into realmeParts&lt;/li>
+&lt;li>Rebrand realmePart to AdditionalSettings&lt;/li>
+&lt;li>Fixed CABC QS stuck/crash/can’t changes&lt;/li>
+&lt;li>Fixed Dirac QS stuck/crash/can’t changes&lt;/li>
+&lt;li>Update icon app &amp;amp; launcher AdditionalSettings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="https://sourceforge.net/projects/psionicprjkt/files/RMX2001/ArrowOS-A11/Arrow-v11.0-RMX2001-UNOFFICIAL-20221017-GAPPS.zip/download" target="_blank" rel="noopener"
+>⬇️ Download&lt;/a> | &lt;a class="link" href="https://photos.app.goo.gl/pmLYrc1w682ZGnDX6" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: Arrow-v11.0-RMX2001-UNOFFICIAL-20221017-GAPPS.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: 87b75d3dacdf96a786aa52ca487b0134
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 1.1 GB (GApps)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785 Helio G90T - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>2021-06-18&lt;/p>
+&lt;ul>
+&lt;li>Latest Sources, SecPatch (5 June 2021)&lt;/li>
+&lt;li>Adjust padding statusbar overlay&lt;/li>
+&lt;li>Added some Google Pixel permission for GPhoto Unli&lt;/li>
+&lt;li>Using fp Realme 6 to get same graphic on games by default&lt;/li>
+&lt;li>RealmeParts: Cleanup &amp;amp; Fix tint color icon&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-05-18&lt;/p>
+&lt;ul>
+&lt;li>Latest Sources, SecPatch (5 May 2021)&lt;/li>
+&lt;li>SELinux Enforcing + Passes safetynet&lt;/li>
+&lt;li>Source built kernel + added performance profile&lt;/li>
+&lt;li>Fixes can&amp;rsquo;t wakeup device in offline charging mode&lt;/li>
+&lt;li>Added RealmeParts (Realme Settings)
+&lt;ul>
+&lt;li>RealmeParts: Disable apps on launcher&lt;/li>
+&lt;li>RealmeParts: Cleanup unused functions&lt;/li>
+&lt;li>RealmeParts: Added Double-tap to wake (on/off)&lt;/li>
+&lt;li>RealmeParts: Move to system section [settings/system/R]&lt;/li>
+&lt;li>RealmeParts: Fix FPS overlay + Add Title Fps (Ex: Fps: 90)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-04-22&lt;/p>
+&lt;ul>
+&lt;li>Source built Kernel&lt;/li>
+&lt;li>Passes safetynet without Magisk&lt;/li>
+&lt;li>Added RealmeParts → Additional Settings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-04-07&lt;/p>
+&lt;ul>
+&lt;li>April Security Patch&lt;/li>
+&lt;li>Update FP to Redfin Android 12 (Pixel 5)&lt;/li>
+&lt;li>Fixed Screen Record make SystemUI Crash&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-04-04&lt;/p>
+&lt;ul>
+&lt;li>Now EngineerMode Working&lt;/li>
+&lt;li>Passes Safetynet Without Magisk&lt;/li>
+&lt;li>Updated Power Profile Config (+battery usage)&lt;/li>
+&lt;li>Added Option to switch refresh rates in Display Settings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-03-08&lt;/p>
+&lt;ul>
+&lt;li>Initial Build&lt;/li>
+&lt;li>March Security Patch&lt;/li>
+&lt;li>Use Redfin March 2021 FP&lt;/li>
+&lt;li>ArrowOS Source Upstream (RQ2A.210305.007)&lt;/li>
+&lt;li>Added Always On Display, Gcam GO &amp;amp; Smart Charging&lt;/li>
+&lt;li>Recode Overlay, Density, Misc improvements and much more&lt;/li>
+&lt;li>Drop Additional Setting, Move Screen Refresh Rate to Display&lt;/li>
+&lt;li>Fixed Ok Google, Gallery Crash, Audio No Sound &amp;amp; Video Playback Issue&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Nusantara Project v4.9 (Android-12L) for RM6785</title><link>http://blog.psionicprjkt.my.id/p/rom/rm6785/nusantaraproject-rom/a12/</link><pubDate>Wed, 28 Sep 2022 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rm6785/nusantaraproject-rom/a12/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rm6785/nusantaraproject-rom/a12/main.jpg" alt="Featured image of post Nusantara Project v4.9 (Android-12L) for RM6785" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>The name ” Nusantara ” itself is taken from one of the initials in the country of Indonesia.&lt;/p>
+&lt;p>The project was started in 2020 by one of the specialist developers in this field, he is Genkzsz11. With the problems with the previous team, he decided to leave and try to change the structural total of his new team by inviting developers from Indonesia who had previously been competent in this field. Initially only a few developers joined, but in time went by finally many Indonesian developers and some developers outside Indonesia tried to register to join the Nusantara Project team.&lt;/p>
+&lt;p>Nusantara Project is an Android OS provider with many customization features and is lightweight. 100% Free and secure because it uses Android Open Source Project (AOSP) resources.&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Native video calling (ViLTE)&lt;/li>
+&lt;li>Voice over WiFi (VoWiFi)&lt;/li>
+&lt;li>USB Audio&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2022-09-28
+&lt;ul>
+&lt;li>September 2022 ASB&lt;/li>
+&lt;li>Fixed IPv6 tethering&lt;/li>
+&lt;li>Add more Dirac Presets&lt;/li>
+&lt;li>Drop MediaTek Log deps&lt;/li>
+&lt;li>Enabled dynamic refresh rate&lt;/li>
+&lt;li>Fixed lag while playing 1080p/2K videos&lt;/li>
+&lt;li>Drop perf profile, Add Back Game Mode Perf&lt;/li>
+&lt;li>Updated CABC configurations from stock RUI&lt;/li>
+&lt;li>Updated lawnchair/icons to latest release (official)&lt;/li>
+&lt;li>Updated vendor blobs and fw to RMX2002_11.C.19&lt;/li>
+&lt;li>Minor performance improvements&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="https://www.pling.com/p/1500429" target="_blank" rel="noopener"
+>⬇️ Download&lt;/a> | &lt;a class="link" href="https://photos.app.goo.gl/Hd9vN1E8KKV5zAqP7" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: Nusantara-v4.9-12L-RM6785-Gapps-28092022-OFFICIAL-0607.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: 6e3edfa4e81d1fe803a386fe417f200f
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 1.7 GB (GApps)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Flash custom recovery based realmeUI-2.0&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you are on any ROM based realmeUI-2.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785V/CD - MT6785V/CC - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/realme-mt6785-devs" target="_blank" rel="noopener"
+>realme-mt6785-devs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>2022-05-17&lt;/p>
+&lt;ul>
+&lt;li>May 2022 ASB&lt;/li>
+&lt;li>Stop nfc_hal HIDL on non-NFC devices&lt;/li>
+&lt;li>Update apns-conf from stock/RMX2001_C18&lt;/li>
+&lt;li>Update build fingerprint from stock/RMX2001_C18&lt;/li>
+&lt;li>Update haptics &amp;amp; Improve UI performance&lt;/li>
+&lt;li>(AS) Added summary about CABC &amp;amp; Perf Profile&lt;/li>
+&lt;li>(AS) Disable selectable for summary desc/text&lt;/li>
+&lt;li>(AS) Drop Screen Refresh Rate (Already on Display)&lt;/li>
+&lt;li>[Kernel] oppo_charger: Fix slow charge while screen is on&lt;/li>
+&lt;li>[Kernel] oppo_charger: Silence diagnostic messages (dmesg) spam&lt;/li>
+&lt;li>[NOTE] Only Vanilla Build&lt;/li>
+&lt;li>[NOTE] Use NikGApps A12L/SL (&lt;a class="link" href="https://s.id/14y28" target="_blank" rel="noopener"
+>https://s.id/14y28&lt;/a>)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2022-04-22&lt;/p>
+&lt;ul>
+&lt;li>April 2022 ASB&lt;/li>
+&lt;li>Enforcing SELinux&lt;/li>
+&lt;li>Tune ZRAM performance&lt;/li>
+&lt;li>Enabled ZRAM writeback&lt;/li>
+&lt;li>Kang AIDL vibrator service from Ronin&lt;/li>
+&lt;li>[POWER] Updated power HAL from R7 RUI3&lt;/li>
+&lt;li>[POWER] Boost stune on app launch&lt;/li>
+&lt;li>[POWER] Allow raising sched_boost to 6 levels&lt;/li>
+&lt;li>[POWER] Boost foreground to maximum when launching an app&lt;/li>
+&lt;li>[POWER] Added &amp;amp; Improve interaction hint&lt;/li>
+&lt;li>[POWER] Improve power HAL configs from Begonia&lt;/li>
+&lt;li>Fix/Cleanup deprecated overlays items&lt;/li>
+&lt;li>Fix KPOC/offline charging (w/Pixel-Charging)&lt;/li>
+&lt;li>Metadata partition corruption protection&lt;/li>
+&lt;li>Import props configuration from RMX2001_C18&lt;/li>
+&lt;li>Add support for f2fs on userdata &amp;amp; cahce partition&lt;/li>
+&lt;li>Entire C code is now optimised with armv8-2a-dotprod&lt;/li>
+&lt;li>Inc. FaceUnlock, QuickTap &amp;amp; Touchscreen Gestures&lt;/li>
+&lt;li>[Additional] Update path for CABC (rUI-2)&lt;/li>
+&lt;li>[Additional] Update WM. LayoutParams (FPSInfo)&lt;/li>
+&lt;li>[NOTE] Only Vanilla Build&lt;/li>
+&lt;li>[NOTE] Use NikGApps A12L/SL (&lt;a class="link" href="https://s.id/14y28" target="_blank" rel="noopener"
+>https://s.id/14y28&lt;/a>)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2022-02-19&lt;/p>
+&lt;ul>
+&lt;li>February 2022 ASB&lt;/li>
+&lt;li>Added realmeDirac&lt;/li>
+&lt;li>Fixed DRM Widevine L1&lt;/li>
+&lt;li>Fixed built-in screen recorder&lt;/li>
+&lt;li>Fixed fingerprint (no need rename)&lt;/li>
+&lt;li>Fixed offline charging &amp;amp; use pixel animation&lt;/li>
+&lt;li>Import/Update Power HAL configs from stock&lt;/li>
+&lt;li>Import overlay &amp;amp; props from stock&lt;/li>
+&lt;li>Import apns-configs from stock&lt;/li>
+&lt;li>Switch &amp;amp; Update Lawnchair/icons&lt;/li>
+&lt;li>Misc &amp;amp; performance improvements&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2022-01-17&lt;/p>
+&lt;ul>
+&lt;li>January 2022 ASB&lt;/li>
+&lt;li>Fixed battery usage&lt;/li>
+&lt;li>Remove all prebuilts apk&lt;/li>
+&lt;li>Inlined latest Pixelated launcher&lt;/li>
+&lt;li>Misc &amp;amp; performance improvements&lt;/li>
+&lt;li>Added f2fs support for userdata partition&lt;/li>
+&lt;li>Rebrand realmeParts to Additional Settings&lt;/li>
+&lt;li>(A.S) Cleanup &amp;amp; update icon&lt;/li>
+&lt;li>(A.S) Drop Double-tap to wake&lt;/li>
+&lt;li>(A.S) Drop Screen refresh rate&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-12-26&lt;/p>
+&lt;ul>
+&lt;li>Rebranded RM6785&lt;/li>
+&lt;li>December 2021 ASB&lt;/li>
+&lt;li>Passed Safetynet by default&lt;/li>
+&lt;li>Included bufferfix (vf lens)&lt;/li>
+&lt;li>Added &amp;amp; Enable fpsInfoSysNode&lt;/li>
+&lt;li>Fixed brightness slider behaviour&lt;/li>
+&lt;li>Update blobs from RMX2001_11_C.15&lt;/li>
+&lt;li>Shipped Lawnchair, Doodle, Xrecorder&lt;/li>
+&lt;li>Added Freeform Multiwindow (dev option)&lt;/li>
+&lt;li>Added Always-On Display (off by default)&lt;/li>
+&lt;li>Added min-max refresh rate config (display)&lt;/li>
+&lt;li>Added Natural and Boosted display color modes&lt;/li>
+&lt;li>Fix coordinates physical power &amp;amp; fp sensor values&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>PixelOS (Android-12L) for RM6785</title><link>http://blog.psionicprjkt.my.id/p/rom/rm6785/pixelos/a12/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rm6785/pixelos/a12/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rm6785/pixelos/a12/main.jpg" alt="Featured image of post PixelOS (Android-12L) for RM6785" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>PixelOS is an AOSP based ROM, with Google apps included and all Pixel goodies, a fork of Pixel Experience with improvements on the top of it. The Pixel Experience team deserves a lot of credit for their efforts, and we owe them a debt of gratitude for making this ROM possible.&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>IPv6 Tethering&lt;/li>
+&lt;li>Native video calling (ViLTE)&lt;/li>
+&lt;li>Voice over WiFi (VoWiFi)&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2022-05-18
+&lt;ul>
+&lt;li>May 2022 ASB&lt;/li>
+&lt;li>Silence spammy all logtags&lt;/li>
+&lt;li>Update value for Brightness Doze / AOD&lt;/li>
+&lt;li>Update haptics &amp;amp; Improve UI performance&lt;/li>
+&lt;li>Update apns-conf from stock/RMX2001_C18&lt;/li>
+&lt;li>Update build fingerprint from stock/RMX2001_C18&lt;/li>
+&lt;li>Switch to skiaglthreaded renderthread backend&lt;/li>
+&lt;li>Fixed low mic volume &amp;amp; location indicator fp&lt;/li>
+&lt;li>[AS] Added summary about CABC &amp;amp; Perf Profile&lt;/li>
+&lt;li>[AS] Disable selectable for summary desc/text&lt;/li>
+&lt;li>[AS] Drop Screen Refresh Rate (Already on Display)&lt;/li>
+&lt;li>[Kernel] Merge kernel 4.14.279 stable release&lt;/li>
+&lt;li>[Kernel] oppo_charger: Fix slow charge while screen is on&lt;/li>
+&lt;li>[Kernel] oppo_charger: Silence diagnostic messages (dmesg) spam&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="https://sourceforge.net/projects/psionicprjkt/files/RM6785/PixelOS-A12L/PixelOS_RM6785-12.1-20220517-1241.zip/download" target="_blank" rel="noopener"
+>⬇️ Download&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a> | &lt;a class="link" href="https://forum.xda-developers.com" target="_blank" rel="noopener"
+>XDA Thread&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: PixelOS_RM6785-12.1-20220517-1241.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: 8cf4455141e654e1794a79d34ab3915e
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 1.8 GB (Inc. GApps)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Flash custom recovery based realmeUI-2.0&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you are on any ROM based realmeUI-2.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785V/CD - MT6785V/CC - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/realme-mt6785-devs" target="_blank" rel="noopener"
+>realme-mt6785-devs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>2022-04-16&lt;/p>
+&lt;ul>
+&lt;li>April 2022 ASB&lt;/li>
+&lt;li>Enforcing SELinux&lt;/li>
+&lt;li>Tune ZRAM performance&lt;/li>
+&lt;li>Kang AIDL vibrator service from Ronin&lt;/li>
+&lt;li>Updated power HAL from R7 RUI3&lt;/li>
+&lt;li>Improve power HAL configs from Begonia&lt;/li>
+&lt;li>Fix/Cleanup deprecated overlays items&lt;/li>
+&lt;li>Fix KPOC/offline charging (w/Pixel-Charging)&lt;/li>
+&lt;li>Hide GPS logs/debugging by default&lt;/li>
+&lt;li>Metadata partition corruption protection&lt;/li>
+&lt;li>Entire C code is now optimised with armv8-2a-dotprod&lt;/li>
+&lt;li>Inc. FaceUnlock, QuickTap &amp;amp; Touchscreen Gestures&lt;/li>
+&lt;li>Enable perf media stagefright configuration&lt;/li>
+&lt;li>Additional Settings Changes:&lt;/li>
+&lt;li>Update path for CABC (rUI-2)&lt;/li>
+&lt;li>Update WM. LayoutParams&lt;/li>
+&lt;li>Added back Game Mode&lt;/li>
+&lt;li>Enable Perf Mode if Game Mode ON&lt;/li>
+&lt;li>Drop unsupported/unused (DCD/HBM/sRGB)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2022-02-14&lt;/p>
+&lt;ul>
+&lt;li>Import/Update Power HAL configs from C17&lt;/li>
+&lt;li>Fix a derp in default pinner overlay&lt;/li>
+&lt;li>Added missing liboemcrypto&amp;rsquo;so (Fixed Widevine L1)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2022-02-13&lt;/p>
+&lt;ul>
+&lt;li>February 2022 ASB&lt;/li>
+&lt;li>Update blobs from C17&lt;/li>
+&lt;li>Added monet bootanimation&lt;/li>
+&lt;li>Fixed fingerprint (No need rename)&lt;/li>
+&lt;li>Added realmeDirac (thanks to @sarthakroy2002)&lt;/li>
+&lt;li>Additional Settings:&lt;/li>
+&lt;li>(A.S) Bringback perf profile&lt;/li>
+&lt;li>(A.S) Bringback old FPS info design&lt;/li>
+&lt;li>(A.S) Added icon for Ambient Display&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2022-02-04&lt;/p>
+&lt;ul>
+&lt;li>January 2022 ASB&lt;/li>
+&lt;li>Remove all prebuilts apk&lt;/li>
+&lt;li>Passed Safetynet by default&lt;/li>
+&lt;li>Fix built-in screen recording&lt;/li>
+&lt;li>Update BUILD_FP from C17&lt;/li>
+&lt;li>Import prop config* from C17&lt;/li>
+&lt;li>Import overlays config* from C17&lt;/li>
+&lt;li>Import WifiResOverlay config* from C17&lt;/li>
+&lt;li>Added f2fs support for userdata partition&lt;/li>
+&lt;li>configs: Boost stune on app launch &amp;amp; top-app&lt;/li>
+&lt;li>Switch to skiaglthreaded renderthread backend&lt;/li>
+&lt;li>Enable Quick Tap &amp;amp; Touchscreen gestures (System→Gestures)&lt;/li>
+&lt;li>Rebrand realmeParts to Additional Settings&lt;/li>
+&lt;li>(A.S) Cleanup &amp;amp; update icon&lt;/li>
+&lt;li>(A.S) Drop Double-tap to wake (Move → Display)&lt;/li>
+&lt;li>(A.S) Drop Screen refresh rate (Move → Display)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2022-01-03&lt;/p>
+&lt;ul>
+&lt;li>Rebranded RM6785&lt;/li>
+&lt;li>December 2021 ASB&lt;/li>
+&lt;li>Included bufferfix (vf lens)&lt;/li>
+&lt;li>Passed Safetynet by default&lt;/li>
+&lt;li>Fix brightness slider behaviour&lt;/li>
+&lt;li>Fix battery usage &amp;amp; display fliker&lt;/li>
+&lt;li>FIx Near-field communication (NFC)&lt;/li>
+&lt;li>Added Doodle, GCamGO, PMC, Xrecorder&lt;/li>
+&lt;li>Added Freeform Multiwindow (dev option)&lt;/li>
+&lt;li>Added Always-On Display (off by default)&lt;/li>
+&lt;li>Added min-max refresh rate config (display)&lt;/li>
+&lt;li>Added OpenGL ES and update Vulkan dEQP feature flags&lt;/li>
+&lt;li>Fix coordinates physical power &amp;amp; fp sensor values (fp indicator)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Nusantara Project eLTS (Android-10) for RMX2001</title><link>http://blog.psionicprjkt.my.id/p/rom/rmx2001/nusantaraproject-rom/a10/</link><pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rmx2001/nusantaraproject-rom/a10/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rmx2001/nusantaraproject-rom/a10/main.jpg" alt="Featured image of post Nusantara Project eLTS (Android-10) for RMX2001" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>The name ” Nusantara ” itself is taken from one of the initials in the country of Indonesia.&lt;/p>
+&lt;p>The project was started in 2020 by one of the specialist developers in this field, he is Genkzsz11. With the problems with the previous team, he decided to leave and try to change the structural total of his new team by inviting developers from Indonesia who had previously been competent in this field. Initially only a few developers joined, but in time went by finally many Indonesian developers and some developers outside Indonesia tried to register to join the Nusantara Project team.&lt;/p>
+&lt;p>Nusantara Project is an Android OS provider with many customization features and is lightweight. 100% Free and secure because it uses Android Open Source Project (AOSP) resources.&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Night light flickers&lt;/li>
+&lt;li>IMS (ViLTE, VoWiFi)&lt;/li>
+&lt;li>Extra cameras&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2022-05-16
+&lt;ul>
+&lt;li>May 2022 ASB&lt;/li>
+&lt;li>Change codename Wasabi → RMX2001&lt;/li>
+&lt;li>Included 64MP Enabler RMX2001&lt;/li>
+&lt;li>Update value for Brightness Doze / AOD&lt;/li>
+&lt;li>Update default wallpaper &amp;amp; system apps&lt;/li>
+&lt;li>Update PRODUCT_MODEL to nemo/sarter&lt;/li>
+&lt;li>Realme internal codename nemo/sarter (Realme 6/6s/6i India/Narzo)&lt;/li>
+&lt;li>Improved battery backup &amp;amp; UI performance&lt;/li>
+&lt;li>(Additional Settings) Update parts icon&lt;/li>
+&lt;li>(AS) Fixup USB-OTG can&amp;rsquo;t enable (off by default)&lt;/li>
+&lt;li>(AS) Disable selectable for summary desc/text&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="https://sourceforge.net/projects/psionicprjkt/files/RMX2001/NusantaraROM-A10/Nusantara_eLTS-10-RMX2001-16052022-OFFICIAL-0907.zip/download" target="_blank" rel="noopener"
+>⬇️ Download&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt/358" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a> | &lt;a class="link" href="https://forum.xda-developers.com" target="_blank" rel="noopener"
+>XDA Thread&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: Nusantara-eLTS-10-RMX2001-16052022-OFFICIAL-0907.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: 2581a1a1c97fb349e6ec6f7827bd153d
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 613 MB (Vanilla)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785 Helio G90T - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2022-03-19
+&lt;ul>
+&lt;li>March 2022 ASB&lt;/li>
+&lt;li>SELinux Enforcing&lt;/li>
+&lt;li>Passes SafetyNet out-of-the-box&lt;/li>
+&lt;li>AES-256-XTS File Based Encryption (FBE)&lt;/li>
+&lt;li>Added &amp;amp; Fixed Engineer Mode&lt;/li>
+&lt;li>Updated ImsService from phh/stableQ&lt;/li>
+&lt;li>Updated blobs and configs from B.65_0650_202108181729&lt;/li>
+&lt;li>Enable Call Recording (AOSP Dialer)&lt;/li>
+&lt;li>Fixed Offline-Charging (KPOC)&lt;/li>
+&lt;li>Fixed rounded/statusbar padding&lt;/li>
+&lt;li>Fixed Double Tap To Wake (on/off)&lt;/li>
+&lt;li>Fixed RIL (Radio Interface Layer)&lt;/li>
+&lt;li>Drop Snap, Added Gcam GO&lt;/li>
+&lt;li>Rebrand devicesettings to Additional Settings&lt;/li>
+&lt;li>[AS] Move to Settings/System&lt;/li>
+&lt;li>[AS] Cleanup unused features&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>YAAP (Android-12L) for RM6785</title><link>http://blog.psionicprjkt.my.id/p/rom/rm6785/yaap/a12/</link><pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rm6785/yaap/a12/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rm6785/yaap/a12/main.jpg" alt="Featured image of post YAAP (Android-12L) for RM6785" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>YAAP is a project founded by Adhitya Mohan (@poad42) and Ido Ben-Hur (@idoybh) with the goal of staying close to AOSP in design goals, offer a clean interface, do as much as original development as possible and avoid becoming a kitchen sink and cherry picked mess.&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Native video calling (ViLTE)&lt;/li>
+&lt;li>Voice over WiFi (VoWiFi)&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2022-03-28
+&lt;ul>
+&lt;li>Initial Build&lt;/li>
+&lt;li>March 2022 ASB&lt;/li>
+&lt;li>Enforcing SELinux&lt;/li>
+&lt;li>Tune ZRAM performance&lt;/li>
+&lt;li>Kang AIDL vibrator service from Ronin&lt;/li>
+&lt;li>Hide GPS logs/debugging by default&lt;/li>
+&lt;li>Update apns-conf from stock C17&lt;/li>
+&lt;li>Merge realmeDirac into Additional Settings&lt;/li>
+&lt;li>Fixup! features Additional Settings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="https://sourceforge.net/projects/psionicprjkt/files/RM6785/YAAP-A12L/YAAP-12-HOMEMADE-RM6785-20220328.zip/download" target="_blank" rel="noopener"
+>⬇️ Download&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt/370" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a> | &lt;a class="link" href="https://forum.xda-developers.com" target="_blank" rel="noopener"
+>XDA Thread&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: YAAP-12-HOMEMADE-RM6785-20220328.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: 0f72730350fee80165a8e3d4d71d8bd5
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 1.6 GB (GApps)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Flash custom recovery based realmeUI-2.0&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you are on any ROM based realmeUI-2.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785V/CD - MT6785V/CC - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/realme-mt6785-devs" target="_blank" rel="noopener"
+>realme-mt6785-devs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2></description></item><item><title>Nusantara Project v4.0 (Android-12) for RMX2001</title><link>http://blog.psionicprjkt.my.id/p/rom/rmx2001/nusantaraproject-rom/a12/</link><pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rmx2001/nusantaraproject-rom/a12/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rmx2001/nusantaraproject-rom/a12/main.jpg" alt="Featured image of post Nusantara Project v4.0 (Android-12) for RMX2001" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>The name ” Nusantara ” itself is taken from one of the initials in the country of Indonesia.&lt;/p>
+&lt;p>The project was started in 2020 by one of the specialist developers in this field, he is Genkzsz11. With the problems with the previous team, he decided to leave and try to change the structural total of his new team by inviting developers from Indonesia who had previously been competent in this field. Initially only a few developers joined, but in time went by finally many Indonesian developers and some developers outside Indonesia tried to register to join the Nusantara Project team.&lt;/p>
+&lt;p>Nusantara Project is an Android OS provider with many customization features and is lightweight. 100% Free and secure because it uses Android Open Source Project (AOSP) resources.&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Night light flickers&lt;/li>
+&lt;li>IMS (ViLTE, VoWiFi)&lt;/li>
+&lt;li>Extra cameras&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2021-11-17
+&lt;ul>
+&lt;li>November 2021 ASB&lt;/li>
+&lt;li>SELinux Enforcing&lt;/li>
+&lt;li>Userdata Encryption&lt;/li>
+&lt;li>Update statusbar overlay&lt;/li>
+&lt;li>Passed Safetynet by default&lt;/li>
+&lt;li>Added Open Camera &amp;amp; PMControls&lt;/li>
+&lt;li>Added realmeDirac &amp;amp; realmeParts&lt;/li>
+&lt;li>Added Dual SIM Data &amp;amp; One Hand Mode&lt;/li>
+&lt;li>Fixed VoLTE (Thanks to sarthakroy2002 &amp;amp; begonia devs)&lt;/li>
+&lt;li>Fixed Built-in screen recorder (Thanks to sharanpai)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="https://www.pling.com/p/1500429/#files-panel" target="_blank" rel="noopener"
+>⬇️ Download&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt/256" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a> | &lt;a class="link" href="https://forum.xda-developers.com/t/rom-12-official-nusantaraproject-v4-0-17-11-2021.4363439/" target="_blank" rel="noopener"
+>XDA Thread&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: Nusantara_v4.0-12-RMX2001-Gapps-17112021-OFFICIAL-0755.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: aea80f74e61531730b31cff8fd5eb55f
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 1.1 GB (GApps)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785 Helio G90T - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2></description></item><item><title>PalladiumOS v2.0 (Android-12) for RMX2001</title><link>http://blog.psionicprjkt.my.id/p/rom/rmx2001/palladiumos/a12/</link><pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rmx2001/palladiumos/a12/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rmx2001/palladiumos/a12/main.jpg" alt="Featured image of post PalladiumOS v2.0 (Android-12) for RMX2001" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>Palladium OS is a Custom ROM based on Android 12 and the element palladium. Palladium OS is a community-driven OS. Anyone can request or remove a feature. This flexible system is implemented by a system app,the PalladiumOS-Community with which the users can interact/create polls and posts for discussion. Lastly, this is complemented by the Meteor Drop OTAs. These are exclusive OTAs which add new features and easter eggs inside the OS based on the suggestions from pdC. Enough pondering now, hop in and experience Android at its finest!&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;td>✗&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Extra cameras&lt;/li>
+&lt;li>Night light flickers&lt;/li>
+&lt;li>IMS (VoLTE, ViLTE, VoWiFi)&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2021-10-28
+&lt;ul>
+&lt;li>October 2021 ASB&lt;/li>
+&lt;li>SELinux Enforcing&lt;/li>
+&lt;li>Update statusbar overlay&lt;/li>
+&lt;li>Passed Safetynet by default&lt;/li>
+&lt;li>Added realmeDirac &amp;amp; realmeParts&lt;/li>
+&lt;li>Added Dual SIM Data &amp;amp; One Hand Mode&lt;/li>
+&lt;li>Fix screen-record error (Thanks to @sharanpai)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="https://www.pling.com/p/1513489" target="_blank" rel="noopener"
+>⬇️ Download&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt/223" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a> | &lt;a class="link" href="https://forum.xda-developers.com/t/rom-12-official-palladiumos-v2-0-29-10-2021.4353935" target="_blank" rel="noopener"
+>XDA Thread&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: PalladiumOS-2.0-Aries-RMX2001-OFFICIAL-GAPPS-0641-20211028
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: aec8f3d49776747c53ab1c0fcd5c1e60
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 1.3 GB (GApps)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785 Helio G90T - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2></description></item><item><title>PalladiumOS v1.5 (Android-11) for RMX2001</title><link>http://blog.psionicprjkt.my.id/p/rom/rmx2001/palladiumos/a11/</link><pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rmx2001/palladiumos/a11/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rmx2001/palladiumos/a11/main.jpg" alt="Featured image of post PalladiumOS v1.5 (Android-11) for RMX2001" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>Palladium OS is a Custom ROM based on Android 11 and the element palladium. Palladium OS is a community-driven OS. Anyone can request or remove a feature. This flexible system is implemented by a system app,the PalladiumOS-Community with which the users can interact/create polls and posts for discussion. Lastly, this is complemented by the Meteor Drop OTAs. These are exclusive OTAs which add new features and easter eggs inside the OS based on the suggestions from pdC. Enough pondering now, hop in and experience Android at its finest!&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Night light flickers&lt;/li>
+&lt;li>IMS (ViLTE, VoWiFi)&lt;/li>
+&lt;li>Extra cameras&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2021-10-16
+&lt;ul>
+&lt;li>October ASB (android-11.0.0_r46)&lt;/li>
+&lt;li>Disable edge limit control globally&lt;/li>
+&lt;li>Update WifiOverlay from stock rUI2.0&lt;/li>
+&lt;li>realmeParts: Remove SmartCharging notification&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="https://www.pling.com/p/1513489" target="_blank" rel="noopener"
+>⬇️ Download&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt/210" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a> | &lt;a class="link" href="https://forum.xda-developers.com/t/rom-11-official-palladiumos-v1-5-16-10-2021.4273873" target="_blank" rel="noopener"
+>XDA Thread&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: Palladium-v1.5-RMX2001-20211016-OFFICIAL-VANILLA.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: 9cf865ddb4e57f34cd9d65db5a7707f6
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 700 MB (Vanilla)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: Palladium-v1.5-RMX2001-20211016-OFFICIAL-GAPPS.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: 85c83e62b9c16a33d6435c2a0dff4805
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 1 GB (GApps)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785 Helio G90T - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>2021-09-07&lt;/p>
+&lt;ul>
+&lt;li>Latest Source, SecPatch (5 August 2021)&lt;/li>
+&lt;li>Added realme-Dirac &amp;amp; realme-Parts&lt;/li>
+&lt;li>Added GcamGO &amp;amp; PMControl Prebuilt-apps&lt;/li>
+&lt;li>Compile Kernel with Proton-clang v13.0&lt;/li>
+&lt;li>Update status bar pading overlay (portrait &amp;amp; landscape)&lt;/li>
+&lt;li>Added support for unlimited backup on Google Photos&lt;/li>
+&lt;li>Fix some sepolicy neverallow (rild, fingerprint, etc)&lt;/li>
+&lt;li>realmeDirac: Fix tint color icon &amp;amp; Correct icon on QS tile&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-05-014&lt;/p>
+&lt;ul>
+&lt;li>Latest Sources &amp;amp; SecPatch&lt;/li>
+&lt;li>SELinux Enforcing&lt;/li>
+&lt;li>Source built kernel&lt;/li>
+&lt;li>Passes safetynet without Magisk&lt;/li>
+&lt;li>Make padding in overlay status bar look good&lt;/li>
+&lt;li>Fixes can&amp;rsquo;t wakeup device in offline charging mode&lt;/li>
+&lt;li>Added RealmeParts → Additional Settings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2021-05-08&lt;/p>
+&lt;ul>
+&lt;li>Initial Unofficial Build&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>StyxProject v1.7 (Android-11) for RMX2001</title><link>http://blog.psionicprjkt.my.id/p/rom/rmx2001/styxproject/a11/</link><pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rmx2001/styxproject/a11/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rmx2001/styxproject/a11/main.jpg" alt="Featured image of post StyxProject v1.7 (Android-11) for RMX2001" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>Styx Project is a distribution that aims to be really minimalistic and beautiful right out of the box. We merge patches from master and other sources to give you the best performance out of your device.
+We work on the ROM to make it extremely stable; we believe in the user not facing any issues regarding their device, flash and forget.
+The ROM doesn&amp;rsquo;t ship with any sort of bloat, and many hardening patches are in the process of being merged to give you the most secure and bloatfree experience possible.
+With AOSP security patches, Linux and CodeAurora tags being merged within hours of its release, you are sure to receive the latest security fixes and updates on your device as soon as possible!&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Night light flickers&lt;/li>
+&lt;li>IMS (ViLTE, VoWiFi)&lt;/li>
+&lt;li>Extra cameras&lt;/li>
+&lt;li>Offline charging (KPOC)&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>But it can still be charged, only the animation doesn’t work!&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2021-08-18
+&lt;ul>
+&lt;li>Initial User Build&lt;/li>
+&lt;li>Fixed safetynet by default&lt;/li>
+&lt;li>Added realme-Dirac &amp;amp; realme-Parts&lt;/li>
+&lt;li>Latest Sources &amp;amp; Secpacth (August 2021)&lt;/li>
+&lt;li>Update status bar pading overlay (portrait &amp;amp; landscape)&lt;/li>
+&lt;li>Added support for unlimited backup on Google Photos&lt;/li>
+&lt;li>Compile kernel with clang 11 with ThinLTO enabled (improves performance)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="https://github.com/PutuDevelopers/updates/releases/tag/styxOS-1.7-Athena-RMX2001" target="_blank" rel="noopener"
+>⬇️ Download&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt/152" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a> | &lt;a class="link" href="https://forum.xda-developers.com/t/rom-11-unofficial-styx-project-18-08-2021.4321283/" target="_blank" rel="noopener"
+>XDA Thread&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: styxOS-1.7-Athena-RMX2001-UNOFFICIAL-20210818-0556
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: -
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: 721 MB (Vanilla)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785 Helio G90T - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2021-05-06
+&lt;ul>
+&lt;li>Latest Sources, SecPatch (5 June 2021)&lt;/li>
+&lt;li>Source Built Kernel&lt;/li>
+&lt;li>Mei Security Patch + Enfrorcing&lt;/li>
+&lt;li>Added RealmeParts -&amp;gt; Additional Settings&lt;/li>
+&lt;li>Safetynet can&amp;rsquo;t fix (for now!)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>FlokoROM v4 (Android-11) for RMX2001</title><link>http://blog.psionicprjkt.my.id/p/rom/rmx2001/flokorom/a11/</link><pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rmx2001/flokorom/a11/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rmx2001/flokorom/a11/main.png" alt="Featured image of post FlokoROM v4 (Android-11) for RMX2001" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>FlokoROM is released at least once a month. Updates include latest security patch, and new features. Now FlokoROM v4 is based on Android 11.
+FlokoROM is based on AOSP, the Android Open Source Project. There is no bloatware, spyware, or annoying notifications from OEMs. Taste clean Android Experience.
+FlokoROM has many customization features. such as Network activity indicator, OmniSwitch Recents, Transparency and so on.&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Night light flickers&lt;/li>
+&lt;li>IMS (ViLTE, VoWiFi)&lt;/li>
+&lt;li>Extra cameras&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2021-06-21
+&lt;ul>
+&lt;li>Latest Sources, SecPatch (5 June 2021)&lt;/li>
+&lt;li>Added some Google Pixel permission for GPhoto Unli&lt;/li>
+&lt;li>Using fp Realme 6 to get same graphic on games by default&lt;/li>
+&lt;li>Fixed Blur, long press key reboot, &amp;amp; audio in Wifi calls&lt;/li>
+&lt;li>Drop Bromite Browser, Matlog, Audio Rec LOS&lt;/li>
+&lt;li>Added GCam GO, OOS Launcher, Via, Audio Rec &amp;amp; Pulse Music&lt;/li>
+&lt;li>Added RealmeParts (Realme Settings)
+&lt;ul>
+&lt;li>RealmeParts: Disable apps on launcher&lt;/li>
+&lt;li>RealmeParts: Add Title Fps (Ex: fps: 90)&lt;/li>
+&lt;li>RealmeParts: Cleanup unused functions [dc,hbm,srgb]&lt;/li>
+&lt;li>RealmeParts: Move to system section [settings/system/R]&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Replaced GameMode with PerformanceProfile along with the addition of PowerSaving profile&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="#DISCONTINUE" >⬇️ Download&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt/120" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a> | &lt;a class="link" href="https://forum.xda-developers.com/t/rom-11-unofficial-flokorom-v4-0-21-06-2021-discontinued.4281703" target="_blank" rel="noopener"
+>XDA Thread&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: -
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: -
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: -
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785 Helio G90T - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2></description></item><item><title>PixelExperience Plus (Android-11) for RMX2001</title><link>http://blog.psionicprjkt.my.id/p/rom/rmx2001/pixelexperience-plus/a11/</link><pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rmx2001/pixelexperience-plus/a11/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rmx2001/pixelexperience-plus/a11/main.png" alt="Featured image of post PixelExperience Plus (Android-11) for RMX2001" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>PixelExperience is an AOSP based ROM, with Google apps included and all Pixel goodies (launcher, wallpapers, icons, fonts, boot animation). Our mission is to offer the maximum possible stability and security, along with essential and useful features for the proper functioning of the device, Based on Android 10/11.&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Night light flickers&lt;/li>
+&lt;li>IMS (ViLTE, VoWiFi)&lt;/li>
+&lt;li>Extra cameras&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2021-05-02
+&lt;ul>
+&lt;li>SELinux Enforcing&lt;/li>
+&lt;li>March Security Patch&lt;/li>
+&lt;li>Added Always On Display &amp;amp; Gcam GO&lt;/li>
+&lt;li>Recode Overlay, Density, Misc improvements and much more&lt;/li>
+&lt;li>Drop Additional Setting, Move Screen Refresh Rate to Display&lt;/li>
+&lt;li>Fixed Ok Google, Gallery Crash, Audio No Sound &amp;amp; Video Playback Issue&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="#DISCONTINUE" >⬇️ Download&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a> | &lt;a class="link" href="https://forum.xda-developers.com/t/rom-11-unofficial-pixelexperience-plus-26-03-2021-discontinued.4246375" target="_blank" rel="noopener"
+>XDA Thread&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: -
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: -
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: -
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785 Helio G90T - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2></description></item><item><title>MSM Xtended v5.0 (Android-11) for RMX2001</title><link>http://blog.psionicprjkt.my.id/p/rom/rmx2001/project-xtended/a11/</link><pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rmx2001/project-xtended/a11/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rmx2001/project-xtended/a11/main.jpg" alt="Featured image of post MSM Xtended v5.0 (Android-11) for RMX2001" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>We team &amp;ldquo;MSM Xtended&amp;rdquo; are here with new era of Android. We have tried our best to blend it with all available options, features and stability of different ROMs in to one for better user experience.&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Night light flickers&lt;/li>
+&lt;li>IMS (ViLTE, VoWiFi)&lt;/li>
+&lt;li>Extra cameras&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2021-02-23
+&lt;ul>
+&lt;li>Added AOD Support&lt;/li>
+&lt;li>Added NFC Tag + KPOC&lt;/li>
+&lt;li>Latest Sources &amp;amp; SecPatch&lt;/li>
+&lt;li>Change Gaaps Stock to Basic&lt;/li>
+&lt;li>Fixed Diplay Force Close on Settings&lt;/li>
+&lt;li>Redesign All Icon on Additional Settings&lt;/li>
+&lt;li>Fixed Ims Stopping / Volte Disappear After Reboot&lt;/li>
+&lt;li>Added Camera Go (inspired from LOS)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="#DISCONTINUE" >⬇️ Download&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a> | &lt;a class="link" href="https://forum.xda-developers.com/t/rom-11-unofficial-msm-xtended-v5-0-25-02-2021-discontinued.4239185" target="_blank" rel="noopener"
+>XDA Thread&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: -
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: -
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: -
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785 Helio G90T - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2></description></item><item><title>PixelExperience (Android-11) for RMX2001</title><link>http://blog.psionicprjkt.my.id/p/rom/rmx2001/pixelexperience/a11/</link><pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate><guid>http://blog.psionicprjkt.my.id/p/rom/rmx2001/pixelexperience/a11/</guid><description>&lt;img src="http://blog.psionicprjkt.my.id/p/rom/rmx2001/pixelexperience/a11/main.png" alt="Featured image of post PixelExperience (Android-11) for RMX2001" />&lt;h2 id="about-rom">About ROM
+&lt;/h2>&lt;p>PixelExperience is an AOSP based ROM, with Google apps included and all Pixel goodies (launcher, wallpapers, icons, fonts, boot animation). Our mission is to offer the maximum possible stability and security, along with essential and useful features for the proper functioning of the device, Based on Android 10/11.&lt;/p>
+&lt;h2 id="whats-working">Whats Working
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>F-I&lt;/th>
+&lt;th>F-II&lt;/th>
+&lt;th>S-I&lt;/th>
+&lt;th>S-II&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SELinux&lt;/td>
+&lt;td>Video/Screen/Audio REC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RIL (Data,SMS,Calls)&lt;/td>
+&lt;td>Audio&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Userdata encryption[FDE]&lt;/td>
+&lt;td>GPS&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fingerprint sensor&lt;/td>
+&lt;td>NFC&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓ (EU)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WiFi (2.4Ghz/5Ghz)&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bluetooth&lt;/td>
+&lt;td>Video Playback&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;td>✓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camera&lt;/td>
+&lt;td>VoLTE&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;td>∂ (Partial)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="known-issues">Known Issues
+&lt;/h3>&lt;ul>
+&lt;li>Night light flickers&lt;/li>
+&lt;li>IMS (ViLTE, VoWiFi)&lt;/li>
+&lt;li>Extra cameras&lt;/li>
+&lt;/ul>
+&lt;h2 id="latest-changelog">Latest Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2021-02-05
+&lt;ul>
+&lt;li>Latest Sources, SecPatch (5 February 2021)&lt;/li>
+&lt;li>Fix Fingerprint Gone After Reboot&lt;/li>
+&lt;li>Fix &amp;amp; Tune some Brightnes Overlay&lt;/li>
+&lt;li>Remove Minimum Screen Rate on Display&lt;/li>
+&lt;li>Recode Device Settings to Additional Settings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="downloads">Downloads
+&lt;/h2>&lt;p>&lt;a class="link" href="#DISCONTINUE" >⬇️ Download&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>🌆 Screenshot&lt;/a> | &lt;a class="link" href="https://forum.xda-developers.com/t/rom-11-unofficial-pixelexperience-plus-26-03-2021-discontinued.4246375" target="_blank" rel="noopener"
+>XDA Thread&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">FILE: -
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MD5SUM: -
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">FILESIZE: -
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="instructions">Instructions
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>If you are coming form any ROM based realmeUI-1.0 (cleanflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Format Data&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>If you use the same ROM (dirtyflash)&lt;/p>
+&lt;ul>
+&lt;li>Boot into custom recovery&lt;/li>
+&lt;li>Flash ROM &amp;amp; Flash Gapps (Optional)&lt;/li>
+&lt;li>Reboot your device once the installation is done&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="info--sources">Info &amp;amp; Sources
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>Device Info&lt;/p>
+&lt;ul>
+&lt;li>Kernel: 4.14.x&lt;/li>
+&lt;li>Chipset: Mediatek MT6785 Helio G90T - ARMv8.2-A (64-bit)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Sources&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-group">Support Group
+&lt;/h3>&lt;p>&lt;a class="link" href="https://t.me/psionicprjktchat" target="_blank" rel="noopener"
+>psionicprjktchat&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjkt" target="_blank" rel="noopener"
+>psionicprjkt channel&lt;/a> | &lt;a class="link" href="https://t.me/psionicprjktlogs" target="_blank" rel="noopener"
+>psionicprjktlogs&lt;/a> managed by &lt;a class="link" href="https://t.me/officialputuid" target="_blank" rel="noopener"
+>officialputuid&lt;/a>&lt;/p>
+&lt;h2 id="old-changelog">Old Changelog
+&lt;/h2>&lt;ul>
+&lt;li>2021-01-28
+&lt;ul>
+&lt;li>Fist Build, Jan Sec Patch&lt;/li>
+&lt;li>Latest DT &amp;amp; Latest PE Sources&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
