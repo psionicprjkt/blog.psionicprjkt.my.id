@@ -1,7 +1,7 @@
 ---
 title: awakenOS (Android-14) for RM6785
 description: Custom ROM for Realme 6/6i(Indian)/6s/7/Narzo/Narzo 20 Pro/Narzo 30 4G (RM6785)
-date: 2024-05-21
+date: 2024-06-18
 slug: ROM/RM6785/awakenOS/A14
 image: main.jpg
 categories:
@@ -28,22 +28,24 @@ Camera | VoLTE | ✓ | ✓
 * Native video calling (ViLTE) and Voice over WiFi (VoWiFi)
 
 ## Latest Changelog
-* 2024-05-21
+* 2024-06-18
   * May 2024 ASB
-  * Updated psionic Lab v3.8 (https://telegra.ph/psionic-Lab-v35-35-01-09)
-  * Updated KernelSU to v0.9.4
-  * Upstreamed Kernel to v4.14.344
-  * Compiled with AOSP clang 18.0.1
-  * Fix Basic and Device Integrity (19/05)
-  * Fix failed to execute pm in terminal (ksu)
+  * Signed build with private key
+  * Fixed Basic&Device Integrity (18/6)
+  * Add back BCR v1.64 & BCR GUI v1.7.4
+  * Updated psionic Lab v4.0 (https://telegra.ph/psionic-Lab-v35-35-01-09)
+  * Updated KernelSU to v0.9.5
+  * Upstreamed Kernel to v4.14.348
+  * Compiled with AOSP clang 18.0.1 + Full LTO
+  * Silence more log spams & sepolicy denials
 
 ## Downloads
-[⬇️ AwakenOS-A14/awaken-4.5-ursa-RM6785-unofficial-1034-20240520.zip](https://sourceforge.net/projects/psionicprjkt/files/RM6785/AwakenOS-A14/awaken-4.5-ursa-RM6785-unofficial-1034-20240520.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/FVVmtXY8CQ8CJadC8)
+[⬇️ awaken-4.5-ursa-RM6785-unofficial-1149-20240617.zip](https://sourceforge.net/projects/psionicprjkt/files/RM6785/AwakenOS-A14/awaken-4.5-ursa-RM6785-unofficial-1149-20240617.zip/download) | [🌆 Screenshot](https://photos.app.goo.gl/FVVmtXY8CQ8CJadC8)
 
 ```
-FILE: AwakenOS-A14/awaken-4.5-ursa-RM6785-unofficial-1034-20240520.zip
-MD5SUM: c51d307177d4965a350187a7b7ef127b
-FILESIZE: 1.97 GB (Inc. GApps)
+FILE: awaken-4.5-ursa-RM6785-unofficial-1149-20240617.zip
+MD5SUM: 1d7b5eba8354dbf2a7920a5bb154451f
+FILESIZE: 2.02 GB (Inc. GApps)
 ```
 
 ## Instructions
@@ -79,6 +81,15 @@ FILESIZE: 1.97 GB (Inc. GApps)
 [psionicprjktchat](https://t.me/psionicprjktchat) | [psionicprjkt channel](https://t.me/psionicprjkt) | [psionicprjktlogs](https://t.me/psionicprjktlogs) managed by [officialputuid](https://t.me/officialputuid)
 
 ## Old Changelog
+* 2024-05-21
+  * May 2024 ASB
+  * Updated psionic Lab v3.8 (https://telegra.ph/psionic-Lab-v35-35-01-09)
+  * Updated KernelSU to v0.9.4
+  * Upstreamed Kernel to v4.14.344
+  * Compiled with AOSP clang 18.0.1
+  * Fix Basic and Device Integrity (19/05)
+  * Fix failed to execute pm in terminal (ksu)
+
 * 2024-04-21
   * April 2024 ASB (QPR2)
   * Added JamesDSP driver v6.0
